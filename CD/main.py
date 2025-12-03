@@ -5,9 +5,38 @@ from Registro_empleados import (
 from Consultar_enteradas import consultar_entradas
 from Grafica import menu_graficas
 from Registro_empleados import menu_configurar_horarios  # menú de turnos
+from Login import registrar_usuario, iniciar_sesion
 
+def menu_principal():
+    # Primero, pedir al usuario que inicie sesión o se registre
+    while True:
+        print("=== Bienvenido al Sistema ===")
+        print("1. Iniciar sesión")
+        print("2. Registrarse")
+        print("3. Salir")
 
-def menu():
+        opcion = input("Selecciona una opción: ")
+
+        if opcion == "1":
+            usuario = input("Usuario: ")
+            contraseña = input("Contraseña: ")
+            if iniciar_sesion(usuario, contraseña):
+                break
+            else:
+                print("Credenciales incorrectas. Intenta de nuevo.")
+        elif opcion == "2":
+            usuario = input("Nuevo usuario: ")
+            contraseña = input("Nueva contraseña: ")
+            registrar_usuario(usuario, contraseña)
+            print("Registro completado. Ahora puedes iniciar sesión.")
+        elif opcion == "3":
+            print("Saliendo del sistema...")
+            return
+
+        else:
+            print("Opción no válida, intenta de nuevo.")
+
+    # Una vez que el usuario esté autenticado, mostramos el menú principal
     while True:
         print("\n=== SISTEMA DE ENTRADAS DE EMPLEADOS ===")
         print("1. Registrar entrada de empleado")
@@ -19,7 +48,6 @@ def menu():
 
         opcion = input("Selecciona una opción: ")
 
-        # 1. Registrar entrada
         if opcion == "1":
             empleado = input("Empleado: ")
             print("\nSelecciona el turno:")
@@ -32,19 +60,15 @@ def menu():
 
             guardar_entrada(empleado, turno, fecha_hora)
 
-        # 2. Consultar entradas
         elif opcion == "2":
             consultar_entradas()
 
-        # 3. Gráficas
         elif opcion == "3":
             menu_graficas()
 
-        # 4. Configurar horarios
         elif opcion == "4":
             menu_configurar_horarios()
 
-        # 5. Cambiar visibilidad V/F
         elif opcion == "5":
             print("\n--- CAMBIAR VISIBILIDAD DEL REGISTRO ---")
             print("1. Cambiar a V (Visible)")
@@ -63,7 +87,6 @@ def menu():
             except:
                 print("ID inválido.")
 
-        # 6. Salir
         elif opcion == "6":
             print("Saliendo del sistema...")
             break
@@ -73,4 +96,4 @@ def menu():
 
 
 if __name__ == "__main__":
-    menu()
+    menu_principal()

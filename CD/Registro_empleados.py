@@ -1,9 +1,13 @@
-from datetime import datetime, time
 import os
+from datetime import datetime, time
 
-ARCHIVO_HORARIOS = "horarios.txt"
-ARCHIVO_ENTRADAS = "entradas.txt"
+# Carpeta donde están los archivos
+CARPETA = "TXT"
 
+# Archivos dentro de la carpeta
+ARCHIVO_USUARIOS = os.path.join(CARPETA, "usuarios.txt")
+ARCHIVO_ENTRADAS = os.path.join(CARPETA, "entradas.txt")
+ARCHIVO_HORARIOS = os.path.join(CARPETA, "horarios.txt")
 
 # CARGA Y GUARDAR HORARIOS
 
