@@ -49,7 +49,7 @@ class Ui_Dialog(object):
         self.leUsuario.setPlaceholderText(_translate("Dialog", "Ingresa tu Usuario"))
         self.lePass.setPlaceholderText(_translate("Dialog", "Ingresa tu Contraseña"))
         self.btnIngresar.setText(_translate("Dialog", "INGRESAR"))
-import loginprueba_rc
+import prueba_rc
 
 if __name__ == "__main__":
     import sys

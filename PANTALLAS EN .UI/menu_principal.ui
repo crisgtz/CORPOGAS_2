@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>336</width>
-    <height>451</height>
+    <width>362</width>
+    <height>497</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>341</width>
-     <height>451</height>
+     <width>361</width>
+     <height>501</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -38,9 +38,9 @@
   <widget class="QPushButton" name="btnIngresar">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>70</x>
      <y>50</y>
-     <width>171</width>
+     <width>211</width>
      <height>51</height>
     </rect>
    </property>
@@ -55,9 +55,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_2">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>70</x>
      <y>120</y>
-     <width>171</width>
+     <width>211</width>
      <height>51</height>
     </rect>
    </property>
@@ -72,9 +72,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_3">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>70</x>
      <y>200</y>
-     <width>171</width>
+     <width>211</width>
      <height>51</height>
     </rect>
    </property>
@@ -89,9 +89,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_4">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>70</x>
      <y>270</y>
-     <width>171</width>
+     <width>211</width>
      <height>51</height>
     </rect>
    </property>
@@ -106,9 +106,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_5">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>50</x>
      <y>340</y>
-     <width>171</width>
+     <width>241</width>
      <height>51</height>
     </rect>
    </property>
@@ -123,8 +123,8 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_6">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>390</y>
+     <x>50</x>
+     <y>430</y>
      <width>71</width>
      <height>51</height>
     </rect>
@@ -134,7 +134,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Back</string>
+    <string>salir</string>
    </property>
   </widget>
  </widget>

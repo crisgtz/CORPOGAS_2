@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>341</width>
-    <height>453</height>
+    <width>408</width>
+    <height>462</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>341</width>
-     <height>451</height>
+     <width>411</width>
+     <height>461</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -35,61 +35,10 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnIngresar_11">
+  <widget class="QPushButton" name="btnIngresar_6">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>60</y>
-     <width>291</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Mostrar Registros Verdaderos</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnIngresar_12">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>140</y>
-     <width>281</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Mostrar Registros Falsos</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnIngresar_13">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>220</y>
-     <width>281</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Mostrar Todos los Registros</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnIngresar_14">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
+     <x>60</x>
      <y>390</y>
      <width>71</width>
      <height>51</height>
@@ -100,13 +49,57 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Salir</string>
+    <string>salir</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>341</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 25pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ID A MODIFICAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnIngresar_10">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>390</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(124, 231, 255);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CAMBIAR</string>
    </property>
   </widget>
  </widget>
  <resources>
   <include location="prueba.qrc"/>
-  <include location="../../../../Program Files (x86)/Qt Designer/prueba.qrc"/>
+  <include location="C:/Program Files (x86)/Qt Designer/prueba.qrc"/>
  </resources>
  <connections/>
 </ui>

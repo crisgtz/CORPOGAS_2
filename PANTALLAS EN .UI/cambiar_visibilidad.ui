@@ -38,9 +38,9 @@
   <widget class="QPushButton" name="btnIngresar_15">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>70</x>
      <y>60</y>
-     <width>151</width>
+     <width>181</width>
      <height>51</height>
     </rect>
    </property>
@@ -55,9 +55,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_16">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>70</x>
      <y>160</y>
-     <width>151</width>
+     <width>181</width>
      <height>51</height>
     </rect>
    </property>
@@ -89,7 +89,7 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
  </widget>
  <resources>
   <include location="prueba.qrc"/>
-  <include location="../../../../Program Files (x86)/Qt Designer/prueba.qrc"/>
+  <include location="loginimag.qrc"/>
  </resources>
  <connections/>
 </ui>

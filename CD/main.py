@@ -4,11 +4,11 @@ from Registro_empleados import (
 )
 from Consultar_enteradas import consultar_entradas
 from Grafica import menu_graficas
-from Registro_empleados import menu_configurar_horarios  # menú de turnos
+from Registro_empleados import menu_configurar_horarios  # menu de turnos
 from Login import registrar_usuario, iniciar_sesion
 
 def menu_principal():
-    # Primero, pedir al usuario que inicie sesión o se registre
+    # pedir al usuario que inicie sesión o se registre
     while True:
         print("=== Bienvenido al Sistema ===")
         print("1. Iniciar sesión")
@@ -36,7 +36,7 @@ def menu_principal():
         else:
             print("Opción no válida, intenta de nuevo.")
 
-    # Una vez que el usuario esté autenticado, mostramos el menú principal
+    # autenticar el usuario, mostramos el menú principal
     while True:
         print("\n=== SISTEMA DE ENTRADAS DE EMPLEADOS ===")
         print("1. Registrar entrada de empleado")
