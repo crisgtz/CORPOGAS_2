@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'login2.ui'
+# Form implementation generated from reading ui file 'Registro_usuario.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -14,37 +14,34 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(394, 405)
+        Dialog.resize(437, 422)
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(0, 0, 391, 411))
+        self.label.setGeometry(QtCore.QRect(0, 0, 441, 421))
         self.label.setStyleSheet("background-image: url(:/newPrefix/fondologin.jpeg);")
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/fondologin.jpeg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(Dialog)
-        self.label_2.setGeometry(QtCore.QRect(30, 0, 341, 61))
-        self.label_2.setStyleSheet("font: 87 25pt \"Arial Black\";\n"
-"color: rgb(255, 255, 255);")
-        self.label_2.setObjectName("label_2")
         self.leUsuario = QtWidgets.QLineEdit(Dialog)
         self.leUsuario.setGeometry(QtCore.QRect(90, 90, 191, 20))
         self.leUsuario.setObjectName("leUsuario")
+        self.label_2 = QtWidgets.QLabel(Dialog)
+        self.label_2.setGeometry(QtCore.QRect(30, 20, 361, 51))
+        self.label_2.setStyleSheet("font: 87 25pt \"Arial Black\";\n"
+"color: rgb(255, 255, 255);")
+        self.label_2.setIndent(-6)
+        self.label_2.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse)
+        self.label_2.setObjectName("label_2")
         self.lePass = QtWidgets.QLineEdit(Dialog)
         self.lePass.setGeometry(QtCore.QRect(90, 130, 191, 20))
         self.lePass.setObjectName("lePass")
         self.btnIngresar = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar.setGeometry(QtCore.QRect(120, 190, 121, 31))
+        self.btnIngresar.setGeometry(QtCore.QRect(120, 160, 121, 31))
         self.btnIngresar.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar.setObjectName("btnIngresar")
-        self.btnIngresar_2 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_2.setGeometry(QtCore.QRect(120, 230, 121, 31))
-        self.btnIngresar_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
-"font: 87 10pt \"Arial Black\";")
-        self.btnIngresar_2.setObjectName("btnIngresar_2")
         self.btnIngresar_3 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_3.setGeometry(QtCore.QRect(120, 320, 121, 31))
+        self.btnIngresar_3.setGeometry(QtCore.QRect(10, 360, 121, 31))
         self.btnIngresar_3.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_3.setObjectName("btnIngresar_3")
@@ -55,12 +52,11 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.label_2.setText(_translate("Dialog", "Inicio de Sesion"))
         self.leUsuario.setPlaceholderText(_translate("Dialog", "Ingresa tu Usuario"))
+        self.label_2.setText(_translate("Dialog", " Nuevo Usuario y contraseña "))
         self.lePass.setPlaceholderText(_translate("Dialog", "Ingresa tu Contraseña"))
         self.btnIngresar.setText(_translate("Dialog", "INGRESAR"))
-        self.btnIngresar_2.setText(_translate("Dialog", "REGISTRAR"))
-        self.btnIngresar_3.setText(_translate("Dialog", "SALIR"))
+        self.btnIngresar_3.setText(_translate("Dialog", "VOLVER"))
 import prueba_rc
 
 

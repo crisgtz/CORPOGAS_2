@@ -23,12 +23,12 @@ class Ui_Dialog(object):
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.btnIngresar_7 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_7.setGeometry(QtCore.QRect(70, 60, 211, 51))
+        self.btnIngresar_7.setGeometry(QtCore.QRect(40, 60, 261, 51))
         self.btnIngresar_7.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_7.setObjectName("btnIngresar_7")
         self.btnIngresar_8 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_8.setGeometry(QtCore.QRect(70, 170, 211, 51))
+        self.btnIngresar_8.setGeometry(QtCore.QRect(60, 150, 211, 51))
         self.btnIngresar_8.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_8.setObjectName("btnIngresar_8")
@@ -54,6 +54,7 @@ class Ui_Dialog(object):
         self.btnIngresar_9.setText(_translate("Dialog", "Salir"))
         self.btnIngresar_10.setText(_translate("Dialog", "Grafica"))
 import prueba_rc
+
 
 if __name__ == "__main__":
     import sys

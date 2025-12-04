@@ -23,12 +23,12 @@ class Ui_Dialog(object):
         self.label_3.setScaledContents(True)
         self.label_3.setObjectName("label_3")
         self.btnIngresar_15 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_15.setGeometry(QtCore.QRect(100, 60, 151, 51))
+        self.btnIngresar_15.setGeometry(QtCore.QRect(70, 60, 181, 51))
         self.btnIngresar_15.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_15.setObjectName("btnIngresar_15")
         self.btnIngresar_16 = QtWidgets.QPushButton(Dialog)
-        self.btnIngresar_16.setGeometry(QtCore.QRect(100, 160, 151, 51))
+        self.btnIngresar_16.setGeometry(QtCore.QRect(70, 160, 181, 51))
         self.btnIngresar_16.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
 "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_16.setObjectName("btnIngresar_16")
@@ -47,7 +47,9 @@ class Ui_Dialog(object):
         self.btnIngresar_15.setText(_translate("Dialog", "Cambiar a Visible"))
         self.btnIngresar_16.setText(_translate("Dialog", "Cambiar a Oculto"))
         self.btnIngresar_17.setText(_translate("Dialog", "Salir"))
+import loginimag_rc
 import prueba_rc
+
 
 if __name__ == "__main__":
     import sys
