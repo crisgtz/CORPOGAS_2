@@ -17,10 +17,39 @@ from CD.Login import registrar_usuario, iniciar_sesion
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
+# ==========================================================
+#   NUEVA VENTANA (LA QUE SE ABRE AL PRESIONAR REGISTRAR)
+# ==========================================================
+class VentanaRegistro(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Registro de Usuario")
+        self.resize(300, 200)
+
+        layout = QtWidgets.QVBoxLayout()
+
+        label = QtWidgets.QLabel("Ventana de Registro")
+        layout.addWidget(label)
+
+        btn_nueva_ventana = QtWidgets.QPushButton("Mostrar Nueva Ventana")
+        btn_nueva_ventana.clicked.connect(self.mostrar_ventana)
+        layout.addWidget(btn_nueva_ventana)
+
+        self.setLayout(layout)
+
+    def mostrar_ventana(self):
+        QtWidgets.QMessageBox.information(self, "Nueva ventana", "Se abrió otra ventana.")
+
+
+# ==========================================================
+#   VENTANA PRINCIPAL (LOGIN)
+# ==========================================================
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(394, 405)
+
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(0, 0, 391, 411))
         self.label.setStyleSheet("background-image: url(:/newPrefix/fondologin.jpeg);")
@@ -28,42 +57,64 @@ class Ui_Dialog(object):
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/fondologin.jpeg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
+
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(30, 0, 341, 61))
         self.label_2.setStyleSheet("font: 87 25pt \"Arial Black\";\n"
-"color: rgb(255, 255, 255);")
+                                   "color: rgb(255, 255, 255);")
         self.label_2.setObjectName("label_2")
+
         self.leUsuario = QtWidgets.QLineEdit(Dialog)
         self.leUsuario.setGeometry(QtCore.QRect(90, 90, 191, 20))
         self.leUsuario.setObjectName("leUsuario")
+
         self.lePass = QtWidgets.QLineEdit(Dialog)
         self.lePass.setGeometry(QtCore.QRect(90, 130, 191, 20))
         self.lePass.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lePass.setObjectName("lePass")
+
         self.btnIngresar = QtWidgets.QPushButton(Dialog)
         self.btnIngresar.setGeometry(QtCore.QRect(120, 190, 121, 31))
         self.btnIngresar.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
-"font: 87 10pt \"Arial Black\";")
+                                       "font: 87 10pt \"Arial Black\";")
         self.btnIngresar.setObjectName("btnIngresar")
+
         self.btnIngresar_2 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_2.setGeometry(QtCore.QRect(120, 230, 121, 31))
         self.btnIngresar_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
-"font: 87 10pt \"Arial Black\";")
+                                         "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_2.setObjectName("btnIngresar_2")
+
         self.btnIngresar_3 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_3.setGeometry(QtCore.QRect(120, 320, 121, 31))
         self.btnIngresar_3.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
-"font: 87 10pt \"Arial Black\";")
+                                         "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_3.setObjectName("btnIngresar_3")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-        # CONECTAR BOTONES
+        # ==================================================
+        #   CONECTAR BOTONES
+        # ==================================================
         self.btnIngresar.clicked.connect(self.login)
-        self.btnIngresar_2.clicked.connect(self.registro)
+
+        # 🔥 AQUÍ LO QUE PEDISTE:
+        # El botón REGISTRAR abre una nueva ventana
+        self.btnIngresar_2.clicked.connect(self.abrir_ventana_registro)
+
         self.btnIngresar_3.clicked.connect(Dialog.close)
 
+    # ==================================================
+    #   MÉTODO PARA ABRIR LA VENTANA DE REGISTRO
+    # ==================================================
+    def abrir_ventana_registro(self):
+        self.registro = VentanaRegistro()
+        self.registro.exec_()
+
+    # ==================================================
+    #   FUNCIÓN LOGIN
+    # ==================================================
     def login(self):
         usuario = self.leUsuario.text()
         contraseña = self.lePass.text()
@@ -73,13 +124,9 @@ class Ui_Dialog(object):
         else:
             QtWidgets.QMessageBox.warning(None, "Error", "Usuario o contraseña incorrectos.")
 
-    def registro(self):
-        usuario = self.leUsuario.text()
-        contraseña = self.lePass.text()
-
-        registrar_usuario(usuario, contraseña)
-        QtWidgets.QMessageBox.information(None, "Registro", "Usuario registrado correctamente.")
-
+    # ==================================================
+    #   INTERFAZ TEXTO
+    # ==================================================
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
@@ -90,11 +137,15 @@ class Ui_Dialog(object):
         self.btnIngresar_2.setText(_translate("Dialog", "REGISTRAR"))
         self.btnIngresar_3.setText(_translate("Dialog", "SALIR"))
 
+
+# Importar recursos
 import prueba_rc
 
 
+# ==================================================
+#   MAIN
+# ==================================================
 if __name__ == "__main__":
-    import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
     ui = Ui_Dialog()
