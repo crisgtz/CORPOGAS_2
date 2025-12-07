@@ -24,9 +24,15 @@ def calcular_estado(turno, fecha):
         return "Retardo"
 
 
-#                LECTURA CORRECTA DE REGISTROS
+# ============================================================
+#      LECTURA CORRECTA DE REGISTROS DESDE LA NUEVA RUTA
+# ============================================================
 
-def leer_registros(archivo="entradas.txt"):
+# *** ESTA ES LA ÚNICA LÍNEA QUE SE MODIFICÓ ***
+ARCHIVO_ENTRADAS = r"D:\crisg\GitHub\trabajo\CORPOGAS_2\TXT\entradas.txt"
+
+
+def leer_registros(archivo=ARCHIVO_ENTRADAS):
     if not os.path.exists(archivo):
         print("No existe el archivo de entradas.")
         return []
@@ -65,8 +71,9 @@ def leer_registros(archivo="entradas.txt"):
     return registros
 
 
-# GRÁFICA POR EMPLEADO
-
+# ============================================================
+#                  GRÁFICA POR EMPLEADO
+# ============================================================
 
 def generar_grafica_por_empleado(registros, empleado):
     datos = [r for r in registros if r["empleado"] == empleado]
@@ -100,8 +107,9 @@ def generar_grafica_por_empleado(registros, empleado):
     plt.show()
 
 
-#  GRÁFICA GRUPAL
-
+# ============================================================
+#                      GRÁFICA GRUPAL
+# ============================================================
 
 def generar_grafica_grupal(registros):
     if not registros:
@@ -133,10 +141,9 @@ def generar_grafica_grupal(registros):
     plt.show()
 
 
-
-
-# MENU DE GRAFICAS 
-
+# ============================================================
+#                 MENÚ DE PRUEBA POR CONSOLA
+# ============================================================
 
 def menu_graficas():
     registros = leer_registros()
@@ -161,7 +168,6 @@ def menu_graficas():
 
         else:
             print("Opción inválida.")
-
 
 
 if __name__ == "__main__":

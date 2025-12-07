@@ -11,3 +11,7 @@
 15 - martin - Turno 1 - 2025-10-30 02:56:00 - V/F: V
 17 - guillermo - Turno 1 - 2025-10-30 02:50:00 - V/F: V
 
+1 - MARTIN  - Turno 1 - 2025-12-01 06:55:00 - Estado: Falta - V/F: F
+2 - don juan - Turno 3 - 2025-10-28 22:00:00 - V/F: V3 - IVAN - Turno 2 - 2025-12-01 13:55:00 - Estado: A tiempo - V/F: F
+3 - IVAN - Turno 2 - 2025-12-04 13:55:00 - Estado: A tiempo - V/F: F
+4 - GUILLERMO - Turno 2 - 2025-12-04 13:55:00 - Estado: A tiempo - V/F: V

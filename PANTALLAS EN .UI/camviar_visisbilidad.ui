@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>539</width>
-    <height>588</height>
+    <width>535</width>
+    <height>673</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>0</x>
      <y>0</y>
      <width>541</width>
-     <height>591</height>
+     <height>671</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -35,28 +35,11 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnIngresar_15">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>290</y>
-     <width>181</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Cambiar a Visible</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btnIngresar_16">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>400</y>
+     <x>150</x>
+     <y>350</y>
      <width>181</width>
      <height>51</height>
     </rect>
@@ -69,28 +52,11 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
     <string>Cambiar a Oculto</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnIngresar_17">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>530</y>
-     <width>121</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(124, 231, 255);
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>VOLVER</string>
-   </property>
-  </widget>
   <widget class="QTextBrowser" name="textBrowser">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>20</y>
+     <x>150</x>
+     <y>80</y>
      <width>201</width>
      <height>51</height>
     </rect>
@@ -103,11 +69,27 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;CAMBIAR VISIBILIDAD&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
+  <widget class="QLineEdit" name="leUsuario_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID DEL REGISTRO</string>
+   </property>
+   <property name="placeholderText">
+    <string>Ingresa tu Usuario</string>
+   </property>
+  </widget>
   <widget class="QTextBrowser" name="textBrowser_2">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>130</y>
+     <x>120</x>
+     <y>160</y>
      <width>271</width>
      <height>31</height>
     </rect>
@@ -120,26 +102,44 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;SELECONAR ID DEL REGISTRO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="leUsuario_2">
+  <widget class="QPushButton" name="btnIngresar_15">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>200</y>
-     <width>201</width>
-     <height>31</height>
+     <x>150</x>
+     <y>280</y>
+     <width>181</width>
+     <height>51</height>
     </rect>
    </property>
-   <property name="text">
-    <string>ID DEL REGISTRO</string>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
+font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
-   <property name="placeholderText">
-    <string>Ingresa tu Usuario</string>
+   <property name="text">
+    <string>Cambiar a Visible</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnIngresar_17">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>440</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(124, 231, 255);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>VOLVER</string>
    </property>
   </widget>
  </widget>
  <resources>
   <include location="prueba.qrc"/>
-  <include location="loginimag.qrc"/>
+  <include location="C:/Program Files (x86)/Qt Designer/prueba.qrc"/>
  </resources>
  <connections/>
 </ui>

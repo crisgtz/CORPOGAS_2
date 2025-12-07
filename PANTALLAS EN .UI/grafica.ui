@@ -38,9 +38,9 @@
   <widget class="QPushButton" name="btnIngresar_7">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>60</y>
-     <width>261</width>
+     <width>281</width>
      <height>51</height>
     </rect>
    </property>
@@ -55,9 +55,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_8">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>30</x>
      <y>150</y>
-     <width>211</width>
+     <width>241</width>
      <height>51</height>
     </rect>
    </property>
@@ -72,9 +72,9 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
   <widget class="QPushButton" name="btnIngresar_9">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>390</y>
-     <width>71</width>
+     <x>90</x>
+     <y>230</y>
+     <width>101</width>
      <height>51</height>
     </rect>
    </property>
@@ -83,30 +83,12 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
 font: 87 10pt &quot;Arial Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Salir</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btnIngresar_10">
-   <property name="geometry">
-    <rect>
-     <x>250</x>
-     <y>390</y>
-     <width>71</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(124, 231, 255);
-font: 87 10pt &quot;Arial Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Grafica</string>
+    <string>VOLVER</string>
    </property>
   </widget>
  </widget>
  <resources>
   <include location="prueba.qrc"/>
-  <include location="../../../../Program Files (x86)/Qt Designer/prueba.qrc"/>
  </resources>
  <connections/>
 </ui>

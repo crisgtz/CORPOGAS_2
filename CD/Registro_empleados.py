@@ -2,7 +2,7 @@ import os
 from datetime import datetime, time
 
 # Carpeta donde están los archivos
-CARPETA = "TXT"
+CARPETA = r"D:\crisg\GitHub\trabajo\CORPOGAS_2\TXT"
 
 # Archivos dentro de la carpeta
 ARCHIVO_USUARIOS = os.path.join(CARPETA, "usuarios.txt")
@@ -62,8 +62,7 @@ def menu_configurar_horarios():
         else:
             print("Opción no válida.")
 
-
-#        REGISTRO DE ENTRADAS
+# REGISTRO DE ENTRADAS
 
 def determinar_estado(turno, fecha_hora):
     horarios = cargar_horarios()
@@ -118,8 +117,9 @@ def guardar_entrada(empleado, turno, fecha_hora):
     estado = determinar_estado(turno, fecha_hora)
     registro_id = obtener_siguiente_id(ARCHIVO_ENTRADAS)
 
+    # AQUÍ CAMBIAMOS F → V (visible por defecto)
     with open(ARCHIVO_ENTRADAS, "a", encoding="utf-8") as f:
-        f.write(f"{registro_id} - {empleado} - Turno {turno} - {fecha_hora} - Estado: {estado} - V/F: F\n")
+        f.write(f"{registro_id} - {empleado} - Turno {turno} - {fecha_hora} - Estado: {estado} - V/F: V\n")
 
     print("\nEntrada registrada correctamente:")
     print(f"Número de registro: {registro_id}")
@@ -127,7 +127,7 @@ def guardar_entrada(empleado, turno, fecha_hora):
     print(f"Turno: {turno}")
     print(f"Fecha y hora: {fecha_hora}")
     print(f"Estado: {estado}")
-    print("Visibilidad: F (oculto)")
+    print("Visibilidad: V (visible)")
 
 
 #     MOSTRAR SOLO VISIBLES
@@ -144,13 +144,18 @@ def mostrar_visibles():
                 print(linea.strip())
 
 
-#     CAMBIAR VISIBILIDAD (Robusto)
+#          CAMBIAR VISIBILIDAD AUTOMÁTICAMENTE
 
-def cambiar_visibilidad(id_registro):
-    """Cambia V ↔ F automáticamente sin importar espacios o formato."""
+def cambiar_visibilidad_manual(id_registro, nuevo_valor):
+    """
+    Cambia manualmente el valor V/F del registro indicado.
+    Regresa True si la operación se completó.
+    Regresa False si el ID NO existe o hay error.
+    """
+
     if not os.path.exists(ARCHIVO_ENTRADAS):
-        print("No existe el archivo de entradas.")
-        return
+        print("No existe el archivo.")
+        return False
 
     nuevas_lineas = []
     encontrado = False
@@ -161,20 +166,24 @@ def cambiar_visibilidad(id_registro):
     for linea in lineas:
         partes = linea.strip().split(" - ")
 
+        # Verifica si la línea pertenece al ID solicitado
         if partes[0] == str(id_registro):
             encontrado = True
-
-            # Obtener visibilidad actual, sin importar espacios
-            vis_actual = partes[-1].replace("V/F:", "").strip().upper()
-
-            nueva = "V" if vis_actual == "F" else "F"
-
-            base = " - ".join(partes[:-1])
-            linea = f"{base} - V/F: {nueva}\n"
-
-            print(f"ID {id_registro} cambiado {vis_actual} → {nueva}.")
+            base = " - ".join(partes[:-1])  # Todo menos el V/F
+            linea = f"{base} - V/F: {nuevo_valor}\n"  # Se reemplaza
 
         nuevas_lineas.append(linea)
+
+    if not encontrado:
+        print("ID no encontrado.")
+        return False
+
+    # Guardar cambios
+    with open(ARCHIVO_ENTRADAS, "w", encoding="utf-8") as f:
+        f.writelines(nuevas_lineas)
+
+    print(f"ID {id_registro} cambiado a {nuevo_valor}.")
+    return True
 
     if not encontrado:
         print("ID no encontrado.")
@@ -184,8 +193,9 @@ def cambiar_visibilidad(id_registro):
         f.writelines(nuevas_lineas)
 
 
+#              CAMBIO DE VISIBILIDAD MANUAL
+
 def cambiar_visibilidad_manual(id_registro, nuevo_valor):
-    """Cambia V o F manualmente sin depender del formato de la línea."""
     if not os.path.exists(ARCHIVO_ENTRADAS):
         print("No existe el archivo.")
         return
@@ -216,7 +226,7 @@ def cambiar_visibilidad_manual(id_registro, nuevo_valor):
     print(f"ID {id_registro} cambiado manualmente a {nuevo_valor}.")
 
 
-#          MENÚ PRINCIPAL
+#                   MENÚ PRINCIPAL (CONSOLA)
 
 def menu_principal():
     while True:

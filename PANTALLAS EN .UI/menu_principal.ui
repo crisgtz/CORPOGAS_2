@@ -140,7 +140,6 @@ font: 87 10pt &quot;Arial Black&quot;;</string>
  </widget>
  <resources>
   <include location="prueba.qrc"/>
-  <include location="../../Users/HP Pavilion/Desktop/QT5/prueba.qrc"/>
  </resources>
  <connections/>
 </ui>
