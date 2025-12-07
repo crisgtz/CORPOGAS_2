@@ -27,27 +27,22 @@ class Ui_Dialog(object):
         self.label_2.setPixmap(QtGui.QPixmap(":/newPrefix/interfaz.jpeg"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
-
         self.btnIngresar_11 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_11.setGeometry(QtCore.QRect(20, 60, 291, 51))
         self.btnIngresar_11.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255)); font: 87 10pt \"Arial Black\";")
         self.btnIngresar_11.setObjectName("btnIngresar_11")
-
         self.btnIngresar_12 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_12.setGeometry(QtCore.QRect(30, 140, 281, 51))
         self.btnIngresar_12.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255)); font: 87 10pt \"Arial Black\";")
         self.btnIngresar_12.setObjectName("btnIngresar_12")
-
         self.btnIngresar_13 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_13.setGeometry(QtCore.QRect(30, 220, 281, 51))
         self.btnIngresar_13.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255)); font: 87 10pt \"Arial Black\";")
         self.btnIngresar_13.setObjectName("btnIngresar_13")
-
         self.btnIngresar_14 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_14.setGeometry(QtCore.QRect(30, 390, 71, 51))
         self.btnIngresar_14.setStyleSheet("background-color: rgb(124, 231, 255); font: 87 10pt \"Arial Black\";")
         self.btnIngresar_14.setObjectName("btnIngresar_14")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
@@ -60,18 +55,13 @@ class Ui_Dialog(object):
         self.btnIngresar_14.setText(_translate("Dialog", "Salir"))
 
 
-
-
 class ConsultarEntradasVentana(QtWidgets.QDialog):
     def __init__(self, menu_principal):
         super().__init__()
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
-
         self.menu_principal = menu_principal
-
         self.ui.btnIngresar_14.clicked.connect(self.volver_menu)
-
         self.ui.btnIngresar_11.clicked.connect(self.mostrar_verdaderos)
         self.ui.btnIngresar_12.clicked.connect(self.mostrar_falsos)
         self.ui.btnIngresar_13.clicked.connect(self.mostrar_todos)
@@ -101,14 +91,12 @@ class ConsultarEntradasVentana(QtWidgets.QDialog):
 
         for linea in lineas:
             linea = linea.strip()
-
             if tipo == "V" and linea.endswith("V"):
                 resultados.append(linea)
             elif tipo == "F" and linea.endswith("F"):
                 resultados.append(linea)
             elif tipo == "ALL":
                 resultados.append(linea)
-
         if not resultados:
             QtWidgets.QMessageBox.information(self, "Sin resultados", "No se encontraron registros.")
             return

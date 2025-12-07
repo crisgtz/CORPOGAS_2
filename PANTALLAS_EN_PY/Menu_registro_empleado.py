@@ -26,7 +26,6 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(737, 849)
-
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(0, 0, 741, 851))
         font = QtGui.QFont()
@@ -36,45 +35,36 @@ class Ui_Dialog(object):
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/interfaz.jpeg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
-
         self.leUsuario_2 = QtWidgets.QLineEdit(Dialog)
         self.leUsuario_2.setGeometry(QtCore.QRect(200, 150, 201, 31))
         self.leUsuario_2.setObjectName("leUsuario_2")
-
         self.textBrowser = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser.setGeometry(QtCore.QRect(180, 70, 251, 51))
         self.textBrowser.setObjectName("textBrowser")
         self.textBrowser.setStyleSheet("color: black;")
-
         self.radioButton = QtWidgets.QRadioButton(Dialog)
         self.radioButton.setGeometry(QtCore.QRect(80, 300, 95, 20))
         self.radioButton.setStyleSheet("color: white;")
         self.radioButton.setObjectName("radioButton")
-
         self.radioButton_2 = QtWidgets.QRadioButton(Dialog)
         self.radioButton_2.setGeometry(QtCore.QRect(230, 300, 95, 20))
         self.radioButton_2.setStyleSheet("color: white;")
         self.radioButton_2.setObjectName("radioButton_2")
-
         self.radioButton_3 = QtWidgets.QRadioButton(Dialog)
         self.radioButton_3.setGeometry(QtCore.QRect(420, 300, 95, 20))
         self.radioButton_3.setStyleSheet("color: white;")
         self.radioButton_3.setObjectName("radioButton_3")
-
         self.textBrowser_2 = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser_2.setGeometry(QtCore.QRect(200, 230, 211, 31))
         self.textBrowser_2.setObjectName("textBrowser_2")
         self.textBrowser_2.setStyleSheet("color: black;")
-
         self.textBrowser_3 = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser_3.setGeometry(QtCore.QRect(130, 420, 361, 31))
         self.textBrowser_3.setObjectName("textBrowser_3")
         self.textBrowser_3.setStyleSheet("color: black;")
-
         self.leUsuario_3 = QtWidgets.QLineEdit(Dialog)
         self.leUsuario_3.setGeometry(QtCore.QRect(200, 490, 201, 31))
         self.leUsuario_3.setObjectName("leUsuario_3")
-
         self.btnIngresar = QtWidgets.QPushButton(Dialog)
         self.btnIngresar.setGeometry(QtCore.QRect(230, 580, 121, 31))
         self.btnIngresar.setStyleSheet(
@@ -83,7 +73,6 @@ class Ui_Dialog(object):
             "font: 87 10pt \"Arial Black\";"
         )
         self.btnIngresar.setObjectName("btnIngresar")
-
         self.btnIngresar_2 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_2.setGeometry(QtCore.QRect(130, 740, 121, 31))
         self.btnIngresar_2.setStyleSheet(
@@ -92,23 +81,19 @@ class Ui_Dialog(object):
             "font: 87 10pt \"Arial Black\";"
         )
         self.btnIngresar_2.setObjectName("btnIngresar_2")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-
         self.leUsuario_2.setText(_translate("Dialog", "Nombre de Usuario"))
         self.radioButton.setText(_translate("Dialog", "Turno 1"))
         self.radioButton_2.setText(_translate("Dialog", "Turno 2"))
         self.radioButton_3.setText(_translate("Dialog", "Turno 3"))
-
         self.textBrowser.setHtml(_translate("Dialog", "<p style='font-size:12pt;'>Registro de Empleados</p>"))
         self.textBrowser_2.setHtml(_translate("Dialog", "<p style='font-size:12pt;'>Seleccione Turno</p>"))
         self.textBrowser_3.setHtml(_translate("Dialog", "<p style='font-size:12pt;'>Ingresar Fecha y Hora de Entrada</p>"))
-
         self.leUsuario_3.setText(_translate("Dialog", "AAAA-MM-DD HH:MM:SS"))
         self.btnIngresar.setText(_translate("Dialog", "INGRESAR"))
         self.btnIngresar_2.setText(_translate("Dialog", "volver"))
@@ -124,10 +109,10 @@ class RegistroVentana(QtWidgets.QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
-        # Botón "volver" → cierra ventana
+        # Botón "volver"  cierra ventana
         self.ui.btnIngresar_2.clicked.connect(self.volver_menu)
 
-        # Botón "INGRESAR" → guardar en TXT
+        # Botón "INGRESAR" guardar en TXT
         self.ui.btnIngresar.clicked.connect(self.guardar_datos)
 
     def volver_menu(self):

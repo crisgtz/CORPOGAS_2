@@ -16,27 +16,22 @@ class MenuPrincipal(QtWidgets.QDialog):
         super().__init__()
         self.setWindowTitle("Menú Principal")
         self.resize(431, 541)
-
         self.label = QtWidgets.QLabel(self)
         self.label.setGeometry(QtCore.QRect(0, 0, 431, 541))
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/interfaz.jpeg"))
         self.label.setScaledContents(True)
-
         self.btnIngresar = QtWidgets.QPushButton(self)
         self.btnIngresar.setGeometry(QtCore.QRect(70, 80, 291, 51))
         self.btnIngresar.setStyleSheet("font: 87 12pt 'Arial Black';")
         self.btnIngresar.setText("Registrar empleado")
-
         self.btnIngresar_2 = QtWidgets.QPushButton(self)
         self.btnIngresar_2.setGeometry(QtCore.QRect(70, 160, 291, 51))
         self.btnIngresar_2.setStyleSheet("font: 87 12pt 'Arial Black';")
         self.btnIngresar_2.setText("Consultar entradas")
-
         self.btnIngresar_3 = QtWidgets.QPushButton(self)
         self.btnIngresar_3.setGeometry(QtCore.QRect(70, 240, 291, 51))
         self.btnIngresar_3.setStyleSheet("font: 87 12pt 'Arial Black';")
         self.btnIngresar_3.setText("Ver Gráficas")
-
         self.btnIngresar_4 = QtWidgets.QPushButton(self)
         self.btnIngresar_4.setGeometry(QtCore.QRect(70, 320, 291, 51))
         self.btnIngresar_4.setStyleSheet("font: 87 12pt 'Arial Black';")
@@ -47,20 +42,15 @@ class MenuPrincipal(QtWidgets.QDialog):
         self.btnIngresar_5.setGeometry(QtCore.QRect(70, 400, 291, 51))
         self.btnIngresar_5.setStyleSheet("font: 87 12pt 'Arial Black';")
         self.btnIngresar_5.setText("Cambiar visibilidad")
-
         self.btnIngresar_6 = QtWidgets.QPushButton(self)
         self.btnIngresar_6.setGeometry(QtCore.QRect(70, 480, 291, 51))
         self.btnIngresar_6.setStyleSheet("font: 87 12pt 'Arial Black'; background-color: rgb(124, 231, 255);")
         self.btnIngresar_6.setText("Salir")
-
-      
         self.btnIngresar.clicked.connect(self.abrir_registro_empleado)
         self.btnIngresar_2.clicked.connect(self.abrir_consultar_entradas)
         self.btnIngresar_3.clicked.connect(self.abrir_graficas)
         self.btnIngresar_4.clicked.connect(self.abrir_cambiar_horarios)
-
         self.btnIngresar_5.clicked.connect(self.abrir_cambiar_visibilidad)
-
         self.btnIngresar_6.clicked.connect(self.close)
 
     

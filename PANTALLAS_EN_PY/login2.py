@@ -23,44 +23,35 @@ class Ui_Dialog(object):
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/fondologin.jpeg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
-
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(30, 0, 341, 61))
         self.label_2.setStyleSheet("font: 87 25pt \"Arial Black\";\n"
                                    "color: rgb(255, 255, 255);")
         self.label_2.setObjectName("label_2")
-
         self.leUsuario = QtWidgets.QLineEdit(Dialog)
         self.leUsuario.setGeometry(QtCore.QRect(90, 90, 191, 20))
         self.leUsuario.setObjectName("leUsuario")
-
         self.lePass = QtWidgets.QLineEdit(Dialog)
         self.lePass.setGeometry(QtCore.QRect(90, 130, 191, 20))
         self.lePass.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lePass.setObjectName("lePass")
-
         self.btnIngresar = QtWidgets.QPushButton(Dialog)
         self.btnIngresar.setGeometry(QtCore.QRect(120, 190, 121, 31))
         self.btnIngresar.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
                                        "font: 87 10pt \"Arial Black\";")
         self.btnIngresar.setObjectName("btnIngresar")
-
         self.btnIngresar_2 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_2.setGeometry(QtCore.QRect(120, 230, 121, 31))
         self.btnIngresar_2.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
                                          "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_2.setObjectName("btnIngresar_2")
-
         self.btnIngresar_3 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_3.setGeometry(QtCore.QRect(120, 320, 121, 31))
         self.btnIngresar_3.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
                                          "font: 87 10pt \"Arial Black\";")
         self.btnIngresar_3.setObjectName("btnIngresar_3")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
-
-        
         self.btnIngresar.clicked.connect(self.login)
         self.btnIngresar_2.clicked.connect(self.abrir_registro)
         self.btnIngresar_3.clicked.connect(Dialog.close)

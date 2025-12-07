@@ -19,7 +19,6 @@ class Ui_Dialog(object):
         
         self.parent = parent
         self.Dialog = Dialog
-
         Dialog.setObjectName("Dialog")
         Dialog.resize(341, 451)
         self.label = QtWidgets.QLabel(Dialog)
@@ -58,27 +57,16 @@ class Ui_Dialog(object):
             "font: 87 10pt \"Arial Black\";"
         )
         self.btnIngresar_9.setObjectName("btnIngresar_9")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
-
-
-
         self.btnIngresar_7.clicked.connect(self.mostrar_grafica_individual)
         self.btnIngresar_8.clicked.connect(self.mostrar_grafica_grupal)
-
-        # CORREGIDO → Ahora llama a self.volver() en lugar de cerrar directamente
         self.btnIngresar_9.clicked.connect(self.volver)
 
-
     def volver(self):
-        """Cerrar la pantalla actual y regresar al menú principal."""
         if self.parent is not None:
             self.parent.show()
-
         self.Dialog.close()
-
-
 
     def mostrar_grafica_individual(self):
         registros = leer_registros()
@@ -92,13 +80,9 @@ class Ui_Dialog(object):
         if ok and empleado.strip():
             generar_grafica_por_empleado(registros, empleado.strip())
 
-
-
     def mostrar_grafica_grupal(self):
         registros = leer_registros()
         generar_grafica_grupal(registros)
-
-
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate

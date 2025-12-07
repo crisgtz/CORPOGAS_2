@@ -29,40 +29,33 @@ class Ui_Dialog(object):
         self.label_3.setPixmap(QtGui.QPixmap(":/newPrefix/interfaz.jpeg"))
         self.label_3.setScaledContents(True)
         self.label_3.setObjectName("label_3")
-
         self.btnIngresar_16 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_16.setGeometry(QtCore.QRect(150, 350, 181, 51))
         self.btnIngresar_16.setStyleSheet(
             "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));"
             "font: 87 10pt 'Arial Black';")
         self.btnIngresar_16.setObjectName("btnIngresar_16")
-
         self.textBrowser = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser.setGeometry(QtCore.QRect(150, 80, 201, 51))
         self.textBrowser.setObjectName("textBrowser")
-
         self.leUsuario_2 = QtWidgets.QLineEdit(Dialog)
         self.leUsuario_2.setGeometry(QtCore.QRect(140, 220, 201, 31))
         self.leUsuario_2.setObjectName("leUsuario_2")
-
         self.textBrowser_2 = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser_2.setGeometry(QtCore.QRect(120, 160, 271, 31))
         self.textBrowser_2.setObjectName("textBrowser_2")
-
         self.btnIngresar_15 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_15.setGeometry(QtCore.QRect(150, 280, 181, 51))
         self.btnIngresar_15.setStyleSheet(
             "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));"
             "font: 87 10pt 'Arial Black';")
         self.btnIngresar_15.setObjectName("btnIngresar_15")
-
         self.btnIngresar_17 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_17.setGeometry(QtCore.QRect(170, 440, 121, 41))
         self.btnIngresar_17.setStyleSheet(
             "background-color: rgb(124, 231, 255);"
             "font: 87 10pt 'Arial Black';")
         self.btnIngresar_17.setObjectName("btnIngresar_17")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 

@@ -37,17 +37,13 @@ class Ui_Dialog(object):
             QtCore.Qt.TextSelectableByMouse
         )
         self.label.setObjectName("label")
-
         self.textBrowser = QtWidgets.QTextBrowser(Dialog)
         self.textBrowser.setGeometry(QtCore.QRect(210, 40, 251, 51))
         self.textBrowser.setObjectName("textBrowser")
-
-
         self.radioButton_3 = QtWidgets.QRadioButton(Dialog)
         self.radioButton_3.setGeometry(QtCore.QRect(460, 170, 95, 20))
         self.radioButton_3.setObjectName("radioButton_3")
         self.radioButton_3.setStyleSheet("color: white; font: 87 10pt 'Arial Black';")
-
         self.radioButton_2 = QtWidgets.QRadioButton(Dialog)
         self.radioButton_2.setGeometry(QtCore.QRect(320, 170, 95, 20))
         self.radioButton_2.setChecked(True)
@@ -56,7 +52,6 @@ class Ui_Dialog(object):
         self.radioButton_2.setAutoRepeatInterval(111)
         self.radioButton_2.setObjectName("radioButton_2")
         self.radioButton_2.setStyleSheet("color: white; font: 87 10pt 'Arial Black';")
-
         self.radioButton = QtWidgets.QRadioButton(Dialog)
         self.radioButton.setGeometry(QtCore.QRect(160, 170, 95, 20))
         self.radioButton.setChecked(False)
@@ -115,8 +110,6 @@ class Ui_Dialog(object):
         self.leUsuario_3.setText(_translate("Dialog", "HH:MM:SS"))
         self.btnIngresar.setText(_translate("Dialog", "GUARDAR"))
         self.btnIngresar_2.setText(_translate("Dialog", "volver"))
-
-
 
 
 class CambiarHoraController(QtWidgets.QDialog):

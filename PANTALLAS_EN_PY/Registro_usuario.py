@@ -28,11 +28,9 @@ class Ui_Dialog(object):
         self.label.setPixmap(QtGui.QPixmap(":/newPrefix/fondologin.jpeg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
-
         self.leUsuario = QtWidgets.QLineEdit(Dialog)
         self.leUsuario.setGeometry(QtCore.QRect(90, 90, 191, 20))
         self.leUsuario.setObjectName("leUsuario")
-
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(30, 20, 361, 51))
         self.label_2.setStyleSheet("font: 87 25pt \"Arial Black\";\n"
@@ -40,14 +38,12 @@ class Ui_Dialog(object):
         self.label_2.setIndent(-6)
         self.label_2.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse)
         self.label_2.setObjectName("label_2")
-
         self.lePass = QtWidgets.QLineEdit(Dialog)
         self.lePass.setGeometry(QtCore.QRect(90, 130, 191, 20))
         self.lePass.setObjectName("lePass")
 
         # OCULTAR CONTRASEÑA
         self.lePass.setEchoMode(QtWidgets.QLineEdit.Password)
-
         self.btnIngresar = QtWidgets.QPushButton(Dialog)
         self.btnIngresar.setGeometry(QtCore.QRect(120, 160, 121, 31))
         self.btnIngresar.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
@@ -56,7 +52,6 @@ class Ui_Dialog(object):
 
         #  CONECTAR BOTÓN AL MÉTODO QUE REGISTRA
         self.btnIngresar.clicked.connect(self.registrar)
-
         self.btnIngresar_3 = QtWidgets.QPushButton(Dialog)
         self.btnIngresar_3.setGeometry(QtCore.QRect(10, 360, 121, 31))
         self.btnIngresar_3.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
