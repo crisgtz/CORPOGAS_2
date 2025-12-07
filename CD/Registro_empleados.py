@@ -147,12 +147,7 @@ def mostrar_visibles():
 #          CAMBIAR VISIBILIDAD AUTOMÁTICAMENTE
 
 def cambiar_visibilidad_manual(id_registro, nuevo_valor):
-    """
-    Cambia manualmente el valor V/F del registro indicado.
-    Regresa True si la operación se completó.
-    Regresa False si el ID NO existe o hay error.
-    """
-
+    
     if not os.path.exists(ARCHIVO_ENTRADAS):
         print("No existe el archivo.")
         return False
@@ -169,8 +164,8 @@ def cambiar_visibilidad_manual(id_registro, nuevo_valor):
         # Verifica si la línea pertenece al ID solicitado
         if partes[0] == str(id_registro):
             encontrado = True
-            base = " - ".join(partes[:-1])  # Todo menos el V/F
-            linea = f"{base} - V/F: {nuevo_valor}\n"  # Se reemplaza
+            base = " - ".join(partes[:-1])  
+            linea = f"{base} - V/F: {nuevo_valor}\n"  
 
         nuevas_lineas.append(linea)
 

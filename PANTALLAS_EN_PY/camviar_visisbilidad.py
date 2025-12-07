@@ -80,9 +80,7 @@ class Ui_Dialog(object):
         self.btnIngresar_17.setText(_translate("Dialog", "VOLVER"))
 
 
-# =======================================================
-#      CONTROLADOR INTEGRADO (CONEXIÓN A TXT REAL)
-# =======================================================
+
 
 class CambiarVisibilidadWindow(QtWidgets.QDialog):
     def __init__(self, menu_padre):
@@ -99,9 +97,7 @@ class CambiarVisibilidadWindow(QtWidgets.QDialog):
         # BOTÓN VOLVER
         self.ui.btnIngresar_17.clicked.connect(self.volver_menu)
 
-    # -----------------------------------------------
-    #           CAMBIAR A VISIBLE (V)
-    # -----------------------------------------------
+
     def cambiar_visible(self):
         id_texto = self.ui.leUsuario_2.text().strip()
 
@@ -116,9 +112,7 @@ class CambiarVisibilidadWindow(QtWidgets.QDialog):
         else:
             QtWidgets.QMessageBox.warning(self, "Error", "No se encontró el ID.")
 
-    # -----------------------------------------------
-    #           CAMBIAR A OCULTO (F)
-    # -----------------------------------------------
+
     def cambiar_oculto(self):
         id_texto = self.ui.leUsuario_2.text().strip()
 
@@ -133,9 +127,7 @@ class CambiarVisibilidadWindow(QtWidgets.QDialog):
         else:
             QtWidgets.QMessageBox.warning(self, "Error", "No se encontró el ID.")
 
-    # -----------------------------------------------
-    #              VOLVER AL MENÚ
-    # -----------------------------------------------
+
     def volver_menu(self):
         self.menu_padre.show()
         self.close()

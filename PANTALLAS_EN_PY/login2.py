@@ -60,7 +60,7 @@ class Ui_Dialog(object):
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
-        # CONECTAR BOTONES DESPUÉS DE retranslateUi
+        
         self.btnIngresar.clicked.connect(self.login)
         self.btnIngresar_2.clicked.connect(self.abrir_registro)
         self.btnIngresar_3.clicked.connect(Dialog.close)
@@ -73,12 +73,11 @@ class Ui_Dialog(object):
         from CD.Login import iniciar_sesion
 
         if iniciar_sesion(usuario, password):
-        # ABRIR MENÚ PRINCIPAL
+        
             self.menu = QtWidgets.QDialog()
             self.ui_menu = MenuPrincipal()
             self.menu = MenuPrincipal()
             self.menu.show()
-        # CERRAR LOGIN
             self.Dialog.close()
         else:
             QtWidgets.QMessageBox.warning(None, "Error", "Usuario o contraseña incorrectos.")
