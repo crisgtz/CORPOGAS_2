@@ -68,12 +68,117 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "PANTALLAS_EN_PY/login2.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4876,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					206,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAL8BAAAAAAAAwAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC/AQAAAAAAAL8BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					207,
+					1,
+					"left_delete",
+					null,
+					"AQAAAL8BAAAAAAAAvwEAAAAAAAABAAAAMQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADAAQAAAAAAAMABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					208,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAL8BAAAAAAAAwAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC/AQAAAAAAAL8BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					211,
+					1,
+					"paste",
+					null,
+					"AQAAAMABAAAAAAAA9QEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADAAQAAAAAAAMABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					212,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPQBAAAAAAAA9AEAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD1AQAAAAAAAPUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					219,
+					1,
+					"paste",
+					null,
+					"AQAAAFYPAAAAAAAAeg8AAAAAAAAsAAAAICAgICAgICBzZWxmLnVpX3JlZ2lzdHJvID0gUmVnaXN0cm9EaWFsb2coKQo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABWDwAAAAAAAIIPAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					222,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAFoPAAAAAAAAXg8AAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABaDwAAAAAAAFoPAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "PANTALLAS_EN_PY/Registro_usuario.py",
+			"redo_stack":
+			[
+				[
+					20,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHgBAAAAAAAAeQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB4AQAAAAAAAHgBAAAAAAAAAAAAAAAA8L8"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 4426,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAHkBAAAAAAAAggEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB5AQAAAAAAAHkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					9,
+					"left_delete",
+					null,
+					"CQAAAIEBAAAAAAAAgQEAAAAAAAABAAAAIIABAAAAAAAAgAEAAAAAAAABAAAAUn8BAAAAAAAAfwEAAAAAAAABAAAASX4BAAAAAAAAfgEAAAAAAAABAAAARH0BAAAAAAAAfQEAAAAAAAABAAAAX3wBAAAAAAAAfAEAAAAAAAABAAAARXsBAAAAAAAAewEAAAAAAAABAAAAU3oBAAAAAAAAegEAAAAAAAABAAAAQXkBAAAAAAAAeQEAAAAAAAABAAAAQg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCAQAAAAAAAIIBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -138,6 +243,7 @@
 	],
 	"file_history":
 	[
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Login.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/camviar_visisbilidad.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/Menu_registro_empleado.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/consultar_entradas.py",
@@ -150,7 +256,6 @@
 		"/D/crisg/crisg/sdkFP/Consultar.py",
 		"/C/Users/crisg/Registro_usuario.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Registro_empleados.py",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Login.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/Registro_usuario.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/loginimag.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/loginimag_rc.py",
@@ -305,30 +410,64 @@
 			[
 				{
 					"buffer": 0,
+					"file": "PANTALLAS_EN_PY/login2.py",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								500,
+								500
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1210.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "PANTALLAS_EN_PY/Registro_usuario.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}

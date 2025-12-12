@@ -14,6 +14,7 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
+from Registro_usuario import Ui_Dialog as RegistroUI
 from menu_principal import MenuPrincipal
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -81,7 +82,7 @@ class Ui_Dialog(object):
 
     def abrir_registro(self):
         self.registro = QtWidgets.QDialog()
-        self.ui_registro = RegistroDialog()
+        self.ui_registro = RegistroUI()
         self.ui_registro.setupUi(self.registro)
         self.registro.show()
 
