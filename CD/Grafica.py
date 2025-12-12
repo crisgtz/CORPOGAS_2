@@ -22,7 +22,7 @@ def calcular_estado(turno, fecha):
         return "Retardo"
 
 
-ARCHIVO_ENTRADAS = r"D:\crisg\GitHub\trabajo\CORPOGAS_2"
+ARCHIVO_ENTRADAS = r"D:\crisg\GitHub\trabajo\CORPOGAS_2\TXT\entradas.txt"
 
 
 def leer_registros(archivo=ARCHIVO_ENTRADAS):

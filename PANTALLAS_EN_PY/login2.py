@@ -96,8 +96,7 @@ class Ui_Dialog(object):
         self.btnIngresar_3.setText(_translate("Dialog", "SALIR"))
 
 
-
-
+import loginimag_rc
 
 
 if __name__ == "__main__":
@@ -109,3 +108,4 @@ if __name__ == "__main__":
     Dialog.show()
     sys.exit(app.exec_())
 
+ 

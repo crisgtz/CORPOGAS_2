@@ -91,10 +91,7 @@ class MenuPrincipal(QtWidgets.QDialog):
         self.visibilidad_win = QtWidgets.QDialog()
         self.visibilidad_ui = CambiarVisUI()
         self.visibilidad_ui.setupUi(self.visibilidad_win)
-
-        # Conectar botón VOLVER
         self.visibilidad_ui.btnIngresar_17.clicked.connect(self.volver_menu)
-
         self.visibilidad_win.show()
         self.hide()
 
