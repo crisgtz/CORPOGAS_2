@@ -1,17 +1,31 @@
 import os
 from datetime import datetime, time
 
-# Carpeta donde están los archivos
-CARPETA = r"D:\crisg\GitHub\trabajo\CORPOGAS_2\TXT"
+BASE = r"D:\crisg\GitHub\trabajo\CORPOGAS_2"
 
-# Archivos dentro de la carpeta
+# Carpeta TXT (se crea si no existe)
+CARPETA = os.path.join(BASE, "TXT")
+os.makedirs(CARPETA, exist_ok=True)
+
+# Archivos dentro de TXT
 ARCHIVO_USUARIOS = os.path.join(CARPETA, "usuarios.txt")
 ARCHIVO_ENTRADAS = os.path.join(CARPETA, "entradas.txt")
 ARCHIVO_HORARIOS = os.path.join(CARPETA, "horarios.txt")
 
-# CARGA Y GUARDAR HORARIOS
+# Asegurar que existan los archivos
+for archivo in [ARCHIVO_USUARIOS, ARCHIVO_ENTRADAS, ARCHIVO_HORARIOS]:
+    if not os.path.exists(archivo):
+        open(archivo, "a", encoding="utf-8").close()
+
+def guardar_horarios(horarios):
+    with open(ARCHIVO_HORARIOS, "w") as file:
+        for turno, hora in horarios.items():
+            file.write(f"{turno}={hora.hour:02d}:{hora.minute:02d}\n")
+
+
 
 def cargar_horarios():
+    # Si no existe el archivo, crear horarios por defecto
     if not os.path.exists(ARCHIVO_HORARIOS):
         horarios = {
             1: time(6, 0),
@@ -22,47 +36,41 @@ def cargar_horarios():
         return horarios
 
     horarios = {}
+
     with open(ARCHIVO_HORARIOS, "r") as file:
         for linea in file:
-            turno, hora = linea.strip().split("=")
-            h, m = hora.split(":")
-            horarios[int(turno)] = time(int(h), int(m))
+            if "=" not in linea:
+                continue
+            try:
+                turno, hora = linea.strip().split("=")
+
+                # Validar que turno sea número
+                turno = int(turno)
+
+                # Validar formato HH:MM
+                h, m = hora.split(":")
+                h = int(h)
+                m = int(m)
+
+                # Validar rangos correctos
+                if not (0 <= h <= 23 and 0 <= m <= 59):
+                    continue
+
+                horarios[turno] = time(h, m)
+
+            except:
+                continue
+
+    if len(horarios) != 3:
+        horarios = {
+            1: horarios.get(1, time(6, 0)),
+            2: horarios.get(2, time(14, 0)),
+            3: horarios.get(3, time(22, 0))
+        }
+        guardar_horarios(horarios)
+
     return horarios
 
-
-def guardar_horarios(horarios):
-    with open(ARCHIVO_HORARIOS, "w") as file:
-        for turno, hora in horarios.items():
-            file.write(f"{turno}={hora.hour}:{hora.minute}\n")
-
-
-def menu_configurar_horarios():
-    horarios = cargar_horarios()
-
-    while True:
-        print("\n=== CONFIGURAR HORARIOS DE TURNOS ===")
-        print(f"1. Turno 1 = {horarios[1].hour}:{horarios[1].minute:02d}")
-        print(f"2. Turno 2 = {horarios[2].hour}:{horarios[2].minute:02d}")
-        print(f"3. Turno 3 = {horarios[3].hour}:{horarios[3].minute:02d}")
-        print("4. Volver al menú principal")
-
-        op = input("Selecciona el turno a modificar: ")
-
-        if op in ["1", "2", "3"]:
-            nuevo = input("Nueva hora (HH:MM): ")
-            try:
-                h, m = map(int, nuevo.split(":"))
-                horarios[int(op)] = time(h, m)
-                guardar_horarios(horarios)
-                print("Horario actualizado correctamente.")
-            except:
-                print("Formato incorrecto. Usa HH:MM")
-        elif op == "4":
-            break
-        else:
-            print("Opción no válida.")
-
-# REGISTRO DE ENTRADAS
 
 def determinar_estado(turno, fecha_hora):
     horarios = cargar_horarios()
@@ -117,7 +125,6 @@ def guardar_entrada(empleado, turno, fecha_hora):
     estado = determinar_estado(turno, fecha_hora)
     registro_id = obtener_siguiente_id(ARCHIVO_ENTRADAS)
 
-    # AQUÍ CAMBIAMOS F → V (visible por defecto)
     with open(ARCHIVO_ENTRADAS, "a", encoding="utf-8") as f:
         f.write(f"{registro_id} - {empleado} - Turno {turno} - {fecha_hora} - Estado: {estado} - V/F: V\n")
 
@@ -130,7 +137,6 @@ def guardar_entrada(empleado, turno, fecha_hora):
     print("Visibilidad: V (visible)")
 
 
-#     MOSTRAR SOLO VISIBLES
 
 def mostrar_visibles():
     if not os.path.exists(ARCHIVO_ENTRADAS):
@@ -143,52 +149,6 @@ def mostrar_visibles():
             if "V/F: V" in linea:
                 print(linea.strip())
 
-
-#          CAMBIAR VISIBILIDAD AUTOMÁTICAMENTE
-
-def cambiar_visibilidad_manual(id_registro, nuevo_valor):
-    
-    if not os.path.exists(ARCHIVO_ENTRADAS):
-        print("No existe el archivo.")
-        return False
-
-    nuevas_lineas = []
-    encontrado = False
-
-    with open(ARCHIVO_ENTRADAS, "r", encoding="utf-8") as f:
-        lineas = f.readlines()
-
-    for linea in lineas:
-        partes = linea.strip().split(" - ")
-
-        # Verifica si la línea pertenece al ID solicitado
-        if partes[0] == str(id_registro):
-            encontrado = True
-            base = " - ".join(partes[:-1])  
-            linea = f"{base} - V/F: {nuevo_valor}\n"  
-
-        nuevas_lineas.append(linea)
-
-    if not encontrado:
-        print("ID no encontrado.")
-        return False
-
-    # Guardar cambios
-    with open(ARCHIVO_ENTRADAS, "w", encoding="utf-8") as f:
-        f.writelines(nuevas_lineas)
-
-    print(f"ID {id_registro} cambiado a {nuevo_valor}.")
-    return True
-
-    if not encontrado:
-        print("ID no encontrado.")
-        return
-
-    with open(ARCHIVO_ENTRADAS, "w", encoding="utf-8") as f:
-        f.writelines(nuevas_lineas)
-
-
-#              CAMBIO DE VISIBILIDAD MANUAL
 
 def cambiar_visibilidad_manual(id_registro, nuevo_valor):
     if not os.path.exists(ARCHIVO_ENTRADAS):
@@ -221,7 +181,6 @@ def cambiar_visibilidad_manual(id_registro, nuevo_valor):
     print(f"ID {id_registro} cambiado manualmente a {nuevo_valor}.")
 
 
-#                   MENÚ PRINCIPAL (CONSOLA)
 
 def menu_principal():
     while True:

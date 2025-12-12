@@ -1,2 +1,6 @@
 1 - lupe - Turno 2 - 2025-12-03 13:55:00 - Estado: Turno no válido - V/F: V
 2 - beto - Turno 2 - 2025-12-01 13:55:00 - Estado: Turno no válido - V/F: F
+3 - GUILLERMO - Turno 1 - 2025-12-04 05:55:00 - Estado: A tiempo - V/F: V
+4 - MARTIN - Turno 2 - 2025-12-03 13:55:00 - Estado: A tiempo - V/F: V
+5 - LUPE - Turno 2 - 2025-12-03 13:55:00 - Estado: A tiempo - V/F: V
+6 - IVAN - Turno 1 - 2025-12-06 05:55:00 - Estado: A tiempo - V/F: V

@@ -2,9 +2,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, time
 import os
 
-# CALCULAR ESTADO (A tiempo / Retardo)
 
-# Horarios esperados por turno
 HORARIOS = {
     "Turno 1": time(6, 0),
     "Turno 2": time(14, 0),
@@ -24,12 +22,7 @@ def calcular_estado(turno, fecha):
         return "Retardo"
 
 
-# ============================================================
-#      LECTURA CORRECTA DE REGISTROS DESDE LA NUEVA RUTA
-# ============================================================
-
-# *** ESTA ES LA ÚNICA LÍNEA QUE SE MODIFICÓ ***
-ARCHIVO_ENTRADAS = r"D:\crisg\GitHub\trabajo\CORPOGAS_2\TXT\entradas.txt"
+ARCHIVO_ENTRADAS = r"D:\crisg\GitHub\trabajo\CORPOGAS_2"
 
 
 def leer_registros(archivo=ARCHIVO_ENTRADAS):
@@ -44,18 +37,18 @@ def leer_registros(archivo=ARCHIVO_ENTRADAS):
             try:
                 partes = linea.strip().split(" - ")
 
+
                 id_registro = partes[0]
                 empleado = partes[1]
-                turno = partes[2]              # Turno 1, Turno 2, Turno 3
-                fecha_hora_str = partes[3]     # 2025-10-30 02:56:00
-                visibilidad = partes[4].split(":")[1].strip()  # V o F
+                turno = partes[2]
+                fecha_hora_str = partes[3]
+                visibilidad = partes[5].split(":")[1].strip()
 
                 if visibilidad != "V":
-                    continue  # Solo graficar visibles
+                    continue  
 
                 fecha = datetime.strptime(fecha_hora_str, "%Y-%m-%d %H:%M:%S")
 
-                # Calcular estado automáticamente
                 estado = calcular_estado(turno, fecha)
 
                 registros.append({
@@ -70,16 +63,11 @@ def leer_registros(archivo=ARCHIVO_ENTRADAS):
 
     return registros
 
-
-# ============================================================
-#                  GRÁFICA POR EMPLEADO
-# ============================================================
-
 def generar_grafica_por_empleado(registros, empleado):
     datos = [r for r in registros if r["empleado"] == empleado]
 
     if not datos:
-        print(f"No hay registros (V) para {empleado}")
+        print(f"No hay registros visibles para {empleado}")
         return
 
     meses = {}
@@ -90,30 +78,25 @@ def generar_grafica_por_empleado(registros, empleado):
 
         meses[mes][r["estado"]] += 1
 
-    etiquetas = list(meses.keys())
-    a_tiempo = [meses[m]["A tiempo"] for m in etiquetas]
-    retardos = [meses[m]["Retardo"] for m in etiquetas]
+    labels = list(meses.keys())
+    a_tiempo = [meses[m]["A tiempo"] for m in labels]
+    retardos = [meses[m]["Retardo"] for m in labels]
 
     plt.figure(figsize=(10, 6))
-    x = range(len(etiquetas))
+    x = range(len(labels))
 
     plt.bar(x, a_tiempo, label="A tiempo")
     plt.bar(x, retardos, bottom=a_tiempo, label="Retardo")
 
-    plt.xticks(x, etiquetas)
+    plt.xticks(x, labels)
     plt.ylabel("Cantidad")
     plt.title(f"Asistencia mensual de {empleado} (solo V)")
     plt.legend()
     plt.show()
 
-
-# ============================================================
-#                      GRÁFICA GRUPAL
-# ============================================================
-
 def generar_grafica_grupal(registros):
     if not registros:
-        print("No hay registros (V) para graficar.")
+        print("No hay registros visibles para graficar.")
         return
 
     empleados = {}
@@ -139,11 +122,6 @@ def generar_grafica_grupal(registros):
     plt.title("Comparación de asistencia (solo V)")
     plt.legend()
     plt.show()
-
-
-# ============================================================
-#                 MENÚ DE PRUEBA POR CONSOLA
-# ============================================================
 
 def menu_graficas():
     registros = leer_registros()

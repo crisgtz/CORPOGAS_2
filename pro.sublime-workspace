@@ -69,114 +69,632 @@
 	[
 		{
 			"file": "PANTALLAS_EN_PY/login2.py",
-			"redo_stack":
+			"settings":
+			{
+				"buffer_size": 4808,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
 			[
 				[
-					67,
+					28,
 					1,
 					"paste",
 					null,
-					"AQAAAFoDAAAAAAAAWgMAAAAAAAAKAAAAZm9uZG9sb2dpbg",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABkAwAAAAAAAGQDAAAAAAAAAAAAAAAA8L8"
+					"AQAAANsCAAAAAAAA5AIAAAAAAAAKAAAAZm9uZG9sb2dpbg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAgAAAAAAAOUCAAAAAAAAAAAAAAAA8L8"
 				],
 				[
-					66,
+					33,
+					1,
+					"paste",
+					null,
+					"AQAAAEUDAAAAAAAATgMAAAAAAAAKAAAAZm9uZG9sb2dpbg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABFAwAAAAAAAE8DAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					47,
+					1,
+					"paste",
+					null,
+					"AQAAANsCAAAAAAAA5wIAAAAAAAAJAAAAcHJ1ZWJhX3Jj",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAgAAAAAAAOQCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					52,
+					1,
+					"paste",
+					null,
+					"AQAAAKgRAAAAAAAAtBEAAAAAAAAJAAAAcHJ1ZWJhX3Jj",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACoEQAAAAAAALERAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAACEBAAAAAAAA6AEAAAAAAABhAAAAZnJvbSBSZWdpc3Ryb191c3VhcmlvIGltcG9ydCBVaV9EaWFsb2cgYXMgUmVnaXN0cm9EaWFsb2cKZnJvbSBtZW51X3ByaW5jaXBhbCBpbXBvcnQgTWVudVByaW5jaXBhbA",
+					"AQAAAAAAAAABAAAAIQEAAAAAAACCAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					26,
+					"left_delete",
+					null,
+					"GgAAAFEDAAAAAAAAUQMAAAAAAAABAAAAZ1ADAAAAAAAAUAMAAAAAAAABAAAAZU8DAAAAAAAATwMAAAAAAAABAAAAcE4DAAAAAAAATgMAAAAAAAABAAAAak0DAAAAAAAATQMAAAAAAAABAAAALkwDAAAAAAAATAMAAAAAAAABAAAAY0sDAAAAAAAASwMAAAAAAAABAAAAckoDAAAAAAAASgMAAAAAAAABAAAAX0kDAAAAAAAASQMAAAAAAAABAAAAZ0gDAAAAAAAASAMAAAAAAAABAAAAYUcDAAAAAAAARwMAAAAAAAABAAAAbUYDAAAAAAAARgMAAAAAAAABAAAAaUUDAAAAAAAARQMAAAAAAAABAAAAbkQDAAAAAAAARAMAAAAAAAABAAAAaUMDAAAAAAAAQwMAAAAAAAABAAAAZ0IDAAAAAAAAQgMAAAAAAAABAAAAb0EDAAAAAAAAQQMAAAAAAAABAAAAbEADAAAAAAAAQAMAAAAAAAABAAAALz8DAAAAAAAAPwMAAAAAAAABAAAAeD4DAAAAAAAAPgMAAAAAAAABAAAAaT0DAAAAAAAAPQMAAAAAAAABAAAAZjwDAAAAAAAAPAMAAAAAAAABAAAAZTsDAAAAAAAAOwMAAAAAAAABAAAAcjoDAAAAAAAAOgMAAAAAAAABAAAAUDkDAAAAAAAAOQMAAAAAAAABAAAAdzgDAAAAAAAAOAMAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAUgMAAAAAAABSAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					3,
+					"left_delete",
+					null,
+					"AwAAADcDAAAAAAAANwMAAAAAAAABAAAAbjYDAAAAAAAANgMAAAAAAAABAAAALzUDAAAAAAAANQMAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAAOAMAAAAAAAA4AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"paste",
+					null,
+					"AQAAADUDAAAAAAAATgMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANQMAAAAAAAA1AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"paste",
+					null,
+					"AQAAAB4DAAAAAAAAOQMAAAAAAAAzAAAAImJhY2tncm91bmQtaW1hZ2U6IHVybCg6L25ld1ByZWZpeC9pbnRlcmZhei5qcGVnKTsi",
+					"AQAAAAAAAAABAAAAUQMAAAAAAAAeAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"paste",
+					null,
+					"AQAAAAUDAAAAAAAARgMAAAAAAAA1AAAAc2VsZi5sYWJlbC5zZXRTdHlsZVNoZWV0KCI6L25ld1ByZWZpeC9pbnRlcmZhei5qcGVnIik",
+					"AQAAAAAAAAABAAAAOgMAAAAAAAAFAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
 					1,
 					"left_delete",
 					null,
-					"CAAAAFoDAAAAAAAAWwMAAAAAAAAAAAAAWwMAAAAAAABcAwAAAAAAAAAAAABcAwAAAAAAAF0DAAAAAAAAAAAAAF0DAAAAAAAAXgMAAAAAAAAAAAAAXgMAAAAAAABfAwAAAAAAAAAAAABfAwAAAAAAAGADAAAAAAAAAAAAAGADAAAAAAAAYQMAAAAAAAAAAAAAYQMAAAAAAABiAwAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABaAwAAAAAAAFoDAAAAAAAAAAAAAAAA8L8"
+					"AQAAAEUDAAAAAAAARQMAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAARgMAAAAAAABGAwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					59,
+					107,
 					1,
 					"paste",
 					null,
-					"AQAAAO8CAAAAAAAA7wIAAAAAAAAKAAAAZm9uZG9sb2dpbg",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD5AgAAAAAAAPkCAAAAAAAAAAAAAAAA8L8"
+					"AQAAAG0DAAAAAAAArQMAAAAAAABBAAAAc2VsZi5sYWJlbC5zZXRQaXhtYXAoUXRHdWkuUVBpeG1hcCgiOi9uZXdQcmVmaXgvcHJ1ZWJhX3JjLmpwZWciKSk",
+					"AQAAAAAAAAABAAAArgMAAAAAAABtAwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					58,
+					114,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AwAAANgSAAAAAAAA3RIAAAAAAAAAAAAA3RIAAAAAAADiEgAAAAAAAAAAAADZEgAAAAAAANkSAAAAAAAABAAAACAgICA",
+					"AQAAAAAAAAABAAAA2BIAAAAAAADYEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					115,
+					1,
+					"paste",
+					null,
+					"AQAAAN4SAAAAAAAAjhMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3hIAAAAAAADeEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
 					1,
 					"left_delete",
 					null,
-					"BwAAAO8CAAAAAAAA8AIAAAAAAAAAAAAA8AIAAAAAAADxAgAAAAAAAAAAAADxAgAAAAAAAPICAAAAAAAAAAAAAPICAAAAAAAA8wIAAAAAAAAAAAAA8wIAAAAAAAD0AgAAAAAAAAAAAAD0AgAAAAAAAPUCAAAAAAAAAAAAAPUCAAAAAAAA9gIAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADvAgAAAAAAAO8CAAAAAAAAAAAAAAAA8L8"
+					"AQAAANsSAAAAAAAA2xIAAAAAAAC1AAAAICAgaW1wb3J0IHN1YnByb2Nlc3MKCiMgRW4gdHUgZnVuY2nDs24gZGVsIGxvZ2luLCBkZXNwdcOpcyBkZSB2YWxpZGFyIG8gZW4gZWwgbW9tZW50byBxdWUgZGVzZWVzOgpzdWJwcm9jZXNzLnJ1bihbInB5aW5zdGFsbGVyIiwgInR1X3NjcmlwdC5weSIsICItLWRpc3RwYXRoIiwgImRpc3QvbWlfc2NyaXB0LmV4ZSJdKQ",
+					"AQAAAAAAAAABAAAAjhMAAAAAAADbEgAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					54,
+					127,
 					1,
 					"paste",
 					null,
-					"AQAAAFcDAAAAAAAAYQMAAAAAAAAIAAAAaW50ZXJmYXo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABfAwAAAAAAAF8DAAAAAAAAAAAAAAAA8L8"
+					"AQAAAPYRAAAAAAAApBIAAAAAAAASAAAAbXBvcnQgbG9naW5pbWFnX3Jj",
+					"AQAAAAAAAAABAAAA9hEAAAAAAAAIEgAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					49,
+					134,
+					1,
+					"left_delete",
+					null,
+					"AgAAAPURAAAAAAAA9REAAAAAAAABAAAAaXUTAAAAAAAAdRMAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA9hEAAAAAAAD2EQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					140,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPURAAAAAAAA9REAAAAAAACuAAAAaW1wb3J0IHN1YnByb2Nlc3MKIyAuLi4gdHVzIG90cm9zIGltcG9ydHMgLi4uCgojIEVqZWN1dGFyIGVsIGNvbWFuZG8gYWwgaW5pY2lvIGRlbCBjw7NkaWdvCnN1YnByb2Nlc3MucnVuKFsicHlpbnN0YWxsZXIiLCAidHVfc2NyaXB0LnB5IiwgIi0tZGlzdHBhdGgiLCAiZGlzdC9taV9zY3JpcHQuZXhlIl0p",
+					"AQAAAAAAAAABAAAAohIAAAAAAAD1EQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "PANTALLAS_EN_PY/login2.spec",
+			"settings":
+			{
+				"buffer_size": 660,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "PANTALLAS_EN_PY/menu_principal.py",
+			"settings":
+			{
+				"buffer_size": 4896,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					83,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKoSAAAAAAAAqhIAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAqxIAAAAAAACrEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMYSAAAAAAAAxhIAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAxxIAAAAAAADHEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAANcSAAAAAAAA2hIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1xIAAAAAAADXEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					3,
+					"left_delete",
+					null,
+					"AwAAANgSAAAAAAAA2BIAAAAAAAACAAAAICDXEgAAAAAAANcSAAAAAAAAAQAAAArWEgAAAAAAANYSAAAAAAAAAQAAACM",
+					"AQAAAAAAAAABAAAA2hIAAAAAAADaEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAANgSAAAAAAAA3BIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2BIAAAAAAADYEgAAAAAAAAAAAAAAADhA"
+				],
+				[
+					97,
+					1,
+					"left_delete",
+					null,
+					"AQAAANgSAAAAAAAA2BIAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAA3BIAAAAAAADcEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAITAAAAAAAAAhMAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAAxMAAAAAAAADEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAB4TAAAAAAAAIxMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHhMAAAAAAAAeEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					106,
+					3,
+					"left_delete",
+					null,
+					"AwAAAB8TAAAAAAAAHxMAAAAAAAAEAAAAICAgIB4TAAAAAAAAHhMAAAAAAAABAAAACh0TAAAAAAAAHRMAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAIxMAAAAAAAAjEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAC0TAAAAAAAAMhMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALRMAAAAAAAAtEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					3,
+					"left_delete",
+					null,
+					"AwAAAC4TAAAAAAAALhMAAAAAAAAEAAAAICAgIC0TAAAAAAAALRMAAAAAAAABAAAACiwTAAAAAAAALBMAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAMhMAAAAAAAAyEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					1,
+					"insert",
+					{
+						"characters": "b"
+					},
+					"AQAAACwTAAAAAAAALRMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALBMAAAAAAAAsEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					112,
+					1,
+					"left_delete",
+					null,
+					"AQAAACwTAAAAAAAALBMAAAAAAAABAAAAYg",
+					"AQAAAAAAAAABAAAALRMAAAAAAAAtEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					117,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAACwTAAAAAAAALRMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALBMAAAAAAAAsEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAB0TAAAAAAAAHhMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHRMAAAAAAAAdEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					123,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAAMTAAAAAAAABBMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAxMAAAAAAAADEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					126,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAANgSAAAAAAAA2RIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2BIAAAAAAADYEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					131,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAKoSAAAAAAAAqxIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqhIAAAAAAACqEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					134,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAMoSAAAAAAAAyxIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyhIAAAAAAADKEgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					149,
+					4,
+					"left_delete",
+					null,
+					"BAAAAH8HAAAAAAAAfwcAAAAAAAAtAAAAICAjIEVTVEUgRVMgRUwgQk9Uw5NOIFFVRSBURSBGQUxUQUJBIENPTkVDVEFSfQcAAAAAAAB9BwAAAAAAAAIAAAAgIHkHAAAAAAAAeQcAAAAAAAAEAAAAICAgIHgHAAAAAAAAeAcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAqwcAAAAAAAB/BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					150,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHcHAAAAAAAAdwcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAeAcAAAAAAAB4BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					155,
 					1,
 					"paste",
 					null,
-					"AQAAAO4CAAAAAAAA+AIAAAAAAAAIAAAAaW50ZXJmYXo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD2AgAAAAAAAPYCAAAAAAAAAAAAAAAA8L8"
+					"AQAAADoLAAAAAAAAAA0AAAAAAAA1AQAAIGRlZiBhYnJpcl9yZWdpc3Ryb19lbXBsZWFkbyhzZWxmKToKICAgICAgICBzZWxmLnJlZ2lzdHJvX3dpbiA9IFF0V2lkZ2V0cy5RRGlhbG9nKCkKICAgICAgICBzZWxmLnJlZ2lzdHJvX3VpID0gUmVnaXN0cm9FbXBsZWFkb1VJKCkKICAgICAgICBzZWxmLnJlZ2lzdHJvX3VpLnNldHVwVWkoc2VsZi5yZWdpc3Ryb193aW4pCiAgICAgICAgc2VsZi5yZWdpc3Ryb191aS5idG5JbmdyZXNhcl8yLmNsaWNrZWQuY29ubmVjdChzZWxmLnZvbHZlcl9tZW51KQogICAgICAgIHNlbGYucmVnaXN0cm9fd2luLnNob3coKQogICAgICAgIHNlbGYuaGlkZSgp",
+					"AQAAAAAAAAABAAAAOgsAAAAAAABvDAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					13,
+					172,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOoLAAAAAAAA6gsAAAAAAABRAAAAICAgICMgQXNlZ3VyYXJzZSBkZSBjb25lY3RhciBlbCBib3TDs24gIklOR1JFU0FSIiBhIGxhIGZ1bmNpw7NuIGRlIGd1YXJkYXIgZGF0b3MK",
+					"AQAAAAAAAAABAAAA6gsAAAAAAAA5DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					174,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOQLAAAAAAAA5AsAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAA5QsAAAAAAADlCwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					179,
+					2,
+					"left_delete",
+					null,
+					"AgAAADoMAAAAAAAAOgwAAAAAAAAEAAAAICAgIDkMAAAAAAAAOQwAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAPgwAAAAAAAA+DAAAAAAAAAAAAAAAADhA"
+				],
+				[
+					183,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGELAAAAAAAAZQsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQsAAAAAAABhCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					189,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGELAAAAAAAAYQsAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAZQsAAAAAAABlCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					192,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAADoLAAAAAAAAOwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgsAAAAAAAA6CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					194,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGILAAAAAAAAZgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgsAAAAAAABiCwAAAAAAAAAAAAAAADhA"
+				],
+				[
+					198,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAJILAAAAAAAAlgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkgsAAAAAAACSCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					201,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAMILAAAAAAAAxgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgsAAAAAAADCCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					204,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAPoLAAAAAAAA/gsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gsAAAAAAAD6CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					207,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAE8MAAAAAAAAUwwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwwAAAAAAABPDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					210,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAJgMAAAAAAAAnAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAwAAAAAAACYDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					214,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAALkMAAAAAAAAvQwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQwAAAAAAAC5DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					221,
 					1,
 					"paste",
 					null,
-					"AQAAALUBAAAAAAAAtQEAAAAAAAAMAAAAbG9naW5pbWFnX3Jj",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADBAQAAAAAAAMEBAAAAAAAAAAAAAAAA8L8"
+					"AQAAAP4LAAAAAAAASwwAAAAAAABMAAAAc2VsZi5yZWdpc3Ryb191aS5idG5JbmdyZXNhci5jbGlja2VkLmNvbm5lY3Qoc2VsZi5yZWdpc3Ryb191aS5ndWFyZGFyX2RhdG9zKQ",
+					"AQAAAAAAAAABAAAASgwAAAAAAAD+CwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					12,
+					224,
+					1,
+					"paste",
+					null,
+					"AQAAAP4LAAAAAAAASgwAAAAAAABNAAAAc2VsZi5yZWdpc3Ryb191aS5idG5JbmdyZXNhci5jbGlja2VkLmNvbm5lY3Qoc2VsZi5yZWdpc3Ryb193aW4uZ3VhcmRhcl9kYXRvcyk",
+					"AQAAAAAAAAABAAAASwwAAAAAAAD+CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					231,
+					1,
+					"paste",
+					null,
+					"AQAAADsLAAAAAAAAVwwAAAAAAACNAQAAZGVmIGFicmlyX3JlZ2lzdHJvX2VtcGxlYWRvKHNlbGYpOgogICAgICAgIHNlbGYucmVnaXN0cm9fd2luID0gUXRXaWRnZXRzLlFEaWFsb2coKQogICAgICAgIHNlbGYucmVnaXN0cm9fdWkgPSBSZWdpc3Ryb0VtcGxlYWRvVUkoKQogICAgICAgIHNlbGYucmVnaXN0cm9fdWkuc2V0dXBVaShzZWxmLnJlZ2lzdHJvX3dpbikgICAgCiAgICAgICAgc2VsZi5yZWdpc3Ryb191aS5idG5JbmdyZXNhci5jbGlja2VkLmNvbm5lY3Qoc2VsZi5yZWdpc3Ryb191aS5ndWFyZGFyX2RhdG9zKQogICAgICAgIHNlbGYucmVnaXN0cm9fdWkuYnRuSW5ncmVzYXJfMi5jbGlja2VkLmNvbm5lY3Qoc2VsZi52b2x2ZXJfbWVudSkKICAgICAgICBzZWxmLnJlZ2lzdHJvX3dpbi5zaG93KCkKICAgICAgICBzZWxmLmhpZGUoKQ",
+					"AQAAAAAAAAABAAAAOwsAAAAAAADIDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					234,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGILAAAAAAAAZgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgsAAAAAAABiCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					237,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAJQLAAAAAAAAmAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAsAAAAAAACUCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					240,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAO4LAAAAAAAA8gsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7gsAAAAAAADuCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					247,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAADsMAAAAAAAAPwwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwwAAAAAAAA7DAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					252,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAFwMAAAAAAAAYAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAwAAAAAAABcDAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					263,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAJUBAAAAAAAAlgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlQEAAAAAAACVAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					264,
+					1,
+					"paste",
+					null,
+					"AQAAAJYBAAAAAAAApQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					267,
 					1,
 					"insert",
 					{
 						"characters": " "
 					},
-					"AQAAALQBAAAAAAAAtAEAAAAAAAABAAAAIA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1AQAAAAAAALUBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					11,
-					1,
-					"insert_completion",
-					{
-						"completion": "import",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "import"
-					},
-					"AgAAAK4BAAAAAAAArgEAAAAAAAAGAAAAaW1wb3J0rgEAAAAAAACvAQAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0AQAAAAAAALQBAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "I"
-					},
-					"AQAAAK4BAAAAAAAArgEAAAAAAAABAAAASQ",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACvAQAAAAAAAK8BAAAAAAAAAAAAAAAA8L8"
+					"AQAAAJYBAAAAAAAAlwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgEAAAAAAACWAQAAAAAAAAAAAAAAAPC/"
 				]
-			],
+			]
+		},
+		{
+			"file": "PANTALLAS_EN_PY/grafica.py",
 			"settings":
 			{
-				"buffer_size": 4736,
+				"buffer_size": 3909,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "PANTALLAS_EN_PY/consultar_entradas.py",
+			"settings":
+			{
+				"buffer_size": 5000,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import os\nfrom datetime import datetime, time\n\n# Carpeta donde están los archivos\nCARPETA = r\"D:\\crisg\\GitHub\\trabajo\\CORPOGAS_2\\TXT\"\n\n# Archivos dentro de la carpeta\nARCHIVO_USUARIOS = os.path.join(CARPETA, \"usuarios.txt\")\nARCHIVO_ENTRADAS = os.path.join(CARPETA, \"entradas.txt\")\nARCHIVO_HORARIOS = os.path.join(CARPETA, \"horarios.txt\")\n\n# CARGA Y GUARDAR HORARIOS\n\ndef cargar_horarios():\n    if not os.path.exists(ARCHIVO_HORARIOS):\n        horarios = {\n            1: time(6, 0),\n            2: time(14, 0),\n            3: time(22, 0)\n        }\n        guardar_horarios(horarios)\n        return horarios\n\n    horarios = {}\n    with open(ARCHIVO_HORARIOS, \"r\") as file:\n        for linea in file:\n            turno, hora = linea.strip().split(\"=\")\n            h, m = hora.split(\":\")\n            horarios[int(turno)] = time(int(h), int(m))\n    return horarios\n\n\ndef guardar_horarios(horarios):\n    with open(ARCHIVO_HORARIOS, \"w\") as file:\n        for turno, hora in horarios.items():\n            file.write(f\"{turno}={hora.hour}:{hora.minute}\\n\")\n\n\ndef menu_configurar_horarios():\n    horarios = cargar_horarios()\n\n    while True:\n        print(\"\\n=== CONFIGURAR HORARIOS DE TURNOS ===\")\n        print(f\"1. Turno 1 = {horarios[1].hour}:{horarios[1].minute:02d}\")\n        print(f\"2. Turno 2 = {horarios[2].hour}:{horarios[2].minute:02d}\")\n        print(f\"3. Turno 3 = {horarios[3].hour}:{horarios[3].minute:02d}\")\n        print(\"4. Volver al menú principal\")\n\n        op = input(\"Selecciona el turno a modificar: \")\n\n        if op in [\"1\", \"2\", \"3\"]:\n            nuevo = input(\"Nueva hora (HH:MM): \")\n            try:\n                h, m = map(int, nuevo.split(\":\"))\n                horarios[int(op)] = time(h, m)\n                guardar_horarios(horarios)\n                print(\"Horario actualizado correctamente.\")\n            except:\n                print(\"Formato incorrecto. Usa HH:MM\")\n        elif op == \"4\":\n            break\n        else:\n            print(\"Opción no válida.\")\n\n# REGISTRO DE ENTRADAS\n\ndef determinar_estado(turno, fecha_hora):\n    horarios = cargar_horarios()\n\n    hora_entrada = horarios.get(turno)\n    if not hora_entrada:\n        return \"Turno no válido\"\n\n    try:\n        hora_real = datetime.strptime(fecha_hora, \"%Y-%m-%d %H:%M:%S\").time()\n    except ValueError:\n        return \"Formato de fecha inválido\"\n\n    diferencia = (\n        datetime.combine(datetime.today(), hora_real)\n        - datetime.combine(datetime.today(), hora_entrada)\n    ).total_seconds() / 60\n\n    if diferencia <= 0:\n        return \"A tiempo\"\n    elif 0 < diferencia <= 5:\n        return \"Retardo leve (dentro de tolerancia)\"\n    elif 5 < diferencia <= 10:\n        return \"Retardo\"\n    else:\n        return \"Falta\"\n\n\ndef obtener_siguiente_id(archivo):\n    if not os.path.exists(archivo):\n        return 1\n\n    with open(archivo, \"r\", encoding=\"utf-8\") as f:\n        lineas = f.readlines()\n\n    if not lineas:\n        return 1\n\n    ultimo = lineas[-1].split(\" - \")[0]\n    try:\n        return int(ultimo) + 1\n    except ValueError:\n        return 1\n\n\ndef guardar_entrada(empleado, turno, fecha_hora):\n    try:\n        turno = int(turno)\n    except ValueError:\n        turno = 1\n\n    estado = determinar_estado(turno, fecha_hora)\n    registro_id = obtener_siguiente_id(ARCHIVO_ENTRADAS)\n\n    # AQUÍ CAMBIAMOS F  V (visible por defecto)\n    with open(ARCHIVO_ENTRADAS, \"a\", encoding=\"utf-8\") as f:\n        f.write(f\"{registro_id} - {empleado} - Turno {turno} - {fecha_hora} - Estado: {estado} - V/F: V\\n\")\n\n    print(\"\\nEntrada registrada correctamente:\")\n    print(f\"Número de registro: {registro_id}\")\n    print(f\"Empleado: {empleado}\")\n    print(f\"Turno: {turno}\")\n    print(f\"Fecha y hora: {fecha_hora}\")\n    print(f\"Estado: {estado}\")\n    print(\"Visibilidad: V (visible)\")\n\n\n#     MOSTRAR SOLO VISIBLES\n\ndef mostrar_visibles():\n    if not os.path.exists(ARCHIVO_ENTRADAS):\n        print(\"No hay registros.\")\n        return\n\n    print(\"\\n=== REGISTROS VISIBLES (V) ===\")\n    with open(ARCHIVO_ENTRADAS, \"r\", encoding=\"utf-8\") as f:\n        for linea in f:\n            if \"V/F: V\" in linea:\n                print(linea.strip())\n\n\n#          CAMBIAR VISIBILIDAD AUTOMÁTICAMENTE\n\ndef cambiar_visibilidad_manual(id_registro, nuevo_valor):\n    \n    if not os.path.exists(ARCHIVO_ENTRADAS):\n        print(\"No existe el archivo.\")\n        return False\n\n    nuevas_lineas = []\n    encontrado = False\n\n    with open(ARCHIVO_ENTRADAS, \"r\", encoding=\"utf-8\") as f:\n        lineas = f.readlines()\n\n    for linea in lineas:\n        partes = linea.strip().split(\" - \")\n\n        # Verifica si la línea pertenece al ID solicitado\n        if partes[0] == str(id_registro):\n            encontrado = True\n            base = \" - \".join(partes[:-1])  \n            linea = f\"{base} - V/F: {nuevo_valor}\\n\"  \n\n        nuevas_lineas.append(linea)\n\n    if not encontrado:\n        print(\"ID no encontrado.\")\n        return False\n\n    # Guardar cambios\n    with open(ARCHIVO_ENTRADAS, \"w\", encoding=\"utf-8\") as f:\n        f.writelines(nuevas_lineas)\n\n    print(f\"ID {id_registro} cambiado a {nuevo_valor}.\")\n    return True\n\n    if not encontrado:\n        print(\"ID no encontrado.\")\n        return\n\n    with open(ARCHIVO_ENTRADAS, \"w\", encoding=\"utf-8\") as f:\n        f.writelines(nuevas_lineas)\n\n\n#              CAMBIO DE VISIBILIDAD MANUAL\n\ndef cambiar_visibilidad_manual(id_registro, nuevo_valor):\n    if not os.path.exists(ARCHIVO_ENTRADAS):\n        print(\"No existe el archivo.\")\n        return\n\n    nuevas_lineas = []\n    encontrado = False\n\n    with open(ARCHIVO_ENTRADAS, \"r\", encoding=\"utf-8\") as f:\n        lineas = f.readlines()\n\n    for linea in lineas:\n        partes = linea.strip().split(\" - \")\n\n        if partes[0] == str(id_registro):\n            encontrado = True\n            base = \" - \".join(partes[:-1])\n            linea = f\"{base} - V/F: {nuevo_valor}\\n\"\n\n        nuevas_lineas.append(linea)\n\n    if not encontrado:\n        print(\"ID no encontrado.\")\n        return\n\n    with open(ARCHIVO_ENTRADAS, \"w\", encoding=\"utf-8\") as f:\n        f.writelines(nuevas_lineas)\n\n    print(f\"ID {id_registro} cambiado manualmente a {nuevo_valor}.\")\n\n\n#                   MENÚ PRINCIPAL (CONSOLA)\n\ndef menu_principal():\n    while True:\n        print(\"\\n===== SISTEMA DE EMPLEADOS =====\")\n        print(\"1. Registrar entrada\")\n        print(\"2. Configurar horarios de turnos\")\n        print(\"3. Mostrar solo registros visibles (V)\")\n        print(\"4. Cambiar visibilidad V/F de un registro\")\n        print(\"5. Salir\")\n\n        opcion = input(\"Selecciona una opción: \")\n\n        if opcion == \"1\":\n            empleado = input(\"Nombre del empleado: \")\n\n            horarios = cargar_horarios()\n            print(\"\\nSelecciona turno:\")\n            print(f\"1. Turno 1 = {horarios[1].hour}:{horarios[1].minute:02d}\")\n            print(f\"2. Turno 2 = {horarios[2].hour}:{horarios[2].minute:02d}\")\n            print(f\"3. Turno 3 = {horarios[3].hour}:{horarios[3].minute:02d}\")\n\n            try:\n                turno = int(input(\"Turno (1-3): \"))\n                if turno not in [1, 2, 3]:\n                    raise ValueError\n            except ValueError:\n                print(\"Turno no válido, se asigna Turno 1.\")\n                turno = 1\n\n            fecha_hora = input(\"Fecha y hora (AAAA-MM-DD HH:MM:SS): \")\n            guardar_entrada(empleado, turno, fecha_hora)\n\n        elif opcion == \"2\":\n            menu_configurar_horarios()\n\n        elif opcion == \"3\":\n            mostrar_visibles()\n\n        elif opcion == \"4\":\n            print(\"\\n--- CAMBIAR VISIBILIDAD ---\")\n            print(\"1. Cambiar a V (Visible)\")\n            print(\"2. Cambiar a F (Oculto)\")\n\n            sub = input(\"Elige una opción: \")\n\n            if sub not in [\"1\", \"2\"]:\n                print(\"Opción inválida.\")\n                continue\n\n            try:\n                reg = int(input(\"ID del registro a modificar: \"))\n                nuevo_valor = \"V\" if sub == \"1\" else \"F\"\n                cambiar_visibilidad_manual(reg, nuevo_valor)\n            except:\n                print(\"ID inválido.\")\n\n        elif opcion == \"5\":\n            print(\"Saliendo…\")\n            break\n\n        else:\n            print(\"Opción inválida.\")\n\n\nif __name__ == \"__main__\":\n    menu_principal()",
-			"file": "CD/Registro_empleados.py",
-			"file_size": 8561,
-			"file_write_time": 134096167829912726,
+			"file": "PANTALLAS_EN_PY/Menu_registro_empleado.py",
 			"settings":
 			{
-				"buffer_size": 8248,
+				"buffer_size": 6842,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
@@ -185,44 +703,408 @@
 				[
 					4,
 					1,
-					"left_delete",
+					"paste",
 					null,
-					"AQAAAPUMAAAAAAAA9QwAAAAAAAADAAAA4oaS",
-					"AQAAAAAAAAABAAAA9gwAAAAAAAD2DAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nDebugger\n--------\n\n  For setup see https://github.com/daveleroy/sublime_debugger\n\n  For a full list of changes see https://github.com/daveleroy/sublime_debugger/commits\n\n  Version 0.11.6 - Dec 22, 2024\n  - python: fixes issue with installing adapter\n\n  Version 0.11.5 - May 25, 2024\n  - Renamed `ui_scale` to `font_size` to better reflect what it does\n  - Added `internal_width_modifier` to allow adjusting the width of the content if the variables panel is being clipped\n\n\n  Version 0.11.3 - May 6, 2024\n  - Support for reverse debugging for adapters that support it (@Phaiax)\n  - Fixes a compatibility issue with LSP 4070-2.0.1\n\n  - gdb: Added a few extra commands for improved reverse debugging support (@Phaiax)\n  - python: Changed type to `debugpy` to match vscode and updated to use vscode-python-debugger\n\n\n  Version 0.11.2 - April 19, 2024\n  - Updated to handle LSP using the 3.8 plugin host (some adapters require LSP)\n\n\n  Version 0.11.1 - March 24, 2024\n  - Fixes issue with installing adapters\n\n\n  Version 0.11.0 - March 23, 2024\n  - Added `Debugger: Example Projects` for opening example projects for each adapter\n  - Added `internal_font_scale` setting for users who have issues with the font overlapping the ui (#223)\n  - Added `always_keep_visible` setting which attempts to always keep the debugger panel open when there is no other output panel\n  - The callstack panel now shows the tabs at the bottom like the console\n  - Improved the messaging around installing adapters\n  - Hide Debugger33 package from PackageControl listings (@narenkarthicktp)\n  - Fixes an issue where stepping was targeting the wrong thread\n\n  - sublime: initial support for debugging sublime plugins\n\n\n  Version 0.10.1 - April 3, 2023\n  - Fixes an issue with new versions of vscode-js-debug\n\n\n  Version 0.10.0 - April 1, 2023\n  - Initial support for viewing and stepping through disassembly (not all adapters support this)\n  - Fixes a few issues with how multiple simultaneous debug sessions are hanled\n  - All adapters are now packaged on github instead of taking some from openvsx since the openvsx api can be really slow\n  - LSP-json schema now issues an error message when an adapter type is not installed\n  - A number of minor layout and color tweaks to make the ui fit better with the default adaptive theme\n\n  - ruby: Switched to rdbg instead of readapt since that seems like the official dap server\n  - go: Support for `env` configuration option and default `cwd` to `${folder}`\n\n\n  Version 0.9.3 - Feb 4, 2023\n  - Minor improvements to the variables/watch display\n  - Show duplicate lines in the console with a counter\n  - Show none stderr/stdout output events as blue\n  - Fixes an issue with the java adapter (@LDAP)\n\n\n  Version 0.9.2 - Jan 19, 2023\n  - Fixes issue with Debugger unintentionally stealing command + click\n\n\n  Version 0.9.1 - Jan 15, 2023\n  - Fixes issue with latest release\n\n\n  Version 0.9.0 - Jan 14, 2023\n  - Add location information to some error messages such as launch errors which point to the configuration being run\n  - Improved validation of configurations\n\n  - Generate better html for clickable item to reduce unnecessary html elements\n  - Optimize the size of image assets with pngquant\n  - Optimize html and css generation\n  - Delay resizing the ui until the layout stop changing\n\n  - Fixes a few issues with stderr from the adapter not being logged correctly when a transport ends unexpectedly\n  - Fixes an issue where the debugger output panel was being forced to be too tall (you may need to delete the cached values in your workspace file)\n  - Fixes an issue with setting breakpoints in some adapters\n\n\n  Version 0.8.4 - Nov 19, 2022\n  - Changed how debugger console panels deal with extra vertical space\n  - Integrated terminals tab now appear next to the console tab instead of after the callstack tab\n  - Improvements to the protocol logging\n  - If the session ends unexpectedly then log anything from the transports stderr to the console\n  - Add `debugger_configurations` to project data when opening in a project (#189)\n  - Display multiple variables in the same console event better\n\n\n  Version 0.8.3 - Oct 16, 2022\n  - line up/down in the debugger console now cycles through previous commands\n  - Fixes issue with debugger console input not activating\n\n\n  Version 0.8.3 - Oct 16, 2022\n  - line up/down in the debugger console now cycles through previous commands\n  - Fixes issue with debugger console input not activating\n\n\n  Version 0.8.2 - Oct 15, 2022\n  - When copying text from the debugger console remove hidden syntax highlighting characters\n  - Fixes alignment issues on Windows/Linux\n\n\n  Version 0.8.1 - Oct 10, 2022\n  - The selected stack frame location indicator now shows a tick mark under the selected column\n  - Add context values for keybindings (debugger, debugger.visible, debugger.active)\n  - Adjusted layout calculations\n\n\n  Version 0.8.0 - Oct 8, 2022\n  - Show currently selected configuration in the controls bar instead of step controls when there is no active debug sessions\n  - Support for global debug configurations by adding configurations to `global_debugger_configurations` in the debugger settings\n  - The debugger can now be opened without a project file when there are global configurations\n  - Clicking on a breakpoint now shows the breakpoint menu\n  - Right clicking on a breakpoint removes it\n  - Show preview of configuration snippets when navigating the add configuration menu\n  - A number of improvements to the schema for LSP-json\n  - emulicious: Adds Emulicious Debugger (@Calindro)\n\n\n  Version 0.7.2 - Sep 26, 2022\n  - Minor bug fixes\n\n\n  Version 0.7.1 - Sep 25, 2022\n  - Refined debugger interface that was redesigned in the last release\n  - Allow inputting commands by typing into the debugger console\n  - The debugger interface now matches the current font-size this can be overridden with the setting `ui-scale`\n  - Fixes issue where breakpoints were not shown until a view was activated\n  - Allow installing older versions of some adapters by holding down command or option when selecting the adapter in the install adapters menu\n  - js: Fixes an issue where breakpoints were not being marked as verified\n  - go: Fixes an issue where the debugger would not automatically select a thread when stopped in some cases\n  - java: Adds Java debugger via LSP-jdtls (@LDAP)\n  - python: Automatically detect virtual environments (@LDAP)\n\n\n  Version 0.7.0\n  - Redesigned debugger ui so that the console output can appear in an output panel\n  - The hover expression behavior is smarter and can evaluate simple expressions like `a.b` `a->c` etc\n  - lua: Adds lua debugger via lua-local (@naoufalzerai)\n  - python: support for multiprocess debugging\n  - ruby: allow specifying readapt path via `ruby_readapt` preference\n  - go: updated to use dlv dap\n\n  Version 0.6.8\n  - python: fixes issue with installing adapter\n  - python: allow specifying the python interpreter with `python`\n\n\n  Version 0.6.7\n  - Fixes an issue with the latest version of vscode lldb\n\n\n  Version 0.6.6\n  - Allow inputing debugger commands directly into the debugger console\n  - Auto complete for debugger commands (not all adapters support this)\n  - A number of performance/usability improvements for the debugger console\n\n\n  Version 0.6.4\n  - Added support for vscode-js-debug for chrome/node/edge adapters\n  - Improved snippet support\n\n\n  Version 0.6.3\n  - Adjusted the calculation for determining a good value for ui_rem_width_scale\n  - Added setting ui_rem_width_scale_adjust_automatically for disabling automatic calculation of ui_rem_width_scale\n\n\n  Version 0.6.2\n  - Fixes a layout issue on Linux\n\n\n  Version 0.6.1\n  - Fixes an issue with the debugger panel not being correctly sized on Windows/Linux #121\n  - Fixes an issue with hover evaluation #152 (@ta946)\n\n\n  Version 0.6.0\n  - This update changes how the output is handled. Instead of showing up as a tab in the debugger UI the layout is changed to a split view and the output is created in a standard view. This isn't perfect but it at least allows copy/paste/scrolling etc. The output view now also supports some ansi escape codes. You can customize the layout/placement of the view in the settings.\n  - Adds dissasembly syntax for LLDB\n  - Elixer support (@timfjord)\n\n\n  Version 0.5.4\n  - Resolve the`$workspaceFolder` variable to first folder project instead of being an alias of `$project_path`  (@rchl)\n  - Fix layout positioning in latest ST dev builds (@rchl)\n  - lldb: Fixes an issue with the integrated terminal handling\n\n\n  Version 0.5.3\n  - Tool tips when hovering over debugger controls\n  - Moved Debugger menu item into tools -> Debugger\n  - Improved json schema support for auto completeing adapter configurations (requires LSP-json)\n  - Fixes node json schema contributions\n  - Fixes issue with installing the php adapter\n  - Fixes issues with localized pacakages and json schema/snippets\n  - Fixes issue with external terminal on mac\n\n\n  Version 0.5.2\n  - Disable winpty on Windows (needs to be rebuilt for python 3.8)\n\n\n  Version 0.5.1\n  - Fixes 64/32 bit windows importing the wrong winpyty versions\n\n\n  Version 0.5.0\n  - python: Allow module launch configurations (@anergictcell)\n  - lldb: fixes issue with toggle disassembly\n  - ruby: added adapter (requires readapt)\n\n  - The install adapter menu now checks installed adapters for updates (for most adapters)\n  - The install adapter menu now has a link to each adapters documentations\n\n  - Added 'Debugger: Clear Breakpoints' command that clears all breakpoints\n\n  - Support for exception breakpoint filter conditions (not all adapters support this)\n  - Support for debug session hierarchies which is going to be required for some complex adapter setups such as vscode-debug-js\n  - Support the \"clipboard\" context when copying a variables value\n\n  - When expanding a variable display a loading indicator when the variables children are fetched.\n  - Show error message inline when expanding a variable fails\n  - Allow expanding/collapsing a debug session\n  - Improved handling of stack frames that marked as labels\n  - Improved handling of stack frames that are marked as deemphasized or their source is deemphasized\n  - Fixes integrated terminal\n\n\n  Version 0.4.1\n  - Adds explicit font setting for debugger panel\n\n\n  Version 0.4.0\n  - debugger_configuration replaces debug.configurations and is now defined at the root of the .sublime-project instead of inside settings\n  - Adds support for tasks see https://github.com/daveleroy/sublime_debugger#tasks\n  - Adds support for pre_debug_task and post_debug_task which can be used to build etc\n  - Adds schema support for LSP-json for auto completeing adapter configurations (see https://github.com/sublimelsp/LSP-json)\n  - Improvements to lldb adapter adding toggle disassembly, display options, dereference options\n  - Clicking a terminal panel when already selected now shows an output panel with the entire contents\n  - Renamed a bunch of commands (so if you bound any commands check them)\n  - Node adapter now has snippets\n  - Fixes issues with latest release of lldb adapter\n  - Fixes default ui scale accross platforms\n\n\n  Version 0.3.1\n  - Fixes issue with sizing and alignment of panels on windows\n  - Fixes path of go adapter\n\n\n  Version 0.3.0\n  - Initial support for multiple debug sessions\n  - Use debugpy instead of ptvsd for python adapter\n  - Right align line numbers in variables/callstack panel\n  - Improved layout of panels\n\n\n  Version 0.2.3\n  - Updates path for lldb\n\n\n  Version 0.2.3\n  - Updates path for lldb\n\n\n  Version 0.2.2\n  - Show dialog with error message when launching fails (to match vscode)\n  - In multi-threaded programs the reason for why a specific thread was stopped is now only displayed on that thread even if all threads were stopped\n  - If running a build with `sublime_build` in the configuration don't start debugging if the build fails with an exit code\n  - Fixes issue with pause not working\n  - Fixes rendering performance regression\n  - Fixes gutter icons on windows\n\n\n  Version 0.2.1\n  - Debugging with a single thread now just displays the stack frames without the thread header\n  - When launching a configuration and the adapter is not installed offer to install it\n  - When auto selecting a stack frame prefer the first none subtle stack frame\n  - Fixes call stack layout when encountering long stack frame names\n  - Fixes various issues with multi threaded debugging\n  - Fixes hover providers\n\n\n  Version 0.2.0\n  - Support for column breakpoints (requires adapter support)\n  - Support for data breakpoints (requires adapter support, currently only lldb?)\n  - Left-click gutter now toggles breakpoints, right-clicking a breakpoint allows editing/advanced options\n  - Watch expressions\n  - Loaded Modules/Sources panels\n  - Adds Node debug adapter (@appelgriebsch)\n  - External terminal support. Terminal on Mac (Needs support for Windows/Linux) or Sublime's Terminus package.\n  - Integrated terminal now strips ascii control sequences\n  - Settings button\n  - Show currently installed version of an adapter, show download progress when installing an adapter\n  - Fixes issues that sometimes occurred installing/reinstalling adapters\n  - Fixes issues with reloading plugin\n\n\n  Version 0.1.8\n  - Fixes core not defined error\n\n\n  Version 0.1.7\n  - Allow setting logging options in settings\n  - Updated url for vscode-firefox-debugger (@appelgriebsch)\n  - Fixes issue preventing Debugger: Install Adapters from being run from the command palette\n  - Fixes issue where some debug adapters were failing to be fully unzipped on Windows because of long paths\n\n\n  Version 0.1.6\n  - Adds run to cursor command\n  - Fixes issue preventing installing debug adapters\n\n\n  Version 0.1.5\n  - Fixes issue that prevented debugging on windows\n\n\n  Version 0.1.4\n  - New styling of panels and updated layout to better support temporary panels created for build results/integrated terminal (and in the future allow customizing the layout of the panels)\n  - New console rendering code to support text wrapping and build results/integrated terminal\n  - Support internal terminal requests to allow program input. Requires configuration changes to use this feature which depends on the adapter in question. (LLVM uses \"terminal\": \"integrated\")\n  - Allow defining platform specific configuration settings with a top level object called \"linux\", \"osx\", or \"windows\" in your configuration. Same as vscode\n  - Fixes issue where hover providers/autocomplete/run command was not working for some debug adapters\n  - Fixes issue where using $file and other variables in a configuration had their values expanded when the debugger was opened not when the debugger was started\n  - Fixes some wonkiness that occurred when stepping the debugger that caused it to not update correctly\n\n\n  Version 0.1.3\n  - When attempting to open the debugger in a window without a sublime project prompt the user to create one.\n  - Fixes some other minor bugs and configuration issues\n\n\n  Version 0.1.0\n  - Adds package control support\n\nPackage Control\n---------------\n\n  Version 4.2.0 Release Notes\n  ===========================\n\n  IMPORTANT NOTICE!\n\n    This is the last version with support for ST3.\n\n  NEW DEFAULT CHANNEL\n\n    Package Control is using the following new default channel by default:\n\n          https://packages.sublimetext.io/channel.json\n\n    Any request to https://packagecontrol.io/channel_v3.json is redirected.\n\n    To discover packages online, visit\n\n          https://packages.sublimetext.io\n\n    New packages and libraries are published daily at 0:00 UTC.\n\n    Dedicated libraries channel is still available, but its content is merged\n    into new default channel and thus doesn't need to be specified explicitly.\n\n    This change is required as packagecontrol.io is more or less unmaintained\n    for several years, didn't even receive related Package Control 4 updates,\n    suffered various even long lasting outages and its infrastructure seems to\n    struggle with current amount of packages and data needed to be managed,\n    which results in packages frequently not being available for install or\n    upgrade. As current community doesn't have access to its infrastructure.\n\n    The new crawler works way more efficient and uses a more intelligent\n    caching strategy to reduce network bandwidth. Full downloads are only\n    made if packages or libraries have been added or modified really changed.\n\n    There's still some work to do to consolidate new infrastructure,\n    which this change is a first and important step, for.\n\n    The new crawler and website are maintained under:\n\n          https://github.com/packagecontrol\n  Version 4.0.0 Release Notes\n  ===========================\n\n\n  Major Changes\n  -------------\n\n  - Requires at least ST3143 (1.0)\n\n  - drops support for python 2.x\n\n  - adds support for python 3.8\n\n  - Package and library version scheme changed from SemVer to PEP440\n    for better pre-release handling and compatibility with python packages.\n\n    Note: Package versions should still follow SemVer like `<major>.<minor>.<micro>`\n\n  - Dependencies are now called libraries.\n\n    They are installed to Data/Libs as ordinary python packages.\n\n    Existing managed dependencies are automatically converted.\n\n    Can install python wheels (*.whl)\n\n  - Channel/repository scheme v1.0 and v1.2 are no longer supported\n    as they contain only packages for no longer supported ST2.\n\n  - New channel/repository scheme v4.0.0 is introduced,\n    which allows to specify supported `python_versions`.\n\n    Parsing and installing \"requirements.txt\" is however not yet supported.\n\n    For working examples checkout example-channel.json and example-repository.json\n    from Package Control Github repository.\n\n\n  Note for Package Devs\n  ---------------------\n\n    packagecontrol.io does not yet support the new 4.0.0 scheme\n    and thus doesn't ship python 3.8 dependencies/libraries.\n\n    Therefore do not upgrade repositories to 4.0.0 scheme,\n    which are included in default channel.\n\n    You can however create your own 4.0.0 repository and\n    add it via 'Package Control: Add Repository'.\n\n    Metadata for python 3.8 compatible libraries are maintained at\n\n      https://github.com/packagecontrol/channel\n\n    and shipped via\n\n      https://packagecontrol.github.io/channel/channel_v4.json\n\n    so all packages can already migrate to python 3.8\n\n\n  New features include:\n  ---------------------\n\n    - support for python 3.8 dependencies (now called libraries)\n    - add openssl 3.0 support via asn1crypto 1.5.1 and oscrypto 1.3.0\n    - prune backups older than 14 days (#145)\n    - provide all relevant operations via ApplicationCommands (#1071)\n      + Advanced Disable Packages (disable_packages)\n      + Advanced Enable Packages (enable_packages)\n      + Advanced Install Packages (install_packages)\n      + Advanced Upgrade Packages (upgrade_packages)\n      + Advanced Remove Packages (remove_packages)\n    - allow relative paths in channel.json and repository.json (#1329)\n    - hide (auto-generated?) packages via `.hidden-sublime-package` file (#1429)\n    - support for cooperate_packages (#1406, #1633)\n    - IntelliSense support for for channel.json/repository.json via jsonschemas\n    - support for asset based Github/Gitlab releases (#1484)\n\n\n  Bug fixes include:\n  ------------------\n\n    - abort package operation if backup fails (#1000)\n    - fix long path support on Windows (#1020)\n    - fix missing packages not being installed if an overriding unpacked package exists (#1155)\n    - fix errors being displayed for git/hg tracked packages without remote (#1167)\n    - fix not all git/hg tracked packages being upgraded\n    - fix packages in auto_upgrade_ignore setting being renamed without upgrade (#1370)\n    - fix corruption of installed_packages or ignored_packages settings\n    - fix backup/restore of ST's \"auto\" color schemes and themes\n    - fix manual package upgrades converting unmanaged packages to managed ones (#1272)\n    - fix libraries not being upgraded by auto upgrader\n    - fix prompt for ST restart before all operations are completed\n    - fix SSL_CERT_FILE environment variable being ignored\n    - fix repositories of channels without cache not being downloaded (#1354, #1601)\n    - fix QuickPanelItem parse errors in URLs (#1580)\n    - fix unavailable libraries being reported as successfully installed (#1605)\n    - fix error message flooding\n    - keep ingored_packages clean by removing non-existing packages\n\n    ...\n\n    The full list of addressed bugs can be found at:\n\n      https://github.com/wbond/package_control/milestone/1",
-			"settings":
-			{
-				"buffer_size": 20698,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"insert",
-					{
-						"characters": "Package Control Messages\n========================\n\nDebugger\n--------\n\n  For setup see https://github.com/daveleroy/sublime_debugger\n\n  For a full list of changes see https://github.com/daveleroy/sublime_debugger/commits\n\n  Version 0.11.6 - Dec 22, 2024\n  - python: fixes issue with installing adapter\n\n  Version 0.11.5 - May 25, 2024\n  - Renamed `ui_scale` to `font_size` to better reflect what it does\n  - Added `internal_width_modifier` to allow adjusting the width of the content if the variables panel is being clipped\n\n\n  Version 0.11.3 - May 6, 2024\n  - Support for reverse debugging for adapters that support it (@Phaiax)\n  - Fixes a compatibility issue with LSP 4070-2.0.1\n\n  - gdb: Added a few extra commands for improved reverse debugging support (@Phaiax)\n  - python: Changed type to `debugpy` to match vscode and updated to use vscode-python-debugger\n\n\n  Version 0.11.2 - April 19, 2024\n  - Updated to handle LSP using the 3.8 plugin host (some adapters require LSP)\n\n\n  Version 0.11.1 - March 24, 2024\n  - Fixes issue with installing adapters\n\n\n  Version 0.11.0 - March 23, 2024\n  - Added `Debugger: Example Projects` for opening example projects for each adapter\n  - Added `internal_font_scale` setting for users who have issues with the font overlapping the ui (#223)\n  - Added `always_keep_visible` setting which attempts to always keep the debugger panel open when there is no other output panel\n  - The callstack panel now shows the tabs at the bottom like the console\n  - Improved the messaging around installing adapters\n  - Hide Debugger33 package from PackageControl listings (@narenkarthicktp)\n  - Fixes an issue where stepping was targeting the wrong thread\n\n  - sublime: initial support for debugging sublime plugins\n\n\n  Version 0.10.1 - April 3, 2023\n  - Fixes an issue with new versions of vscode-js-debug\n\n\n  Version 0.10.0 - April 1, 2023\n  - Initial support for viewing and stepping through disassembly (not all adapters support this)\n  - Fixes a few issues with how multiple simultaneous debug sessions are hanled\n  - All adapters are now packaged on github instead of taking some from openvsx since the openvsx api can be really slow\n  - LSP-json schema now issues an error message when an adapter type is not installed\n  - A number of minor layout and color tweaks to make the ui fit better with the default adaptive theme\n\n  - ruby: Switched to rdbg instead of readapt since that seems like the official dap server\n  - go: Support for `env` configuration option and default `cwd` to `${folder}`\n\n\n  Version 0.9.3 - Feb 4, 2023\n  - Minor improvements to the variables/watch display\n  - Show duplicate lines in the console with a counter\n  - Show none stderr/stdout output events as blue\n  - Fixes an issue with the java adapter (@LDAP)\n\n\n  Version 0.9.2 - Jan 19, 2023\n  - Fixes issue with Debugger unintentionally stealing command + click\n\n\n  Version 0.9.1 - Jan 15, 2023\n  - Fixes issue with latest release\n\n\n  Version 0.9.0 - Jan 14, 2023\n  - Add location information to some error messages such as launch errors which point to the configuration being run\n  - Improved validation of configurations\n\n  - Generate better html for clickable item to reduce unnecessary html elements\n  - Optimize the size of image assets with pngquant\n  - Optimize html and css generation\n  - Delay resizing the ui until the layout stop changing\n\n  - Fixes a few issues with stderr from the adapter not being logged correctly when a transport ends unexpectedly\n  - Fixes an issue where the debugger output panel was being forced to be too tall (you may need to delete the cached values in your workspace file)\n  - Fixes an issue with setting breakpoints in some adapters\n\n\n  Version 0.8.4 - Nov 19, 2022\n  - Changed how debugger console panels deal with extra vertical space\n  - Integrated terminals tab now appear next to the console tab instead of after the callstack tab\n  - Improvements to the protocol logging\n  - If the session ends unexpectedly then log anything from the transports stderr to the console\n  - Add `debugger_configurations` to project data when opening in a project (#189)\n  - Display multiple variables in the same console event better\n\n\n  Version 0.8.3 - Oct 16, 2022\n  - line up/down in the debugger console now cycles through previous commands\n  - Fixes issue with debugger console input not activating\n\n\n  Version 0.8.3 - Oct 16, 2022\n  - line up/down in the debugger console now cycles through previous commands\n  - Fixes issue with debugger console input not activating\n\n\n  Version 0.8.2 - Oct 15, 2022\n  - When copying text from the debugger console remove hidden syntax highlighting characters\n  - Fixes alignment issues on Windows/Linux\n\n\n  Version 0.8.1 - Oct 10, 2022\n  - The selected stack frame location indicator now shows a tick mark under the selected column\n  - Add context values for keybindings (debugger, debugger.visible, debugger.active)\n  - Adjusted layout calculations\n\n\n  Version 0.8.0 - Oct 8, 2022\n  - Show currently selected configuration in the controls bar instead of step controls when there is no active debug sessions\n  - Support for global debug configurations by adding configurations to `global_debugger_configurations` in the debugger settings\n  - The debugger can now be opened without a project file when there are global configurations\n  - Clicking on a breakpoint now shows the breakpoint menu\n  - Right clicking on a breakpoint removes it\n  - Show preview of configuration snippets when navigating the add configuration menu\n  - A number of improvements to the schema for LSP-json\n  - emulicious: Adds Emulicious Debugger (@Calindro)\n\n\n  Version 0.7.2 - Sep 26, 2022\n  - Minor bug fixes\n\n\n  Version 0.7.1 - Sep 25, 2022\n  - Refined debugger interface that was redesigned in the last release\n  - Allow inputting commands by typing into the debugger console\n  - The debugger interface now matches the current font-size this can be overridden with the setting `ui-scale`\n  - Fixes issue where breakpoints were not shown until a view was activated\n  - Allow installing older versions of some adapters by holding down command or option when selecting the adapter in the install adapters menu\n  - js: Fixes an issue where breakpoints were not being marked as verified\n  - go: Fixes an issue where the debugger would not automatically select a thread when stopped in some cases\n  - java: Adds Java debugger via LSP-jdtls (@LDAP)\n  - python: Automatically detect virtual environments (@LDAP)\n\n\n  Version 0.7.0\n  - Redesigned debugger ui so that the console output can appear in an output panel\n  - The hover expression behavior is smarter and can evaluate simple expressions like `a.b` `a->c` etc\n  - lua: Adds lua debugger via lua-local (@naoufalzerai)\n  - python: support for multiprocess debugging\n  - ruby: allow specifying readapt path via `ruby_readapt` preference\n  - go: updated to use dlv dap\n\n  Version 0.6.8\n  - python: fixes issue with installing adapter\n  - python: allow specifying the python interpreter with `python`\n\n\n  Version 0.6.7\n  - Fixes an issue with the latest version of vscode lldb\n\n\n  Version 0.6.6\n  - Allow inputing debugger commands directly into the debugger console\n  - Auto complete for debugger commands (not all adapters support this)\n  - A number of performance/usability improvements for the debugger console\n\n\n  Version 0.6.4\n  - Added support for vscode-js-debug for chrome/node/edge adapters\n  - Improved snippet support\n\n\n  Version 0.6.3\n  - Adjusted the calculation for determining a good value for ui_rem_width_scale\n  - Added setting ui_rem_width_scale_adjust_automatically for disabling automatic calculation of ui_rem_width_scale\n\n\n  Version 0.6.2\n  - Fixes a layout issue on Linux\n\n\n  Version 0.6.1\n  - Fixes an issue with the debugger panel not being correctly sized on Windows/Linux #121\n  - Fixes an issue with hover evaluation #152 (@ta946)\n\n\n  Version 0.6.0\n  - This update changes how the output is handled. Instead of showing up as a tab in the debugger UI the layout is changed to a split view and the output is created in a standard view. This isn't perfect but it at least allows copy/paste/scrolling etc. The output view now also supports some ansi escape codes. You can customize the layout/placement of the view in the settings.\n  - Adds dissasembly syntax for LLDB\n  - Elixer support (@timfjord)\n\n\n  Version 0.5.4\n  - Resolve the`$workspaceFolder` variable to first folder project instead of being an alias of `$project_path`  (@rchl)\n  - Fix layout positioning in latest ST dev builds (@rchl)\n  - lldb: Fixes an issue with the integrated terminal handling\n\n\n  Version 0.5.3\n  - Tool tips when hovering over debugger controls\n  - Moved Debugger menu item into tools -> Debugger\n  - Improved json schema support for auto completeing adapter configurations (requires LSP-json)\n  - Fixes node json schema contributions\n  - Fixes issue with installing the php adapter\n  - Fixes issues with localized pacakages and json schema/snippets\n  - Fixes issue with external terminal on mac\n\n\n  Version 0.5.2\n  - Disable winpty on Windows (needs to be rebuilt for python 3.8)\n\n\n  Version 0.5.1\n  - Fixes 64/32 bit windows importing the wrong winpyty versions\n\n\n  Version 0.5.0\n  - python: Allow module launch configurations (@anergictcell)\n  - lldb: fixes issue with toggle disassembly\n  - ruby: added adapter (requires readapt)\n\n  - The install adapter menu now checks installed adapters for updates (for most adapters)\n  - The install adapter menu now has a link to each adapters documentations\n\n  - Added 'Debugger: Clear Breakpoints' command that clears all breakpoints\n\n  - Support for exception breakpoint filter conditions (not all adapters support this)\n  - Support for debug session hierarchies which is going to be required for some complex adapter setups such as vscode-debug-js\n  - Support the \"clipboard\" context when copying a variables value\n\n  - When expanding a variable display a loading indicator when the variables children are fetched.\n  - Show error message inline when expanding a variable fails\n  - Allow expanding/collapsing a debug session\n  - Improved handling of stack frames that marked as labels\n  - Improved handling of stack frames that are marked as deemphasized or their source is deemphasized\n  - Fixes integrated terminal\n\n\n  Version 0.4.1\n  - Adds explicit font setting for debugger panel\n\n\n  Version 0.4.0\n  - debugger_configuration replaces debug.configurations and is now defined at the root of the .sublime-project instead of inside settings\n  - Adds support for tasks see https://github.com/daveleroy/sublime_debugger#tasks\n  - Adds support for pre_debug_task and post_debug_task which can be used to build etc\n  - Adds schema support for LSP-json for auto completeing adapter configurations (see https://github.com/sublimelsp/LSP-json)\n  - Improvements to lldb adapter adding toggle disassembly, display options, dereference options\n  - Clicking a terminal panel when already selected now shows an output panel with the entire contents\n  - Renamed a bunch of commands (so if you bound any commands check them)\n  - Node adapter now has snippets\n  - Fixes issues with latest release of lldb adapter\n  - Fixes default ui scale accross platforms\n\n\n  Version 0.3.1\n  - Fixes issue with sizing and alignment of panels on windows\n  - Fixes path of go adapter\n\n\n  Version 0.3.0\n  - Initial support for multiple debug sessions\n  - Use debugpy instead of ptvsd for python adapter\n  - Right align line numbers in variables/callstack panel\n  - Improved layout of panels\n\n\n  Version 0.2.3\n  - Updates path for lldb\n\n\n  Version 0.2.3\n  - Updates path for lldb\n\n\n  Version 0.2.2\n  - Show dialog with error message when launching fails (to match vscode)\n  - In multi-threaded programs the reason for why a specific thread was stopped is now only displayed on that thread even if all threads were stopped\n  - If running a build with `sublime_build` in the configuration don't start debugging if the build fails with an exit code\n  - Fixes issue with pause not working\n  - Fixes rendering performance regression\n  - Fixes gutter icons on windows\n\n\n  Version 0.2.1\n  - Debugging with a single thread now just displays the stack frames without the thread header\n  - When launching a configuration and the adapter is not installed offer to install it\n  - When auto selecting a stack frame prefer the first none subtle stack frame\n  - Fixes call stack layout when encountering long stack frame names\n  - Fixes various issues with multi threaded debugging\n  - Fixes hover providers\n\n\n  Version 0.2.0\n  - Support for column breakpoints (requires adapter support)\n  - Support for data breakpoints (requires adapter support, currently only lldb?)\n  - Left-click gutter now toggles breakpoints, right-clicking a breakpoint allows editing/advanced options\n  - Watch expressions\n  - Loaded Modules/Sources panels\n  - Adds Node debug adapter (@appelgriebsch)\n  - External terminal support. Terminal on Mac (Needs support for Windows/Linux) or Sublime's Terminus package.\n  - Integrated terminal now strips ascii control sequences\n  - Settings button\n  - Show currently installed version of an adapter, show download progress when installing an adapter\n  - Fixes issues that sometimes occurred installing/reinstalling adapters\n  - Fixes issues with reloading plugin\n\n\n  Version 0.1.8\n  - Fixes core not defined error\n\n\n  Version 0.1.7\n  - Allow setting logging options in settings\n  - Updated url for vscode-firefox-debugger (@appelgriebsch)\n  - Fixes issue preventing Debugger: Install Adapters from being run from the command palette\n  - Fixes issue where some debug adapters were failing to be fully unzipped on Windows because of long paths\n\n\n  Version 0.1.6\n  - Adds run to cursor command\n  - Fixes issue preventing installing debug adapters\n\n\n  Version 0.1.5\n  - Fixes issue that prevented debugging on windows\n\n\n  Version 0.1.4\n  - New styling of panels and updated layout to better support temporary panels created for build results/integrated terminal (and in the future allow customizing the layout of the panels)\n  - New console rendering code to support text wrapping and build results/integrated terminal\n  - Support internal terminal requests to allow program input. Requires configuration changes to use this feature which depends on the adapter in question. (LLVM uses \"terminal\": \"integrated\")\n  - Allow defining platform specific configuration settings with a top level object called \"linux\", \"osx\", or \"windows\" in your configuration. Same as vscode\n  - Fixes issue where hover providers/autocomplete/run command was not working for some debug adapters\n  - Fixes issue where using $file and other variables in a configuration had their values expanded when the debugger was opened not when the debugger was started\n  - Fixes some wonkiness that occurred when stepping the debugger that caused it to not update correctly\n\n\n  Version 0.1.3\n  - When attempting to open the debugger in a window without a sublime project prompt the user to create one.\n  - Fixes some other minor bugs and configuration issues\n\n\n  Version 0.1.0\n  - Adds package control support"
-					},
-					"SgIAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAACDAAAAAAAAAAAAAACDAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAADbAAAAAAAAAAAAAADbAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAAD8AAAAAAAAAAAAAAD8AAAAAAAAAP0AAAAAAAAAAAAAAP0AAAAAAAAALAEAAAAAAAAAAAAALAEAAAAAAAAtAQAAAAAAAAAAAAAtAQAAAAAAAC4BAAAAAAAAAAAAAC4BAAAAAAAATQEAAAAAAAAAAAAATQEAAAAAAABOAQAAAAAAAAAAAABOAQAAAAAAAJIBAAAAAAAAAAAAAJIBAAAAAAAAkwEAAAAAAAAAAAAAkwEAAAAAAAAKAgAAAAAAAAAAAAAKAgAAAAAAAAsCAAAAAAAAAAAAAAsCAAAAAAAADAIAAAAAAAAAAAAADAIAAAAAAAANAgAAAAAAAAAAAAANAgAAAAAAACsCAAAAAAAAAAAAACsCAAAAAAAALAIAAAAAAAAAAAAALAIAAAAAAAB0AgAAAAAAAAAAAAB0AgAAAAAAAHUCAAAAAAAAAAAAAHUCAAAAAAAAqAIAAAAAAAAAAAAAqAIAAAAAAACpAgAAAAAAAAAAAACpAgAAAAAAAKoCAAAAAAAAAAAAAKoCAAAAAAAA/gIAAAAAAAAAAAAA/gIAAAAAAAD/AgAAAAAAAAAAAAD/AgAAAAAAAF4DAAAAAAAAAAAAAF4DAAAAAAAAXwMAAAAAAAAAAAAAXwMAAAAAAABgAwAAAAAAAAAAAABgAwAAAAAAAGEDAAAAAAAAAAAAAGEDAAAAAAAAggMAAAAAAAAAAAAAggMAAAAAAACDAwAAAAAAAAAAAACDAwAAAAAAANIDAAAAAAAAAAAAANIDAAAAAAAA0wMAAAAAAAAAAAAA0wMAAAAAAADUAwAAAAAAAAAAAADUAwAAAAAAANUDAAAAAAAAAAAAANUDAAAAAAAA9gMAAAAAAAAAAAAA9gMAAAAAAAD3AwAAAAAAAAAAAAD3AwAAAAAAAB8EAAAAAAAAAAAAAB8EAAAAAAAAIAQAAAAAAAAAAAAAIAQAAAAAAAAhBAAAAAAAAAAAAAAhBAAAAAAAACIEAAAAAAAAAAAAACIEAAAAAAAAQwQAAAAAAAAAAAAAQwQAAAAAAABEBAAAAAAAAAAAAABEBAAAAAAAAJgEAAAAAAAAAAAAAJgEAAAAAAAAmQQAAAAAAAAAAAAAmQQAAAAAAAACBQAAAAAAAAAAAAACBQAAAAAAAAMFAAAAAAAAAAAAAAMFAAAAAAAAhAUAAAAAAAAAAAAAhAUAAAAAAACFBQAAAAAAAAAAAACFBQAAAAAAAM4FAAAAAAAAAAAAAM4FAAAAAAAAzwUAAAAAAAAAAAAAzwUAAAAAAAAEBgAAAAAAAAAAAAAEBgAAAAAAAAUGAAAAAAAAAAAAAAUGAAAAAAAAUAYAAAAAAAAAAAAAUAYAAAAAAABRBgAAAAAAAAAAAABRBgAAAAAAAJEGAAAAAAAAAAAAAJEGAAAAAAAAkgYAAAAAAAAAAAAAkgYAAAAAAACTBgAAAAAAAAAAAACTBgAAAAAAAM0GAAAAAAAAAAAAAM0GAAAAAAAAzgYAAAAAAAAAAAAAzgYAAAAAAADPBgAAAAAAAAAAAADPBgAAAAAAANAGAAAAAAAAAAAAANAGAAAAAAAA8AYAAAAAAAAAAAAA8AYAAAAAAADxBgAAAAAAAAAAAADxBgAAAAAAACgHAAAAAAAAAAAAACgHAAAAAAAAKQcAAAAAAAAAAAAAKQcAAAAAAAAqBwAAAAAAAAAAAAAqBwAAAAAAACsHAAAAAAAAAAAAACsHAAAAAAAASwcAAAAAAAAAAAAASwcAAAAAAABMBwAAAAAAAAAAAABMBwAAAAAAAKwHAAAAAAAAAAAAAKwHAAAAAAAArQcAAAAAAAAAAAAArQcAAAAAAAD8BwAAAAAAAAAAAAD8BwAAAAAAAP0HAAAAAAAAAAAAAP0HAAAAAAAAdQgAAAAAAAAAAAAAdQgAAAAAAAB2CAAAAAAAAAAAAAB2CAAAAAAAAMsIAAAAAAAAAAAAAMsIAAAAAAAAzAgAAAAAAAAAAAAAzAgAAAAAAAAzCQAAAAAAAAAAAAAzCQAAAAAAADQJAAAAAAAAAAAAADQJAAAAAAAANQkAAAAAAAAAAAAANQkAAAAAAACQCQAAAAAAAAAAAACQCQAAAAAAAJEJAAAAAAAAAAAAAJEJAAAAAAAA4AkAAAAAAAAAAAAA4AkAAAAAAADhCQAAAAAAAAAAAADhCQAAAAAAAOIJAAAAAAAAAAAAAOIJAAAAAAAA4wkAAAAAAAAAAAAA4wkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAEKAAAAAAAAAAAAAAEKAAAAAAAANgoAAAAAAAAAAAAANgoAAAAAAAA3CgAAAAAAAAAAAAA3CgAAAAAAAG0KAAAAAAAAAAAAAG0KAAAAAAAAbgoAAAAAAAAAAAAAbgoAAAAAAACfCgAAAAAAAAAAAACfCgAAAAAAAKAKAAAAAAAAAAAAAKAKAAAAAAAA0AoAAAAAAAAAAAAA0AoAAAAAAADRCgAAAAAAAAAAAADRCgAAAAAAANIKAAAAAAAAAAAAANIKAAAAAAAA0woAAAAAAAAAAAAA0woAAAAAAADxCgAAAAAAAAAAAADxCgAAAAAAAPIKAAAAAAAAAAAAAPIKAAAAAAAAOAsAAAAAAAAAAAAAOAsAAAAAAAA5CwAAAAAAAAAAAAA5CwAAAAAAADoLAAAAAAAAAAAAADoLAAAAAAAAOwsAAAAAAAAAAAAAOwsAAAAAAABZCwAAAAAAAAAAAABZCwAAAAAAAFoLAAAAAAAAAAAAAFoLAAAAAAAAfQsAAAAAAAAAAAAAfQsAAAAAAAB+CwAAAAAAAAAAAAB+CwAAAAAAAH8LAAAAAAAAAAAAAH8LAAAAAAAAgAsAAAAAAAAAAAAAgAsAAAAAAACeCwAAAAAAAAAAAACeCwAAAAAAAJ8LAAAAAAAAAAAAAJ8LAAAAAAAAEwwAAAAAAAAAAAAAEwwAAAAAAAAUDAAAAAAAAAAAAAAUDAAAAAAAAD0MAAAAAAAAAAAAAD0MAAAAAAAAPgwAAAAAAAAAAAAAPgwAAAAAAAA/DAAAAAAAAAAAAAA/DAAAAAAAAI4MAAAAAAAAAAAAAI4MAAAAAAAAjwwAAAAAAAAAAAAAjwwAAAAAAADCDAAAAAAAAAAAAADCDAAAAAAAAMMMAAAAAAAAAAAAAMMMAAAAAAAA5wwAAAAAAAAAAAAA5wwAAAAAAADoDAAAAAAAAAAAAADoDAAAAAAAACANAAAAAAAAAAAAACANAAAAAAAAIQ0AAAAAAAAAAAAAIQ0AAAAAAAAiDQAAAAAAAAAAAAAiDQAAAAAAAJMNAAAAAAAAAAAAAJMNAAAAAAAAlA0AAAAAAAAAAAAAlA0AAAAAAAAoDgAAAAAAAAAAAAAoDgAAAAAAACkOAAAAAAAAAAAAACkOAAAAAAAAZQ4AAAAAAAAAAAAAZQ4AAAAAAABmDgAAAAAAAAAAAABmDgAAAAAAAGcOAAAAAAAAAAAAAGcOAAAAAAAAaA4AAAAAAAAAAAAAaA4AAAAAAACGDgAAAAAAAAAAAACGDgAAAAAAAIcOAAAAAAAAAAAAAIcOAAAAAAAAzQ4AAAAAAAAAAAAAzQ4AAAAAAADODgAAAAAAAAAAAADODgAAAAAAADAPAAAAAAAAAAAAADAPAAAAAAAAMQ8AAAAAAAAAAAAAMQ8AAAAAAABZDwAAAAAAAAAAAABZDwAAAAAAAFoPAAAAAAAAAAAAAFoPAAAAAAAAug8AAAAAAAAAAAAAug8AAAAAAAC7DwAAAAAAAAAAAAC7DwAAAAAAAA0QAAAAAAAAAAAAAA0QAAAAAAAADhAAAAAAAAAAAAAADhAAAAAAAABNEAAAAAAAAAAAAABNEAAAAAAAAE4QAAAAAAAAAAAAAE4QAAAAAAAATxAAAAAAAAAAAAAATxAAAAAAAABQEAAAAAAAAAAAAABQEAAAAAAAAG4QAAAAAAAAAAAAAG4QAAAAAAAAbxAAAAAAAAAAAAAAbxAAAAAAAAC8EAAAAAAAAAAAAAC8EAAAAAAAAL0QAAAAAAAAAAAAAL0QAAAAAAAA9xAAAAAAAAAAAAAA9xAAAAAAAAD4EAAAAAAAAAAAAAD4EAAAAAAAAPkQAAAAAAAAAAAAAPkQAAAAAAAA+hAAAAAAAAAAAAAA+hAAAAAAAAAYEQAAAAAAAAAAAAAYEQAAAAAAABkRAAAAAAAAAAAAABkRAAAAAAAAZhEAAAAAAAAAAAAAZhEAAAAAAABnEQAAAAAAAAAAAABnEQAAAAAAAKERAAAAAAAAAAAAAKERAAAAAAAAohEAAAAAAAAAAAAAohEAAAAAAACjEQAAAAAAAAAAAACjEQAAAAAAAKQRAAAAAAAAAAAAAKQRAAAAAAAAwhEAAAAAAAAAAAAAwhEAAAAAAADDEQAAAAAAAAAAAADDEQAAAAAAAB8SAAAAAAAAAAAAAB8SAAAAAAAAIBIAAAAAAAAAAAAAIBIAAAAAAABLEgAAAAAAAAAAAABLEgAAAAAAAEwSAAAAAAAAAAAAAEwSAAAAAAAATRIAAAAAAAAAAAAATRIAAAAAAABOEgAAAAAAAAAAAABOEgAAAAAAAGwSAAAAAAAAAAAAAGwSAAAAAAAAbRIAAAAAAAAAAAAAbRIAAAAAAADMEgAAAAAAAAAAAADMEgAAAAAAAM0SAAAAAAAAAAAAAM0SAAAAAAAAIRMAAAAAAAAAAAAAIRMAAAAAAAAiEwAAAAAAAAAAAAAiEwAAAAAAAEITAAAAAAAAAAAAAEITAAAAAAAAQxMAAAAAAAAAAAAAQxMAAAAAAABEEwAAAAAAAAAAAABEEwAAAAAAAEUTAAAAAAAAAAAAAEUTAAAAAAAAYhMAAAAAAAAAAAAAYhMAAAAAAABjEwAAAAAAAAAAAABjEwAAAAAAAOATAAAAAAAAAAAAAOATAAAAAAAA4RMAAAAAAAAAAAAA4RMAAAAAAABiFAAAAAAAAAAAAABiFAAAAAAAAGMUAAAAAAAAAAAAAGMUAAAAAAAAwRQAAAAAAAAAAAAAwRQAAAAAAADCFAAAAAAAAAAAAADCFAAAAAAAAPwUAAAAAAAAAAAAAPwUAAAAAAAA/RQAAAAAAAAAAAAA/RQAAAAAAAAqFQAAAAAAAAAAAAAqFQAAAAAAACsVAAAAAAAAAAAAACsVAAAAAAAAgBUAAAAAAAAAAAAAgBUAAAAAAACBFQAAAAAAAAAAAACBFQAAAAAAALgVAAAAAAAAAAAAALgVAAAAAAAAuRUAAAAAAAAAAAAAuRUAAAAAAADtFQAAAAAAAAAAAADtFQAAAAAAAO4VAAAAAAAAAAAAAO4VAAAAAAAA7xUAAAAAAAAAAAAA7xUAAAAAAADwFQAAAAAAAAAAAADwFQAAAAAAAA4WAAAAAAAAAAAAAA4WAAAAAAAADxYAAAAAAAAAAAAADxYAAAAAAAAiFgAAAAAAAAAAAAAiFgAAAAAAACMWAAAAAAAAAAAAACMWAAAAAAAAJBYAAAAAAAAAAAAAJBYAAAAAAAAlFgAAAAAAAAAAAAAlFgAAAAAAAEMWAAAAAAAA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AAAAALseAAAAAAAAyh4AAAAAAAAAAAAAyh4AAAAAAADLHgAAAAAAAAAAAADLHgAAAAAAAEUgAAAAAAAAAAAAAEUgAAAAAAAARiAAAAAAAAAAAAAARiAAAAAAAABqIAAAAAAAAAAAAABqIAAAAAAAAGsgAAAAAAAAAAAAAGsgAAAAAAAAiSAAAAAAAAAAAAAAiSAAAAAAAACKIAAAAAAAAAAAAACKIAAAAAAAAIsgAAAAAAAAAAAAAIsgAAAAAAAAjCAAAAAAAAAAAAAAjCAAAAAAAACbIAAAAAAAAAAAAACbIAAAAAAAAJwgAAAAAAAAAAAAAJwgAAAAAAAAFCEAAAAAAAAAAAAAFCEAAAAAAAAVIQAAAAAAAAAAAAAVIQAAAAAAAE8hAAAAAAAAAAAAAE8hAAAAAAAAUCEAAAAAAAAAAAAAUCEAAAAAAACOIQAAAAAAAAAAAACOIQAAAAAAAI8hAAAAAAAAAAAAAI8hAAAAAAAAkCEAAAAAAAAAAAAAkCEAAAAAAACRIQAAAAAAAAAAAACRIQAAAAAAAKAhAAAAAAAAAAAAAKAhAAAAAAAAoSEAAAAAAAAAAAAAoSEAAAAAAADTIQAAAAAAAAAAAADTIQAAAAAAANQhAAAAAAAAAAAAANQhAAAAAAAAByIAAAAAAAAAAAAAByIAAAAAAAAIIgAAAAAAAAAAAAAIIgAAAAAAAGgiAAAAAAAAAAAAAGgiAAAAAAAAaSIAAAAAAAAAAAAAaSIAAAAAAACRIgAAAAAAAAAAAACRIgAAAAAAAJIiAAAAAAAAAAAAAJIiAAAAAAAAwSIAAAAAAAAAAAAAwSIAAAAAAADCIgAAAAAAAAAAAADCIgAAAAAAAAQjAAAAAAAAAAAAAAQjAAAAAAAABSMAAAAAAAAAAAAABSMAAAAAAAAyIwAAAAAAAAAAAAAyIwAAAAAAADMjAAAAAAAAAAAAADMjAAAAAAAANCMAAAAAAAAAAAAANCMAAAAAAAA1IwAAAAAAAAAAAAA1IwAAAAAAAEQjAAAAAAAAAAAAAEQjAAAAAAAARSMAAAAAAAAAAAAARSMAAAAAAACHIwAAAAAAAAAAAACHIwAAAAAAAIgjAAAAAAAAAAAAAIgjAAAAAAAAiSMAAAAAAAAAAAAAiSMAAAAAAACKIwAAAAAAAAAAAACKIwAAAAAAAJkjAAAAAAAA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AAAAAAAtAAAAAAAAAS0AAAAAAAAAAAAAAS0AAAAAAAACLQAAAAAAAAAAAAACLQAAAAAAAAMtAAAAAAAAAAAAAAMtAAAAAAAAEi0AAAAAAAAAAAAAEi0AAAAAAAATLQAAAAAAAAAAAAATLQAAAAAAACwtAAAAAAAAAAAAACwtAAAAAAAALS0AAAAAAAAAAAAALS0AAAAAAAAuLQAAAAAAAAAAAAAuLQAAAAAAAC8tAAAAAAAAAAAAAC8tAAAAAAAAPi0AAAAAAAAAAAAAPi0AAAAAAAA/LQAAAAAAAAAAAAA/LQAAAAAAAFgtAAAAAAAAAAAAAFgtAAAAAAAAWS0AAAAAAAAAAAAAWS0AAAAAAABaLQAAAAAAAAAAAABaLQAAAAAAAFstAAAAAAAAAAAAAFstAAAAAAAAai0AAAAAAAAAAAAAai0AAAAAAABrLQAAAAAAAAAAAABrLQAAAAAAALQtAAAAAAAAAAAAALQtAAAAAAAAtS0AAAAAAAAAAAAAtS0AAAAAAABKLgAAAAAAAAAAAABKLgAAAAAAAEsuAAAAAAAAAAAAAEsuAAAAAAAAxi4AAAAAAAAAAAAAxi4AAAAAAADHLgAAAAAAAAAAAADHLgAAAAAAAO0uAAAAAAAAAAAAAO0uAAAAAAAA7i4AAAAAAAAAAAAA7i4AAAAAAAAYLwAAAAAAAAAAAAAYLwAAAAAAABkvAAAAAAAAAAAAABkvAAAAAAAAOi8AAAAAAAAAAAAAOi8AAAAAAAA7LwAAAAAAAAAAAAA7LwAAAAAAADwvAAAAAAAAAAAAADwvAAAAAAAAPS8AAAAAAAAAAAAAPS8AAAAAAABMLwAAAAAAAAAAAABMLwAAAAAAAE0vAAAAAAAAAAAAAE0vAAAAAAAArC8AAAAAAAAAAAAArC8AAAAAAACtLwAAAAAAAAAAAACtLwAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAABTMAAAAAAAAAAAAABTMAAAAAAAAFQwAAAAAAAAAAAAAFQwAAAAAAAAmDAAAAAAAAAAAAAAmDAAAAAAAACZMAAAAAAAAAAAAACZMAAAAAAAAM8wAAAAAAAAAAAAAM8wAAAAAAAA0DAAAAAAAAAAAAAA0DAAAAAAAADpMAAAAAAAAAAAAADpMAAAAAAAAOowAAAAAAAAAAAAAOowAAAAAAAA6zAAAAAAAAAAAAAA6zAAAAAAAADsMAAAAAAAAAAAAADsMAAAAAAAAPswAAAAAAAAAAAAAPswAAAAAAAA/DAAAAAAAAAAAAAA/DAAAAAAAAA5MQAAAAAAAAAAAAA5MQAAAAAAADoxAAAAAAAAAAAAADoxAAAAAAAAizEAAAAAAAAAAAAAizEAAAAAAACMMQAAAAAAAAAAAACMMQAAAAAAAPYxAAAAAAAAAAAAAPYxAAAAAAAA9zEAAAAAAAAAAAAA9zEAAAAAAAAMMgAAAAAAAAAAAAAMMgAAAAAAAA0yAAAAAAAAAAAAAA0yAAAAAAAALjIAAAAAAAAAAAAALjIAAAAAAAAvMgAAAAAAAAAAAAAvMgAAAAAAAFsyAAAAAAAAAAAAAFsyAAAAAAAAXDIAAAAAAAAAAAAAXDIAAAAAAADLMgAAAAAAAAAAAADLMgAAAAAAAMwyAAAAAAAAAAAAAMwyAAAAAAAABjMAAAAAAAAAAAAABjMAAAAAAAAHMwAAAAAAAAAAAAAHMwAAAAAAABozAAAAAAAAAAAAABozAAAAAAAAGzMAAAAAAAAAAAAAGzMAAAAAAACAMwAAAAAAAAAAAACAMwAAAAAAAIEzAAAAAAAAAAAAAIEzAAAAAAAAyjMAAAAAAAAAAAAAyjMAAAAAAADLMwAAAAAAAAAAAADLMwAAAAAAAPEzAAAAAAAAAAAAAPEzAAAAAAAA8jMAAAAAAAAAAAAA8jMAAAAAAADzMwAAAAAAAAAAAADzMwAAAAAAAPQzAAAAAAAAAAAAAPQzAAAAAAAAAzQAAAAAAAAAAAAAAzQAAAAAAAAENAAAAAAAAAAAAAAENAAAAAAAACQ0AAAAAAAAAAAAACQ0AAAAAAAAJTQAAAAAAAAAAAAAJTQAAAAAAAAmNAAAAAAAAAAAAAAmNAAAAAAAACc0AAAAAAAAAAAAACc0AAAAAAAANjQAAAAAAAAAAAAANjQAAAAAAAA3NAAAAAAAAAAAAAA3NAAAAAAAAGQ0AAAAAAAAAAAAAGQ0AAAAAAAAZTQAAAAAAAAAAAAAZTQAAAAAAAChNAAAAAAAAAAAAAChNAAAAAAAAKI0AAAAAAAAAAAAAKI0AAAAAAAA/zQAAAAAAAAAAAAA/zQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAGw1AAAAAAAAAAAAAGw1AAAAAAAAbTUAAAAAAAAAAAAAbTUAAAAAAABuNQAAAAAAAAAAAABuNQAAAAAAAG81AAAAAAAAAAAAAG81AAAAAAAAfjUAAAAAAAAAAAAAfjUAAAAAAAB/NQAAAAAAAAAAAAB/NQAAAAAAAJ01AAAAAAAAAAAAAJ01AAAAAAAAnjUAAAAAAAAAAAAAnjUAAAAAAADSNQAAAAAAAAAAAADSNQAAAAAAANM1AAAAAAAAAAAAANM1AAAAAAAA1DUAAAAAAAAAAAAA1DUAAAAAAADVNQAAAAAAAAAAAADVNQAAAAAAAOQ1AAAAAAAAAAAAAOQ1AAAAAAAA5TUAAAAAAAAAAAAA5TUAAAAAAAAYNgAAAAAAAAAAAAAYNgAAAAAAABk2AAAAAAAAAAAAABk2AAAAAAAAGjYAAAAAAAAAAAAAGjYAAAAAAAAbNgAAAAAAAAAAAAAbNgAAAAAAACo2AAAAAAAAAAAAACo2AAAAAAAAKzYAAAAAAAAAAAAAKzYAAAAAAADnNgAAAAAAAAAAAADnNgAAAAAAAOg2AAAAAAAAAAAAAOg2AAAAAAAARTcAAAAAAAAAAAAARTcAAAAAAABGNwAAAAAAAAAAAABGNwAAAAAAAAY4AAAAAAAAAAAAAAY4AAAAAAAABzgAAAAAAAAAAAAABzgAAAAAAACkOAAAAAAAAAAAAACkOAAAAAAAAKU4AAAAAAAAAAAAAKU4AAAAAAAACzkAAAAAAAAAAAAACzkAAAAAAAAMOQAAAAAAAAAAAAAMOQAAAAAAAK05AAAAAAAAAAAAAK05AAAAAAAArjkAAAAAAAAAAAAArjkAAAAAAAAWOgAAAAAAAAAAAAAWOgAAAAAAABc6AAAAAAAAAAAAABc6AAAAAAAAGDoAAAAAAAAAAAAAGDoAAAAAAAAZOgAAAAAAAAAAAAAZOgAAAAAAACg6AAAAAAAAAAAAACg6AAAAAAAAKToAAAAAAAAAAAAAKToAAAAAAACWOgAAAAAAAAAAAACWOgAAAAAAAJc6AAAAAAAAAAAAAJc6AAAAAAAAzzoAAAAAAAAAAAAAzzoAAAAAAADQOgAAAAAAAAAAAADQOgAAAAAAANE6AAAAAAAAAAAAANE6AAAAAAAA0joAAAAAAAAAAAAA0joAAAAAAADhOgAAAAAAAAAAAADhOgAAAAAAAOI6AAAAAAAAAAAAAOI6AAAAAAAAAjsAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+					"AQAAADEBAAAAAAAAiRwAAAAAAAAWGAAAaW1wb3J0IHN5cwppbXBvcnQgb3MKZnJvbSBQeVF0NSBpbXBvcnQgUXRDb3JlLCBRdEd1aSwgUXRXaWRnZXRzCgoKIyBSdXRhIGRvbmRlIGVzdMOhIFJlZ2lzdHJvX2VtcGxlYWRvcy5weQpzeXMucGF0aC5hcHBlbmQociJEOlxjcmlzZ1xHaXRIdWJcdHJhYmFqb1xDT1JQT0dBU18yXENEIikKCiMgUnV0YSBkb25kZSBlc3TDoSBsYSBjYXJwZXRhIFRYVCAocGFyYSBob3Jhcmlvcy50eHQsIGVudHJhZGFzLnR4dCwgdXN1YXJpb3MudHh0KQpvcy5jaGRpcihyIkQ6XGNyaXNnXEdpdEh1Ylx0cmFiYWpvXENPUlBPR0FTXzIiKQoKIyBJbXBvcnRhciBmdW5jacOzbiBwcmluY2lwYWwKZnJvbSBSZWdpc3Ryb19lbXBsZWFkb3MgaW1wb3J0IGd1YXJkYXJfZW50cmFkYQoKCmNsYXNzIFVpX0RpYWxvZyhvYmplY3QpOgogICAgZGVmIHNldHVwVWkoc2VsZiwgRGlhbG9nKToKICAgICAgICBEaWFsb2cuc2V0T2JqZWN0TmFtZSgiRGlhbG9nIikKICAgICAgICBEaWFsb2cucmVzaXplKDczNywgODQ5KQogICAgICAgIHNlbGYubGFiZWwgPSBRdFdpZGdldHMuUUxhYmVsKERpYWxvZykKICAgICAgICBzZWxmLmxhYmVsLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgwLCAwLCA3NDEsIDg1MSkpCiAgICAgICAgZm9udCA9IFF0R3VpLlFGb250KCkKICAgICAgICBmb250LnNldFBvaW50U2l6ZSgxMCkKICAgICAgICBzZWxmLmxhYmVsLnNldEZvbnQoZm9udCkKICAgICAgICBzZWxmLmxhYmVsLnNldFN0eWxlU2hlZXQoImJhY2tncm91bmQtaW1hZ2U6IHVybCg6L25ld1ByZWZpeC9pbnRlcmZhei5qcGVnKTsiKQogICAgICAgIHNlbGYubGFiZWwuc2V0UGl4bWFwKFF0R3VpLlFQaXhtYXAoIjovbmV3UHJlZml4L2ludGVyZmF6LmpwZWciKSkKICAgICAgICBzZWxmLmxhYmVsLnNldFNjYWxlZENvbnRlbnRzKFRydWUpCiAgICAgICAgc2VsZi5sYWJlbC5zZXRPYmplY3ROYW1lKCJsYWJlbCIpCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMiA9IFF0V2lkZ2V0cy5RTGluZUVkaXQoRGlhbG9nKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDIwMCwgMTUwLCAyMDEsIDMxKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18yLnNldE9iamVjdE5hbWUoImxlVXN1YXJpb18yIikKICAgICAgICBzZWxmLnRleHRCcm93c2VyID0gUXRXaWRnZXRzLlFUZXh0QnJvd3NlcihEaWFsb2cpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlci5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMTgwLCA3MCwgMjUxLCA1MSkpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlci5zZXRPYmplY3ROYW1lKCJ0ZXh0QnJvd3NlciIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlci5zZXRTdHlsZVNoZWV0KCJjb2xvcjogYmxhY2s7IikKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uID0gUXRXaWRnZXRzLlFSYWRpb0J1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbi5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoODAsIDMwMCwgOTUsIDIwKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uLnNldFN0eWxlU2hlZXQoImNvbG9yOiB3aGl0ZTsiKQogICAgICAgIHNlbGYucmFkaW9CdXR0b24uc2V0T2JqZWN0TmFtZSgicmFkaW9CdXR0b24iKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMiA9IFF0V2lkZ2V0cy5RUmFkaW9CdXR0b24oRGlhbG9nKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjMwLCAzMDAsIDk1LCAyMCkpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8yLnNldFN0eWxlU2hlZXQoImNvbG9yOiB3aGl0ZTsiKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRPYmplY3ROYW1lKCJyYWRpb0J1dHRvbl8yIikKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMgPSBRdFdpZGdldHMuUVJhZGlvQnV0dG9uKERpYWxvZykKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDQyMCwgMzAwLCA5NSwgMjApKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMy5zZXRTdHlsZVNoZWV0KCJjb2xvcjogd2hpdGU7IikKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0T2JqZWN0TmFtZSgicmFkaW9CdXR0b25fMyIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yID0gUXRXaWRnZXRzLlFUZXh0QnJvd3NlcihEaWFsb2cpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgyMDAsIDIzMCwgMjExLCAzMSkpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yLnNldE9iamVjdE5hbWUoInRleHRCcm93c2VyXzIiKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXJfMi5zZXRTdHlsZVNoZWV0KCJjb2xvcjogYmxhY2s7IikKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMgPSBRdFdpZGdldHMuUVRleHRCcm93c2VyKERpYWxvZykKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDEzMCwgNDIwLCAzNjEsIDMxKSkKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXJfMyIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8zLnNldFN0eWxlU2hlZXQoImNvbG9yOiBibGFjazsiKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzMgPSBRdFdpZGdldHMuUUxpbmVFZGl0KERpYWxvZykKICAgICAgICBzZWxmLmxlVXN1YXJpb18zLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgyMDAsIDQ5MCwgMjAxLCAzMSkpCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMy5zZXRPYmplY3ROYW1lKCJsZVVzdWFyaW9fMyIpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhciA9IFF0V2lkZ2V0cy5RUHVzaEJ1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhci5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjMwLCA1ODAsIDEyMSwgMzEpKQogICAgICAgIHNlbGYuYnRuSW5ncmVzYXIuc2V0U3R5bGVTaGVldCgKICAgICAgICAgICAgImJhY2tncm91bmQtY29sb3I6IHFsaW5lYXJncmFkaWVudChzcHJlYWQ6cGFkLCB4MTowLCB5MTowLCB4MjoxLCB5MjowLCAiCiAgICAgICAgICAgICJzdG9wOjAgcmdiYSgxODAsIDE4MCwgMTgwLCAyNTUpLCBzdG9wOjEgcmdiYSgyNTUsIDI1NSwgMjU1LCAyNTUpKTsiCiAgICAgICAgICAgICJmb250OiA4NyAxMHB0IFwiQXJpYWwgQmxhY2tcIjsiCiAgICAgICAgKQogICAgICAgIHNlbGYuYnRuSW5ncmVzYXIuc2V0T2JqZWN0TmFtZSgiYnRuSW5ncmVzYXIiKQogICAgICAgIHNlbGYuYnRuSW5ncmVzYXJfMiA9IFF0V2lkZ2V0cy5RUHVzaEJ1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgxMzAsIDc0MCwgMTIxLCAzMSkpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldFN0eWxlU2hlZXQoCiAgICAgICAgICAgICJiYWNrZ3JvdW5kLWNvbG9yOiBxbGluZWFyZ3JhZGllbnQoc3ByZWFkOnBhZCwgeDE6MCwgeTE6MCwgeDI6MSwgeTI6MCwgIgogICAgICAgICAgICAic3RvcDowIHJnYmEoMTgwLCAxODAsIDE4MCwgMjU1KSwgc3RvcDoxIHJnYmEoMjU1LCAyNTUsIDI1NSwgMjU1KSk7IgogICAgICAgICAgICAiZm9udDogODcgMTBwdCBcIkFyaWFsIEJsYWNrXCI7IgogICAgICAgICkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyXzIuc2V0T2JqZWN0TmFtZSgiYnRuSW5ncmVzYXJfMiIpCiAgICAgICAgc2VsZi5yZXRyYW5zbGF0ZVVpKERpYWxvZykKICAgICAgICBRdENvcmUuUU1ldGFPYmplY3QuY29ubmVjdFNsb3RzQnlOYW1lKERpYWxvZykKCiAgICBkZWYgcmV0cmFuc2xhdGVVaShzZWxmLCBEaWFsb2cpOgogICAgICAgIF90cmFuc2xhdGUgPSBRdENvcmUuUUNvcmVBcHBsaWNhdGlvbi50cmFuc2xhdGUKICAgICAgICBEaWFsb2cuc2V0V2luZG93VGl0bGUoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIkRpYWxvZyIpKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzIuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiTm9tYnJlIGRlIFVzdWFyaW8iKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIlR1cm5vIDEiKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzIuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiVHVybm8gMiIpKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMy5zZXRUZXh0KF90cmFuc2xhdGUoIkRpYWxvZyIsICJUdXJubyAzIikpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlci5zZXRIdG1sKF90cmFuc2xhdGUoIkRpYWxvZyIsICI8cCBzdHlsZT0nZm9udC1zaXplOjEycHQ7Jz5SZWdpc3RybyBkZSBFbXBsZWFkb3M8L3A+IikpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yLnNldEh0bWwoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIjxwIHN0eWxlPSdmb250LXNpemU6MTJwdDsnPlNlbGVjY2lvbmUgVHVybm88L3A+IikpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8zLnNldEh0bWwoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIjxwIHN0eWxlPSdmb250LXNpemU6MTJwdDsnPkluZ3Jlc2FyIEZlY2hhIHkgSG9yYSBkZSBFbnRyYWRhPC9wPiIpKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzMuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiQUFBQS1NTS1ERCBISDpNTTpTUyIpKQogICAgICAgIHNlbGYuYnRuSW5ncmVzYXIuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiSU5HUkVTQVIiKSkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyXzIuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAidm9sdmVyIikpCgoKaW1wb3J0IHBydWViYV9yYwoKCgpjbGFzcyBSZWdpc3Ryb1ZlbnRhbmEoUXRXaWRnZXRzLlFEaWFsb2cpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHBhcmVudF9tZW51PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYudWkgPSBVaV9EaWFsb2coKQogICAgICAgIHNlbGYudWkuc2V0dXBVaShzZWxmKQoKICAgICAgICAjIEJvdMOzbiAidm9sdmVyIiAgY2llcnJhIHZlbnRhbmEKICAgICAgICBzZWxmLnVpLmJ0bkluZ3Jlc2FyXzIuY2xpY2tlZC5jb25uZWN0KHNlbGYudm9sdmVyX21lbnUpCgogICAgICAgICMgQm90w7NuICJJTkdSRVNBUiIgZ3VhcmRhciBlbiBUWFQKICAgICAgICBzZWxmLnVpLmJ0bkluZ3Jlc2FyLmNsaWNrZWQuY29ubmVjdChzZWxmLmd1YXJkYXJfZGF0b3MpCgogICAgZGVmIHZvbHZlcl9tZW51KHNlbGYpOgogICAgICAgIHNlbGYuY2xvc2UoKQoKICAgIGRlZiBndWFyZGFyX2RhdG9zKHNlbGYpOgogICAgICAgIGVtcGxlYWRvID0gc2VsZi51aS5sZVVzdWFyaW9fMi50ZXh0KCkuc3RyaXAoKQoKICAgICAgICBpZiBzZWxmLnVpLnJhZGlvQnV0dG9uLmlzQ2hlY2tlZCgpOgogICAgICAgICAgICB0dXJubyA9IDEKICAgICAgICBlbGlmIHNlbGYudWkucmFkaW9CdXR0b25fMi5pc0NoZWNrZWQoKToKICAgICAgICAgICAgdHVybm8gPSAyCiAgICAgICAgZWxpZiBzZWxmLnVpLnJhZGlvQnV0dG9uXzMuaXNDaGVja2VkKCk6CiAgICAgICAgICAgIHR1cm5vID0gMwogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHR1cm5vID0gMQoKICAgICAgICBmZWNoYV9ob3JhID0gc2VsZi51aS5sZVVzdWFyaW9fMy50ZXh0KCkuc3RyaXAoKQoKICAgICAgICBndWFyZGFyX2VudHJhZGEoZW1wbGVhZG8sIHR1cm5vLCBmZWNoYV9ob3JhKQoKICAgICAgICBRdFdpZGdldHMuUU1lc3NhZ2VCb3guaW5mb3JtYXRpb24oCiAgICAgICAgICAgIHNlbGYsICJSZWdpc3RybyBndWFyZGFkbyIsICJMYSBlbnRyYWRhIGZ1ZSByZWdpc3RyYWRhIGNvcnJlY3RhbWVudGUuIgogICAgICAgICkKCgoKICAgICAgICBzZWxmLnVpLmxlVXN1YXJpb18yLmNsZWFyKCkgICAgICAgICAKICAgICAgICBzZWxmLnVpLmxlVXN1YXJpb18zLmNsZWFyKCkgICAgICAgICAKCiAgICAgICAgc2VsZi51aS5yYWRpb0J1dHRvbi5zZXRDaGVja2VkKEZhbHNlKQogICAgICAgIHNlbGYudWkucmFkaW9CdXR0b25fMi5zZXRDaGVja2VkKEZhbHNlKQogICAgICAgIHNlbGYudWkucmFkaW9CdXR0b25fMy5zZXRDaGVja2VkKEZhbHNlKQoKCiNpZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogIyAgIGltcG9ydCBzeXMKICAjICBhcHAgPSBRdFdpZGdldHMuUUFwcGxpY2F0aW9uKHN5cy5hcmd2KQogICAjIHdpbiA9IFJlZ2lzdHJvVmVudGFuYSgpCiAgICAjd2luLnNob3coKQogICAgI3N5cy5leGl0KGFwcC5leGVjXygpKQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAMQEAAAAAAABCGQAAAAAAAAAAAAAAAPC/"
 				],
 				[
+					7,
 					1,
+					"left_delete",
+					null,
+					"AQAAANITAAAAAAAA0hMAAAAAAACcAAAAIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgICAgICAgICBDT05UUk9MQURPUiBERSBMQSBQQU5UQUxMQSAoVkVOVEFOQSkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbhQAAAAAAADSEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"left_delete",
+					null,
+					"AQAAANETAAAAAAAA0RMAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA0hMAAAAAAADSEwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAYCAAAAAAAABgIAAAAAAABhAAAAIyBOTyB1c2Ftb3MgY2hkaXIgcG9ycXVlIHJvbXBlIHJ1dGFzIGFic29sdXRhcwojIG9zLmNoZGlyKHIiRDpcY3Jpc2dcR2l0SHViXHRyYWJham9cQ09SUE9HQVNfMiIpCg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAZwIAAAAAAAAGAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHIBAAAAAAAAcgEAAAAAAABZAAAAIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBJTVBPUlRBQ0nDk04gQ09SUkVDVEEKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAygEAAAAAAAByAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"paste",
+					null,
+					"AQAAADIBAAAAAAAAFhwAAAAAAAAEGgAAbXBvcnQgc3lzCmltcG9ydCBvcwpmcm9tIFB5UXQ1IGltcG9ydCBRdENvcmUsIFF0R3VpLCBRdFdpZGdldHMKCgpzeXMucGF0aC5hcHBlbmQociJEOlxjcmlzZ1xHaXRIdWJcdHJhYmFqb1xDT1JQT0dBU18yXENEIikKCgpmcm9tIFJlZ2lzdHJvX2VtcGxlYWRvcyBpbXBvcnQgZ3VhcmRhcl9lbnRyYWRhCgoKY2xhc3MgVWlfRGlhbG9nKG9iamVjdCk6CiAgICBkZWYgc2V0dXBVaShzZWxmLCBEaWFsb2cpOgogICAgICAgIERpYWxvZy5zZXRPYmplY3ROYW1lKCJEaWFsb2ciKQogICAgICAgIERpYWxvZy5yZXNpemUoNzM3LCA4NDkpCiAgICAgICAgc2VsZi5sYWJlbCA9IFF0V2lkZ2V0cy5RTGFiZWwoRGlhbG9nKQogICAgICAgIHNlbGYubGFiZWwuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDAsIDAsIDc0MSwgODUxKSkKICAgICAgICBmb250ID0gUXRHdWkuUUZvbnQoKQogICAgICAgIGZvbnQuc2V0UG9pbnRTaXplKDEwKQogICAgICAgIHNlbGYubGFiZWwuc2V0Rm9udChmb250KQogICAgICAgIHNlbGYubGFiZWwuc2V0U3R5bGVTaGVldCgiYmFja2dyb3VuZC1pbWFnZTogdXJsKDovbmV3UHJlZml4L2ludGVyZmF6LmpwZWcpOyIpCiAgICAgICAgc2VsZi5sYWJlbC5zZXRQaXhtYXAoUXRHdWkuUVBpeG1hcCgiOi9uZXdQcmVmaXgvaW50ZXJmYXouanBlZyIpKQogICAgICAgIHNlbGYubGFiZWwuc2V0U2NhbGVkQ29udGVudHMoVHJ1ZSkKICAgICAgICBzZWxmLmxhYmVsLnNldE9iamVjdE5hbWUoImxhYmVsIikKCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMiA9IFF0V2lkZ2V0cy5RTGluZUVkaXQoRGlhbG9nKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDIwMCwgMTUwLCAyMDEsIDMxKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18yLnNldE9iamVjdE5hbWUoImxlVXN1YXJpb18yIikKCiAgICAgICAgc2VsZi50ZXh0QnJvd3NlciA9IFF0V2lkZ2V0cy5RVGV4dEJyb3dzZXIoRGlhbG9nKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDE4MCwgNzAsIDI1MSwgNTEpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXIiKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0U3R5bGVTaGVldCgiY29sb3I6IGJsYWNrOyIpCgogICAgICAgIHNlbGYucmFkaW9CdXR0b24gPSBRdFdpZGdldHMuUVJhZGlvQnV0dG9uKERpYWxvZykKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCg4MCwgMzAwLCA5NSwgMjApKQogICAgICAgIHNlbGYucmFkaW9CdXR0b24uc2V0U3R5bGVTaGVldCgiY29sb3I6IHdoaXRlOyIpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbi5zZXRPYmplY3ROYW1lKCJyYWRpb0J1dHRvbiIpCgogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMiA9IFF0V2lkZ2V0cy5RUmFkaW9CdXR0b24oRGlhbG9nKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjMwLCAzMDAsIDk1LCAyMCkpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8yLnNldFN0eWxlU2hlZXQoImNvbG9yOiB3aGl0ZTsiKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRPYmplY3ROYW1lKCJyYWRpb0J1dHRvbl8yIikKCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zID0gUXRXaWRnZXRzLlFSYWRpb0J1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCg0MjAsIDMwMCwgOTUsIDIwKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0U3R5bGVTaGVldCgiY29sb3I6IHdoaXRlOyIpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zLnNldE9iamVjdE5hbWUoInJhZGlvQnV0dG9uXzMiKQoKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIgPSBRdFdpZGdldHMuUVRleHRCcm93c2VyKERpYWxvZykKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDIwMCwgMjMwLCAyMTEsIDMxKSkKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXJfMiIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yLnNldFN0eWxlU2hlZXQoImNvbG9yOiBibGFjazsiKQoKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMgPSBRdFdpZGdldHMuUVRleHRCcm93c2VyKERpYWxvZykKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDEzMCwgNDIwLCAzNjEsIDMxKSkKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXJfMyIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8zLnNldFN0eWxlU2hlZXQoImNvbG9yOiBibGFjazsiKQoKICAgICAgICBzZWxmLmxlVXN1YXJpb18zID0gUXRXaWRnZXRzLlFMaW5lRWRpdChEaWFsb2cpCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMy5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjAwLCA0OTAsIDIwMSwgMzEpKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzMuc2V0T2JqZWN0TmFtZSgibGVVc3VhcmlvXzMiKQoKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyID0gUXRXaWRnZXRzLlFQdXNoQnV0dG9uKERpYWxvZykKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgyMzAsIDU4MCwgMTIxLCAzMSkpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhci5zZXRTdHlsZVNoZWV0KAogICAgICAgICAgICAiYmFja2dyb3VuZC1jb2xvcjogcWxpbmVhcmdyYWRpZW50KHNwcmVhZDpwYWQsIHgxOjAsIHkxOjAsIHgyOjEsIHkyOjAsICIKICAgICAgICAgICAgInN0b3A6MCByZ2JhKDE4MCwgMTgwLCAxODAsIDI1NSksIHN0b3A6MSByZ2JhKDI1NSwgMjU1LCAyNTUsIDI1NSkpOyIKICAgICAgICAgICAgImZvbnQ6IDg3IDEwcHQgXCJBcmlhbCBCbGFja1wiOyIKICAgICAgICApCiAgICAgICAgc2VsZi5idG5JbmdyZXNhci5zZXRPYmplY3ROYW1lKCJidG5JbmdyZXNhciIpCgogICAgICAgIHNlbGYuYnRuSW5ncmVzYXJfMiA9IFF0V2lkZ2V0cy5RUHVzaEJ1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgxMzAsIDc0MCwgMTIxLCAzMSkpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldFN0eWxlU2hlZXQoCiAgICAgICAgICAgICJiYWNrZ3JvdW5kLWNvbG9yOiBxbGluZWFyZ3JhZGllbnQoc3ByZWFkOnBhZCwgeDE6MCwgeTE6MCwgeDI6MSwgeTI6MCwgIgogICAgICAgICAgICAic3RvcDowIHJnYmEoMTgwLCAxODAsIDE4MCwgMjU1KSwgc3RvcDoxIHJnYmEoMjU1LCAyNTUsIDI1NSwgMjU1KSk7IgogICAgICAgICAgICAiZm9udDogODcgMTBwdCBcIkFyaWFsIEJsYWNrXCI7IgogICAgICAgICkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyXzIuc2V0T2JqZWN0TmFtZSgiYnRuSW5ncmVzYXJfMiIpCgogICAgICAgIHNlbGYucmV0cmFuc2xhdGVVaShEaWFsb2cpCiAgICAgICAgUXRDb3JlLlFNZXRhT2JqZWN0LmNvbm5lY3RTbG90c0J5TmFtZShEaWFsb2cpCgogICAgZGVmIHJldHJhbnNsYXRlVWkoc2VsZiwgRGlhbG9nKToKICAgICAgICBfdHJhbnNsYXRlID0gUXRDb3JlLlFDb3JlQXBwbGljYXRpb24udHJhbnNsYXRlCiAgICAgICAgRGlhbG9nLnNldFdpbmRvd1RpdGxlKF90cmFuc2xhdGUoIkRpYWxvZyIsICJSZWdpc3RybyBkZSBFbXBsZWFkb3MiKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIk5vbWJyZSBkZSBVc3VhcmlvIikpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbi5zZXRUZXh0KF90cmFuc2xhdGUoIkRpYWxvZyIsICJUdXJubyAxIikpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIlR1cm5vIDIiKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiVHVybm8gMyIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0SHRtbChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiPHAgc3R5bGU9J2ZvbnQtc2l6ZToxMnB0Oyc+UmVnaXN0cm8gZGUgRW1wbGVhZG9zPC9wPiIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXJfMi5zZXRIdG1sKF90cmFuc2xhdGUoIkRpYWxvZyIsICI8cCBzdHlsZT0nZm9udC1zaXplOjEycHQ7Jz5TZWxlY2Npb25lIFR1cm5vPC9wPiIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXJfMy5zZXRIdG1sKF90cmFuc2xhdGUoIkRpYWxvZyIsICI8cCBzdHlsZT0nZm9udC1zaXplOjEycHQ7Jz5JbmdyZXNhciBGZWNoYSB5IEhvcmEgZGUgRW50cmFkYTwvcD4iKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18zLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIkFBQUEtTU0tREQgSEg6TU06U1MiKSkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIklOR1JFU0FSIikpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIlZvbHZlciIpKQoKCmltcG9ydCBwcnVlYmFfcmMKCgpjbGFzcyBSZWdpc3Ryb1ZlbnRhbmEoUXRXaWRnZXRzLlFEaWFsb2cpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHBhcmVudF9tZW51PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYudWkgPSBVaV9EaWFsb2coKQogICAgICAgIHNlbGYudWkuc2V0dXBVaShzZWxmKQoKICAgICAgICAjIEJvdMOzbiB2b2x2ZXIKICAgICAgICBzZWxmLnVpLmJ0bkluZ3Jlc2FyXzIuY2xpY2tlZC5jb25uZWN0KHNlbGYudm9sdmVyX21lbnUpCgogICAgICAgICMgQm90w7NuIGluZ3Jlc2FyCiAgICAgICAgc2VsZi51aS5idG5JbmdyZXNhci5jbGlja2VkLmNvbm5lY3Qoc2VsZi5ndWFyZGFyX2RhdG9zKQoKICAgIGRlZiB2b2x2ZXJfbWVudShzZWxmKToKICAgICAgICBzZWxmLmNsb3NlKCkKCiAgICBkZWYgZ3VhcmRhcl9kYXRvcyhzZWxmKToKICAgICAgICBlbXBsZWFkbyA9IHNlbGYudWkubGVVc3VhcmlvXzIudGV4dCgpLnN0cmlwKCkKICAgICAgICBmZWNoYV9ob3JhID0gc2VsZi51aS5sZVVzdWFyaW9fMy50ZXh0KCkuc3RyaXAoKQoKICAgICAgICAjIFZhbGlkYXIgbm9tYnJlCiAgICAgICAgaWYgZW1wbGVhZG8gPT0gIiIgb3IgZW1wbGVhZG8gPT0gIk5vbWJyZSBkZSBVc3VhcmlvIjoKICAgICAgICAgICAgUXRXaWRnZXRzLlFNZXNzYWdlQm94Lndhcm5pbmcoc2VsZiwgIkVycm9yIiwgIkVsIG5vbWJyZSBkZWwgZW1wbGVhZG8gbm8gcHVlZGUgZXN0YXIgdmFjw61vLiIpCiAgICAgICAgICAgIHJldHVybgoKICAgICAgICAjIFZhbGlkYXIgdHVybm8KICAgICAgICBpZiBzZWxmLnVpLnJhZGlvQnV0dG9uLmlzQ2hlY2tlZCgpOgogICAgICAgICAgICB0dXJubyA9IDEKICAgICAgICBlbGlmIHNlbGYudWkucmFkaW9CdXR0b25fMi5pc0NoZWNrZWQoKToKICAgICAgICAgICAgdHVybm8gPSAyCiAgICAgICAgZWxpZiBzZWxmLnVpLnJhZGlvQnV0dG9uXzMuaXNDaGVja2VkKCk6CiAgICAgICAgICAgIHR1cm5vID0gMwogICAgICAgIGVsc2U6CiAgICAgICAgICAgIFF0V2lkZ2V0cy5RTWVzc2FnZUJveC53YXJuaW5nKHNlbGYsICJFcnJvciIsICJEZWJlIHNlbGVjY2lvbmFyIHVuIHR1cm5vLiIpCiAgICAgICAgICAgIHJldHVybgoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGd1YXJkYXJfZW50cmFkYShlbXBsZWFkbywgdHVybm8sIGZlY2hhX2hvcmEpCgogICAgICAgICAgICBRdFdpZGdldHMuUU1lc3NhZ2VCb3guaW5mb3JtYXRpb24oCiAgICAgICAgICAgICAgICBzZWxmLCAiUmVnaXN0cm8gZ3VhcmRhZG8iLCAiTGEgZW50cmFkYSBmdWUgcmVnaXN0cmFkYSBjb3JyZWN0YW1lbnRlLiIKICAgICAgICAgICAgKQoKICAgICAgICAgICAgIyBMaW1waWFyIGNhbXBvcwogICAgICAgICAgICBzZWxmLnVpLmxlVXN1YXJpb18yLmNsZWFyKCkKICAgICAgICAgICAgc2VsZi51aS5sZVVzdWFyaW9fMy5jbGVhcigpCiAgICAgICAgICAgIHNlbGYudWkucmFkaW9CdXR0b24uc2V0Q2hlY2tlZChGYWxzZSkKICAgICAgICAgICAgc2VsZi51aS5yYWRpb0J1dHRvbl8yLnNldENoZWNrZWQoRmFsc2UpCiAgICAgICAgICAgIHNlbGYudWkucmFkaW9CdXR0b25fMy5zZXRDaGVja2VkKEZhbHNlKQoKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIFF0V2lkZ2V0cy5RTWVzc2FnZUJveC5jcml0aWNhbCgKICAgICAgICAgICAgICAgIHNlbGYsICJFcnJvciBhbCByZWdpc3RyYXIiLCBmIk5vIHNlIHB1ZG8gcmVnaXN0cmFyIGxhIGVudHJhZGEuXG5cbkRldGFsbGU6XG57c3RyKGUpfSIKICAgICAgICAgICAgKQoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIFBBUkEgUFJPQkFSIExBIFZFTlRBTkEgRElSRUNUQU1FTlRFCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIGlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiMgICAgIGFwcCA9IFF0V2lkZ2V0cy5RQXBwbGljYXRpb24oc3lzLmFyZ3YpCiMgICAgIHdpbiA9IFJlZ2lzdHJvVmVudGFuYSgpCiMgICAgIHdpbi5zaG93KCkKIyAgICAgc3lzLmV4aXQoYXBwLmV4ZWNfKCkp",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAMgEAAAAAAAAzGwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"paste",
+					null,
+					"AQAAACMCAAAAAAAAWAIAAAAAAAAiAAAARDpcY3Jpc2dcR2l0SHViXHRyYWJham9cQ09SUE9HQVNfMg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAARQIAAAAAAAAjAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFgCAAAAAAAAWAIAAAAAAAABAAAAIlcCAAAAAAAAVwIAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAWQIAAAAAAABZAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMgCAAAAAAAAyAIAAAAAAAAnAAAAIyBJbXBvcnRhciBndWFyZGFyX2VudHJhZGEgZGVsIHNpc3RlbWEK",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAyAIAAAAAAADvAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoCAAAAAAAAWgIAAAAAAAA0AAAAIyBBZ3JlZ2FyIGNhcnBldGEgZG9uZGUgZXN0w6EgUmVnaXN0cm9fZW1wbGVhZG9zLnB5Cg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAWgIAAAAAAACNAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHMBAAAAAAAAcwEAAAAAAACkAAAAIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojICAgICBSVVRBUyBDT1JSRUNUQVMgUEFSQSBUWFQKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIENhbWJpYSBsYSBjYXJwZXRhIGRlIHRyYWJham8gcGFyYSBxdWUgbG9zIFRYVCBzZSBndWFyZGVuIGJpZW4",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFwIAAAAAAABzAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"left_delete",
+					null,
+					"AQAAALUBAAAAAAAAtQEAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAtgEAAAAAAAC2AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO8BAAAAAAAA7wEAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA8AEAAAAAAADwAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHMBAAAAAAAAcwEAAAAAAAABAAAACnIBAAAAAAAAcgEAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAdAEAAAAAAAB0AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"left_delete",
+					null,
+					"AQAAADIBAAAAAAAAMgEAAAAAAAABAAAAaQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAMwEAAAAAAAAzAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"paste",
+					null,
+					"AQAAAHEBAAAAAAAApAEAAAAAAABAAAAAb3MuY2hkaXIociJEOlxjcmlzZ1xHaXRIdWJcdHJhYmFqb1xDT1JQT0dBU18yXFRYVFxlbnRyYWRhcy50eHQiKQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAsQEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					1,
+					"paste",
+					null,
+					"AQAAANoHAAAAAAAADggAAAAAAAA4AAAAc2VsZi5yYWRpb0J1dHRvbl8zID0gUXRXaWRnZXRzLlFSYWRpb1JhZGlvQnV0dG9uKERpYWxvZyk",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAEggAAAAAAADaBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"left_delete",
+					null,
+					"AQAAAA0IAAAAAAAADQgAAAAAAAABAAAACg",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAADggAAAAAAAAOCAAAAAAAAAAAAAAAgExA"
+				],
+				[
+					127,
+					1,
+					"paste",
+					null,
+					"AQAAAHEBAAAAAAAAoAEAAAAAAAAzAAAAb3MuY2hkaXIociJEOlxjcmlzZ1xHaXRIdWJcdHJhYmFqb1xDT1JQT0dBU18yXFRYVCIp",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAApAEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					144,
+					1,
+					"paste",
+					null,
+					"AQAAADEBAAAAAAAADxsAAAAAAAArGQAAaW1wb3J0IHN5cwppbXBvcnQgb3MKZnJvbSBQeVF0NSBpbXBvcnQgUXRDb3JlLCBRdEd1aSwgUXRXaWRnZXRzCm9zLmNoZGlyKHIiRDpcY3Jpc2dcR2l0SHViXHRyYWJham9cQ09SUE9HQVNfMiIpCnN5cy5wYXRoLmFwcGVuZChyIkQ6XGNyaXNnXEdpdEh1Ylx0cmFiYWpvXENPUlBPR0FTXzJcQ0QiKQpmcm9tIFJlZ2lzdHJvX2VtcGxlYWRvcyBpbXBvcnQgZ3VhcmRhcl9lbnRyYWRhCgoKY2xhc3MgVWlfRGlhbG9nKG9iamVjdCk6CiAgICBkZWYgc2V0dXBVaShzZWxmLCBEaWFsb2cpOgogICAgICAgIERpYWxvZy5zZXRPYmplY3ROYW1lKCJEaWFsb2ciKQogICAgICAgIERpYWxvZy5yZXNpemUoNzM3LCA4NDkpCiAgICAgICAgc2VsZi5sYWJlbCA9IFF0V2lkZ2V0cy5RTGFiZWwoRGlhbG9nKQogICAgICAgIHNlbGYubGFiZWwuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDAsIDAsIDc0MSwgODUxKSkKICAgICAgICBmb250ID0gUXRHdWkuUUZvbnQoKQogICAgICAgIGZvbnQuc2V0UG9pbnRTaXplKDEwKQogICAgICAgIHNlbGYubGFiZWwuc2V0Rm9udChmb250KQogICAgICAgIHNlbGYubGFiZWwuc2V0U3R5bGVTaGVldCgiYmFja2dyb3VuZC1pbWFnZTogdXJsKDovbmV3UHJlZml4L2ludGVyZmF6LmpwZWcpOyIpCiAgICAgICAgc2VsZi5sYWJlbC5zZXRQaXhtYXAoUXRHdWkuUVBpeG1hcCgiOi9uZXdQcmVmaXgvaW50ZXJmYXouanBlZyIpKQogICAgICAgIHNlbGYubGFiZWwuc2V0U2NhbGVkQ29udGVudHMoVHJ1ZSkKICAgICAgICBzZWxmLmxhYmVsLnNldE9iamVjdE5hbWUoImxhYmVsIikKCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMiA9IFF0V2lkZ2V0cy5RTGluZUVkaXQoRGlhbG9nKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDIwMCwgMTUwLCAyMDEsIDMxKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18yLnNldE9iamVjdE5hbWUoImxlVXN1YXJpb18yIikKCiAgICAgICAgc2VsZi50ZXh0QnJvd3NlciA9IFF0V2lkZ2V0cy5RVGV4dEJyb3dzZXIoRGlhbG9nKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDE4MCwgNzAsIDI1MSwgNTEpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXIiKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0U3R5bGVTaGVldCgiY29sb3I6IGJsYWNrOyIpCgogICAgICAgIHNlbGYucmFkaW9CdXR0b24gPSBRdFdpZGdldHMuUVJhZGlvQnV0dG9uKERpYWxvZykKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCg4MCwgMzAwLCA5NSwgMjApKQogICAgICAgIHNlbGYucmFkaW9CdXR0b24uc2V0U3R5bGVTaGVldCgiY29sb3I6IHdoaXRlOyIpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbi5zZXRPYmplY3ROYW1lKCJyYWRpb0J1dHRvbiIpCgogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMiA9IFF0V2lkZ2V0cy5RUmFkaW9CdXR0b24oRGlhbG9nKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjMwLCAzMDAsIDk1LCAyMCkpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8yLnNldFN0eWxlU2hlZXQoImNvbG9yOiB3aGl0ZTsiKQogICAgICAgIHNlbGYucmFkaW9CdXR0b25fMi5zZXRPYmplY3ROYW1lKCJyYWRpb0J1dHRvbl8yIikKCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zID0gUXRXaWRnZXRzLlFSYWRpb0J1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCg0MjAsIDMwMCwgOTUsIDIwKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0U3R5bGVTaGVldCgiY29sb3I6IHdoaXRlOyIpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8zLnNldE9iamVjdE5hbWUoInJhZGlvQnV0dG9uXzMiKQoKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIgPSBRdFdpZGdldHMuUVRleHRCcm93c2VyKERpYWxvZykKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDIwMCwgMjMwLCAyMTEsIDMxKSkKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzIuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXJfMiIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8yLnNldFN0eWxlU2hlZXQoImNvbG9yOiBibGFjazsiKQoKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMgPSBRdFdpZGdldHMuUVRleHRCcm93c2VyKERpYWxvZykKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0R2VvbWV0cnkoUXRDb3JlLlFSZWN0KDEzMCwgNDIwLCAzNjEsIDMxKSkKICAgICAgICBzZWxmLnRleHRCcm93c2VyXzMuc2V0T2JqZWN0TmFtZSgidGV4dEJyb3dzZXJfMyIpCiAgICAgICAgc2VsZi50ZXh0QnJvd3Nlcl8zLnNldFN0eWxlU2hlZXQoImNvbG9yOiBibGFjazsiKQoKICAgICAgICBzZWxmLmxlVXN1YXJpb18zID0gUXRXaWRnZXRzLlFMaW5lRWRpdChEaWFsb2cpCiAgICAgICAgc2VsZi5sZVVzdWFyaW9fMy5zZXRHZW9tZXRyeShRdENvcmUuUVJlY3QoMjAwLCA0OTAsIDIwMSwgMzEpKQogICAgICAgIHNlbGYubGVVc3VhcmlvXzMuc2V0T2JqZWN0TmFtZSgibGVVc3VhcmlvXzMiKQoKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyID0gUXRXaWRnZXRzLlFQdXNoQnV0dG9uKERpYWxvZykKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgyMzAsIDU4MCwgMTIxLCAzMSkpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhci5zZXRTdHlsZVNoZWV0KAogICAgICAgICAgICAiYmFja2dyb3VuZC1jb2xvcjogcWxpbmVhcmdyYWRpZW50KHNwcmVhZDpwYWQsIHgxOjAsIHkxOjAsIHgyOjEsIHkyOjAsICIKICAgICAgICAgICAgInN0b3A6MCByZ2JhKDE4MCwgMTgwLCAxODAsIDI1NSksIHN0b3A6MSByZ2JhKDI1NSwgMjU1LCAyNTUsIDI1NSkpOyIKICAgICAgICAgICAgImZvbnQ6IDg3IDEwcHQgXCJBcmlhbCBCbGFja1wiOyIKICAgICAgICApCiAgICAgICAgc2VsZi5idG5JbmdyZXNhci5zZXRPYmplY3ROYW1lKCJidG5JbmdyZXNhciIpCgogICAgICAgIHNlbGYuYnRuSW5ncmVzYXJfMiA9IFF0V2lkZ2V0cy5RUHVzaEJ1dHRvbihEaWFsb2cpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldEdlb21ldHJ5KFF0Q29yZS5RUmVjdCgxMzAsIDc0MCwgMTIxLCAzMSkpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldFN0eWxlU2hlZXQoCiAgICAgICAgICAgICJiYWNrZ3JvdW5kLWNvbG9yOiBxbGluZWFyZ3JhZGllbnQoc3ByZWFkOnBhZCwgeDE6MCwgeTE6MCwgeDI6MSwgeTI6MCwgIgogICAgICAgICAgICAic3RvcDowIHJnYmEoMTgwLCAxODAsIDE4MCwgMjU1KSwgc3RvcDoxIHJnYmEoMjU1LCAyNTUsIDI1NSwgMjU1KSk7IgogICAgICAgICAgICAiZm9udDogODcgMTBwdCBcIkFyaWFsIEJsYWNrXCI7IgogICAgICAgICkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyXzIuc2V0T2JqZWN0TmFtZSgiYnRuSW5ncmVzYXJfMiIpCgogICAgICAgIHNlbGYucmV0cmFuc2xhdGVVaShEaWFsb2cpCiAgICAgICAgUXRDb3JlLlFNZXRhT2JqZWN0LmNvbm5lY3RTbG90c0J5TmFtZShEaWFsb2cpCgogICAgZGVmIHJldHJhbnNsYXRlVWkoc2VsZiwgRGlhbG9nKToKICAgICAgICBfdHJhbnNsYXRlID0gUXRDb3JlLlFDb3JlQXBwbGljYXRpb24udHJhbnNsYXRlCiAgICAgICAgRGlhbG9nLnNldFdpbmRvd1RpdGxlKF90cmFuc2xhdGUoIkRpYWxvZyIsICJSZWdpc3RybyBkZSBFbXBsZWFkb3MiKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIk5vbWJyZSBkZSBVc3VhcmlvIikpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbi5zZXRUZXh0KF90cmFuc2xhdGUoIkRpYWxvZyIsICJUdXJubyAxIikpCiAgICAgICAgc2VsZi5yYWRpb0J1dHRvbl8yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIlR1cm5vIDIiKSkKICAgICAgICBzZWxmLnJhZGlvQnV0dG9uXzMuc2V0VGV4dChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiVHVybm8gMyIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXIuc2V0SHRtbChfdHJhbnNsYXRlKCJEaWFsb2ciLCAiPHAgc3R5bGU9J2ZvbnQtc2l6ZToxMnB0Oyc+UmVnaXN0cm8gZGUgRW1wbGVhZG9zPC9wPiIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXJfMi5zZXRIdG1sKF90cmFuc2xhdGUoIkRpYWxvZyIsICI8cCBzdHlsZT0nZm9udC1zaXplOjEycHQ7Jz5TZWxlY2Npb25lIFR1cm5vPC9wPiIpKQogICAgICAgIHNlbGYudGV4dEJyb3dzZXJfMy5zZXRIdG1sKF90cmFuc2xhdGUoIkRpYWxvZyIsICI8cCBzdHlsZT0nZm9udC1zaXplOjEycHQ7Jz5JbmdyZXNhciBGZWNoYSB5IEhvcmEgZGUgRW50cmFkYTwvcD4iKSkKICAgICAgICBzZWxmLmxlVXN1YXJpb18zLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIkFBQUEtTU0tREQgSEg6TU06U1MiKSkKICAgICAgICBzZWxmLmJ0bkluZ3Jlc2FyLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIklOR1JFU0FSIikpCiAgICAgICAgc2VsZi5idG5JbmdyZXNhcl8yLnNldFRleHQoX3RyYW5zbGF0ZSgiRGlhbG9nIiwgIlZvbHZlciIpKQoKCmltcG9ydCBwcnVlYmFfcmMKCgpjbGFzcyBSZWdpc3Ryb1ZlbnRhbmEoUXRXaWRnZXRzLlFEaWFsb2cpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHBhcmVudF9tZW51PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYudWkgPSBVaV9EaWFsb2coKQogICAgICAgIHNlbGYudWkuc2V0dXBVaShzZWxmKQoKICAgICAgICAjIEJvdMOzbiB2b2x2ZXIKICAgICAgICBzZWxmLnVpLmJ0bkluZ3Jlc2FyXzIuY2xpY2tlZC5jb25uZWN0KHNlbGYudm9sdmVyX21lbnUpCgogICAgICAgICMgQm90w7NuIGluZ3Jlc2FyCiAgICAgICAgc2VsZi51aS5idG5JbmdyZXNhci5jbGlja2VkLmNvbm5lY3Qoc2VsZi5ndWFyZGFyX2RhdG9zKQoKICAgIGRlZiB2b2x2ZXJfbWVudShzZWxmKToKICAgICAgICBzZWxmLmNsb3NlKCkKCiAgICBkZWYgZ3VhcmRhcl9kYXRvcyhzZWxmKToKICAgICAgICBlbXBsZWFkbyA9IHNlbGYudWkubGVVc3VhcmlvXzIudGV4dCgpLnN0cmlwKCkKICAgICAgICBmZWNoYV9ob3JhID0gc2VsZi51aS5sZVVzdWFyaW9fMy50ZXh0KCkuc3RyaXAoKQoKICAgICAgICAjIFZhbGlkYXIgbm9tYnJlCiAgICAgICAgaWYgZW1wbGVhZG8gPT0gIiIgb3IgZW1wbGVhZG8gPT0gIk5vbWJyZSBkZSBVc3VhcmlvIjoKICAgICAgICAgICAgUXRXaWRnZXRzLlFNZXNzYWdlQm94Lndhcm5pbmcoc2VsZiwgIkVycm9yIiwgIkVsIG5vbWJyZSBkZWwgZW1wbGVhZG8gbm8gcHVlZGUgZXN0YXIgdmFjw61vLiIpCiAgICAgICAgICAgIHJldHVybgoKICAgICAgICAjIFZhbGlkYXIgdHVybm8KICAgICAgICBpZiBzZWxmLnVpLnJhZGlvQnV0dG9uLmlzQ2hlY2tlZCgpOgogICAgICAgICAgICB0dXJubyA9IDEKICAgICAgICBlbGlmIHNlbGYudWkucmFkaW9CdXR0b25fMi5pc0NoZWNrZWQoKToKICAgICAgICAgICAgdHVybm8gPSAyCiAgICAgICAgZWxpZiBzZWxmLnVpLnJhZGlvQnV0dG9uXzMuaXNDaGVja2VkKCk6CiAgICAgICAgICAgIHR1cm5vID0gMwogICAgICAgIGVsc2U6CiAgICAgICAgICAgIFF0V2lkZ2V0cy5RTWVzc2FnZUJveC53YXJuaW5nKHNlbGYsICJFcnJvciIsICJEZWJlIHNlbGVjY2lvbmFyIHVuIHR1cm5vLiIpCiAgICAgICAgICAgIHJldHVybgoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGd1YXJkYXJfZW50cmFkYShlbXBsZWFkbywgdHVybm8sIGZlY2hhX2hvcmEpCgogICAgICAgICAgICBRdFdpZGdldHMuUU1lc3NhZ2VCb3guaW5mb3JtYXRpb24oCiAgICAgICAgICAgICAgICBzZWxmLCAiUmVnaXN0cm8gR3VhcmRhZG8iLAogICAgICAgICAgICAgICAgZiJSZWdpc3RybyBkZSB7ZW1wbGVhZG99IGd1YXJkYWRvIGNvcnJlY3RhbWVudGUuIgogICAgICAgICAgICApCgogICAgICAgICAgICAjIExpbXBpYXIgY2FtcG9zCiAgICAgICAgICAgIHNlbGYudWkubGVVc3VhcmlvXzIuY2xlYXIoKQogICAgICAgICAgICBzZWxmLnVpLmxlVXN1YXJpb18zLmNsZWFyKCkKICAgICAgICAgICAgc2VsZi51aS5yYWRpb0J1dHRvbi5zZXRDaGVja2VkKEZhbHNlKQogICAgICAgICAgICBzZWxmLnVpLnJhZGlvQnV0dG9uXzIuc2V0Q2hlY2tlZChGYWxzZSkKICAgICAgICAgICAgc2VsZi51aS5yYWRpb0J1dHRvbl8zLnNldENoZWNrZWQoRmFsc2UpCgogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgUXRXaWRnZXRzLlFNZXNzYWdlQm94LmNyaXRpY2FsKAogICAgICAgICAgICAgICAgc2VsZiwgIkVycm9yIiwKICAgICAgICAgICAgICAgIGYiTm8gc2UgcHVkbyByZWdpc3RyYXIgbGEgZW50cmFkYS5cblxuRGV0YWxsZSBkZWwgZXJyb3I6XG57c3RyKGUpfSIKICAgICAgICAgICAgKQo",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAWRoAAAAAAAAxAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIYYAAAAAAAAhhgAAAAAAAAdAAAAICAgICAgICAgICAgIyBMaW1waWFyIGNhbXBvcwqFGAAAAAAAAIUYAAAAAAAAAQAAAAo",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAhhgAAAAAAACjGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPMaAAAAAAAA8xoAAAAAAACzAAAAIyA9PT09PT09IFBBUkEgUFJVRUJBUyA9PT09PT09CiMgaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKIyAgICAgYXBwID0gUXRXaWRnZXRzLlFBcHBsaWNhdGlvbihzeXMuYXJndikKIyAgICAgd2luID0gUmVnaXN0cm9WZW50YW5hKCkKIyAgICAgd2luLnNob3coKQojICAgICBzeXMuZXhpdChhcHAuZXhlY18oKSk",
+					"AQAAAAAAAAABAAAAphsAAAAAAADzGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"paste",
+					null,
+					"AQAAADwWAAAAAAAAORcAAAAAAABXAQAAICMgVmFsaWRhciB0dXJubwogICAgICAgIGlmIHNlbGYudWkucmFkaW9CdXR0b24uaXNDaGVja2VkKCk6CiAgICAgICAgICAgIHR1cm5vID0gMQogICAgICAgIGVsaWYgc2VsZi51aS5yYWRpb0J1dHRvbl8yLmlzQ2hlY2tlZCgpOgogICAgICAgICAgICB0dXJubyA9IDIKICAgICAgICBlbGlmIHNlbGYudWkucmFkaW9CdXR0b25fMy5pc0NoZWNrZWQoKToKICAgICAgICAgICAgdHVybm8gPSAzCiAgICAgICAgZWxzZToKICAgICAgICAgICAgUXRXaWRnZXRzLlFNZXNzYWdlQm94Lndhcm5pbmcoc2VsZiwgIkVycm9yIiwgIkRlYmUgc2VsZWNjaW9uYXIgdW4gdHVybm8uIikKICAgICAgICAgICAgcmV0dXJuCg",
+					"AQAAAAAAAAABAAAAPBYAAAAAAACTFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
 					1,
 					"insert",
 					{
-						"characters": "\n\nPackage Control\n---------------\n\n  Version 4.2.0 Release Notes\n  ===========================\n\n  IMPORTANT NOTICE!\n\n    This is the last version with support for ST3.\n\n  NEW DEFAULT CHANNEL\n\n    Package Control is using the following new default channel by default:\n\n          https://packages.sublimetext.io/channel.json\n\n    Any request to https://packagecontrol.io/channel_v3.json is redirected.\n\n    To discover packages online, visit\n\n          https://packages.sublimetext.io\n\n    New packages and libraries are published daily at 0:00 UTC.\n\n    Dedicated libraries channel is still available, but its content is merged\n    into new default channel and thus doesn't need to be specified explicitly.\n\n    This change is required as packagecontrol.io is more or less unmaintained\n    for several years, didn't even receive related Package Control 4 updates,\n    suffered various even long lasting outages and its infrastructure seems to\n    struggle with current amount of packages and data needed to be managed,\n    which results in packages frequently not being available for install or\n    upgrade. As current community doesn't have access to its infrastructure.\n\n    The new crawler works way more efficient and uses a more intelligent\n    caching strategy to reduce network bandwidth. Full downloads are only\n    made if packages or libraries have been added or modified really changed.\n\n    There's still some work to do to consolidate new infrastructure,\n    which this change is a first and important step, for.\n\n    The new crawler and website are maintained under:\n\n          https://github.com/packagecontrol\n  Version 4.0.0 Release Notes\n  ===========================\n\n\n  Major Changes\n  -------------\n\n  - Requires at least ST3143 (1.0)\n\n  - drops support for python 2.x\n\n  - adds support for python 3.8\n\n  - Package and library version scheme changed from SemVer to PEP440\n    for better pre-release handling and compatibility with python packages.\n\n    Note: Package versions should still follow SemVer like `<major>.<minor>.<micro>`\n\n  - Dependencies are now called libraries.\n\n    They are installed to Data/Libs as ordinary python packages.\n\n    Existing managed dependencies are automatically converted.\n\n    Can install python wheels (*.whl)\n\n  - Channel/repository scheme v1.0 and v1.2 are no longer supported\n    as they contain only packages for no longer supported ST2.\n\n  - New channel/repository scheme v4.0.0 is introduced,\n    which allows to specify supported `python_versions`.\n\n    Parsing and installing \"requirements.txt\" is however not yet supported.\n\n    For working examples checkout example-channel.json and example-repository.json\n    from Package Control Github repository.\n\n\n  Note for Package Devs\n  ---------------------\n\n    packagecontrol.io does not yet support the new 4.0.0 scheme\n    and thus doesn't ship python 3.8 dependencies/libraries.\n\n    Therefore do not upgrade repositories to 4.0.0 scheme,\n    which are included in default channel.\n\n    You can however create your own 4.0.0 repository and\n    add it via 'Package Control: Add Repository'.\n\n    Metadata for python 3.8 compatible libraries are maintained at\n\n      https://github.com/packagecontrol/channel\n\n    and shipped via\n\n      https://packagecontrol.github.io/channel/channel_v4.json\n\n    so all packages can already migrate to python 3.8\n\n\n  New features include:\n  ---------------------\n\n    - support for python 3.8 dependencies (now called libraries)\n    - add openssl 3.0 support via asn1crypto 1.5.1 and oscrypto 1.3.0\n    - prune backups older than 14 days (#145)\n    - provide all relevant operations via ApplicationCommands (#1071)\n      + Advanced Disable Packages (disable_packages)\n      + Advanced Enable Packages (enable_packages)\n      + Advanced Install Packages (install_packages)\n      + Advanced Upgrade Packages (upgrade_packages)\n      + Advanced Remove Packages (remove_packages)\n    - allow relative paths in channel.json and repository.json (#1329)\n    - hide (auto-generated?) packages via `.hidden-sublime-package` file (#1429)\n    - support for cooperate_packages (#1406, #1633)\n    - IntelliSense support for for channel.json/repository.json via jsonschemas\n    - support for asset based Github/Gitlab releases (#1484)\n\n\n  Bug fixes include:\n  ------------------\n\n    - abort package operation if backup fails (#1000)\n    - fix long path support on Windows (#1020)\n    - fix missing packages not being installed if an overriding unpacked package exists (#1155)\n    - fix errors being displayed for git/hg tracked packages without remote (#1167)\n    - fix not all git/hg tracked packages being upgraded\n    - fix packages in auto_upgrade_ignore setting being renamed without upgrade (#1370)\n    - fix corruption of installed_packages or ignored_packages settings\n    - fix backup/restore of ST's \"auto\" color schemes and themes\n    - fix manual package upgrades converting unmanaged packages to managed ones (#1272)\n    - fix libraries not being upgraded by auto upgrader\n    - fix prompt for ST restart before all operations are completed\n    - fix SSL_CERT_FILE environment variable being ignored\n    - fix repositories of channels without cache not being downloaded (#1354, #1601)\n    - fix QuickPanelItem parse errors in URLs (#1580)\n    - fix unavailable libraries being reported as successfully installed (#1605)\n    - fix error message flooding\n    - keep ingored_packages clean by removing non-existing packages\n\n    ...\n\n    The full list of addressed bugs can be found at:\n\n      https://github.com/wbond/package_control/milestone/1"
+						"characters": "\t"
 					},
-					"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"
+					"AQAAAGQWAAAAAAAAaBYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZBYAAAAAAABkFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAADwWAAAAAAAAPRYAAAAAAAAAAAAAPRYAAAAAAABBFgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPBYAAAAAAAA8FgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD0WAAAAAAAAPRYAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAQRYAAAAAAABBFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGkWAAAAAAAAbRYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaRYAAAAAAABpFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					106,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAHcWAAAAAAAAexYAAAAAAAAAAAAAexYAAAAAAAB/FgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdxYAAAAAAAB3FgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAKsWAAAAAAAArxYAAAAAAAAAAAAArxYAAAAAAACzFgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqxYAAAAAAACrFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					113,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAL0WAAAAAAAAwRYAAAAAAAAAAAAAwRYAAAAAAADFFgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvRYAAAAAAAC9FgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					121,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAPEWAAAAAAAA9RYAAAAAAAAAAAAA9RYAAAAAAAD5FgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8RYAAAAAAADxFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAAMXAAAAAAAABxcAAAAAAAAAAAAABxcAAAAAAAALFwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAxcAAAAAAAADFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					128,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAABUXAAAAAAAAGRcAAAAAAAAAAAAAGRcAAAAAAAAdFwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFRcAAAAAAAAVFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					138,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AgAAAGwXAAAAAAAAcBcAAAAAAAAAAAAAcBcAAAAAAAB0FwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbBcAAAAAAABsFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					147,
+					1,
+					"left_delete",
+					null,
+					"AQAAAL0aAAAAAAAAvRoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAvhoAAAAAAAC+GgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKwaAAAAAAAArBoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAArRoAAAAAAACtGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					154,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI4aAAAAAAAAjhoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAjxoAAAAAAACPGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					157,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGEaAAAAAAAAYRoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAYhoAAAAAAABiGgAAAAAAAAAAAAAAABhA"
+				],
+				[
+					160,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEQaAAAAAAAARBoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAARRoAAAAAAABFGgAAAAAAAAAAAAAAABhA"
+				],
+				[
+					163,
+					1,
+					"left_delete",
+					null,
+					"AQAAACUaAAAAAAAAJRoAAAAAAAABAAAAIw",
+					"AQAAAAAAAAABAAAAJhoAAAAAAAAmGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					168,
+					1,
+					"left_delete",
+					null,
+					"AQAAACQaAAAAAAAAJBoAAAAAAAAeAAAACiA9PT09PT09IFBBUkEgUFJVRUJBUyA9PT09PT09",
+					"AQAAAAAAAAABAAAAQhoAAAAAAAAkGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					171,
+					1,
+					"left_delete",
+					null,
+					"AQAAACUaAAAAAAAAJRoAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAJhoAAAAAAAAmGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					182,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAJ4aAAAAAAAAnxoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnhoAAAAAAACeGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					185,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAI4aAAAAAAAAjxoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjhoAAAAAAACOGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					188,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAHEaAAAAAAAAchoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcRoAAAAAAABxGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					191,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAEUaAAAAAAAARhoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARRoAAAAAAABFGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					194,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAACUaAAAAAAAAJhoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJRoAAAAAAAAlGgAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
@@ -298,13 +1180,16 @@
 	],
 	"file_history":
 	[
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/prueba_rc.py",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/loginimag_rc.py",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/pro.sublime-project",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Grafica.py",
+		"/C/Users/crisg/Registro_usuario.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Registro_empleados.py",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Consultar_enteradas.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Grafica.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Login.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/Registro_usuario.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/loginimag.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/loginimag_rc.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/prueba_rc.py",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/pro.sublime-project",
+		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Consultar_enteradas.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/Menu_registro_empleado.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/Cmbiar_hurat.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS_EN_PY/menu_principal.py",
@@ -331,7 +1216,6 @@
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS EN .PY/login2.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS EN .PY/Registro_usuario.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS EN .PY/menu2.py",
-		"/D/crisg/GitHub/trabajo/CORPOGAS_2/CD/Login.py",
 		"/D/crisg/Downloads/Boton.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS EN .PY/loginimag_rc.py",
 		"/D/crisg/GitHub/trabajo/CORPOGAS_2/PANTALLAS EN .PY/Cambiar_visibilidad_2.py",
@@ -420,11 +1304,11 @@
 	],
 	"find":
 	{
-		"height": 39.2
+		"height": 1029.6
 	},
 	"find_in_files":
 	{
-		"height": 110.400001526,
+		"height": 124.0,
 		"where_history":
 		[
 		]
@@ -434,6 +1318,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"import hashlib\nimport os\n\nvos\nCARPETA = \"TXT\"\n\n# Crear carpeta si no existe\nos.makedirs(CARPETA, exist_ok=True)\n\n# Archivo dentro de la carpeta\nARCHIVO_USUARIOS = os.path.join(CARPETA, \"usuarios.txt\")\n\n# Comprobar si el archivo existe, y si no, crearlo\nif not os.path.exists(ARCHIVO_USUARIOS):\n    open(ARCHIVO_USUARIOS, \"a\").close()\n\ndef hash_contraseña(contraseña):\n    return hashlib.sha256(contraseña.encode()).hexdigest()\n\ndef registrar_usuario(nombre_usuario, contraseña):\n    hash_contra = hash_contraseña(contraseña)\n    with open(ARCHIVO_USUARIOS, 'a') as archivo:\n        archivo.write(f'{nombre_usuario},{hash_contra}\\n')\n    print(\"Usuario registrado exitosamente.\")\n\ndef iniciar_sesion(nombre_usuario, contraseña):\n    hash_contra = hash_contraseña(contraseña)\n    try:\n        with open(ARCHIVO_USUARIOS, 'r') as archivo:\n            for linea in archivo:\n                usuario, contra_hash = linea.strip().split(',')\n                if usuario == nombre_usuario and contra_hash == hash_contra:\n                    print(\"Inicio de sesión exitoso.\")\n                    return True\n        print(\"Nombre de usuario o contraseña incorrectos.\")\n        return False\n    except FileNotFoundError:\n        print(\"No se encontró el archivo de usuarios.\")\n        return False\n\ndef menu():\n    while True:\n        print(\"\\n--- MENÚ ---\")\n        print(\"1. Registrar usuario\")\n        print(\"2. Iniciar sesión\")\n        print(\"3. Salir\")\n\n        opcion = input(\"Elige una opción: \")\n\n        if opcion == \"1\":\n            usuario = input(\"Nuevo usuario: \")\n            contraseña = input(\"Nueva contraseña: \")\n            registrar_usuario(usuario, contraseña)\n\n        elif opcion == \"2\":\n            usuario = input(\"Usuario: \")\n            contraseña = input(\"Contraseña: \")\n            iniciar_sesion(usuario, contraseña)\n\n        elif opcion == \"3\":\n            print(\"Saliendo...\")\n            break\n\n        else:\n            print(\"Opción inválida.\")\n\nif __name__ == \"__main__\":\n    menu()",
 			"\")\n",
 			"break",
 			"# -*- coding: utf-8 -*-\n\n# Form implementation generated from reading ui file 'login2.ui'\n#\n# Created by: PyQt5 UI code generator 5.15.11\n#\n# WARNING: Any manual changes made to this file will be lost when pyuic5 is\n# run again.  Do not edit this file unless you know what you are doing.\n\n\nfrom PyQt5 import QtCore, QtGui, QtWidgets\n\n\nclass Ui_Dialog(object):\n    def setupUi(self, Dialog):\n        Dialog.setObjectName(\"Dialog\")\n        Dialog.resize(394, 405)\n        self.label = QtWidgets.QLabel(Dialog)\n        self.label.setGeometry(QtCore.QRect(0, 0, 391, 411))\n        self.label.setStyleSheet(\"background-image: url(:/newPrefix/fondologin.jpeg);\")\n        self.label.setText(\"\")\n        self.label.setPixmap(QtGui.QPixmap(\":/newPrefix/fondologin.jpeg\"))\n        self.label.setScaledContents(True)\n        self.label.setObjectName(\"label\")\n        self.label_2 = QtWidgets.QLabel(Dialog)\n        self.label_2.setGeometry(QtCore.QRect(30, 0, 341, 61))\n        self.label_2.setStyleSheet(\"font: 87 25pt \\\"Arial Black\\\";\\n\"\n\"color: rgb(255, 255, 255);\")\n        self.label_2.setObjectName(\"label_2\")\n        self.leUsuario = QtWidgets.QLineEdit(Dialog)\n        self.leUsuario.setGeometry(QtCore.QRect(90, 90, 191, 20))\n        self.leUsuario.setObjectName(\"leUsuario\")\n        self.lePass = QtWidgets.QLineEdit(Dialog)\n        self.lePass.setGeometry(QtCore.QRect(90, 130, 191, 20))\n        self.lePass.setObjectName(\"lePass\")\n        self.btnIngresar = QtWidgets.QPushButton(Dialog)\n        self.btnIngresar.setGeometry(QtCore.QRect(120, 190, 121, 31))\n        self.btnIngresar.setStyleSheet(\"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\\n\"\n\"font: 87 10pt \\\"Arial Black\\\";\")\n        self.btnIngresar.setObjectName(\"btnIngresar\")\n        self.btnIngresar_2 = QtWidgets.QPushButton(Dialog)\n        self.btnIngresar_2.setGeometry(QtCore.QRect(120, 230, 121, 31))\n        self.btnIngresar_2.setStyleSheet(\"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\\n\"\n\"font: 87 10pt \\\"Arial Black\\\";\")\n        self.btnIngresar_2.setObjectName(\"btnIngresar_2\")\n        self.btnIngresar_3 = QtWidgets.QPushButton(Dialog)\n        self.btnIngresar_3.setGeometry(QtCore.QRect(120, 320, 121, 31))\n        self.btnIngresar_3.setStyleSheet(\"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\\n\"\n\"font: 87 10pt \\\"Arial Black\\\";\")\n        self.btnIngresar_3.setObjectName(\"btnIngresar_3\")\n\n        self.retranslateUi(Dialog)\n        QtCore.QMetaObject.connectSlotsByName(Dialog)\n\n    def retranslateUi(self, Dialog):\n        _translate = QtCore.QCoreApplication.translate\n        Dialog.setWindowTitle(_translate(\"Dialog\", \"Dialog\"))\n        self.label_2.setText(_translate(\"Dialog\", \"Inicio de Sesion\"))\n        self.leUsuario.setPlaceholderText(_translate(\"Dialog\", \"Ingresa tu Usuario\"))\n        self.lePass.setPlaceholderText(_translate(\"Dialog\", \"Ingresa tu Contraseña\"))\n        self.btnIngresar.setText(_translate(\"Dialog\", \"INGRESAR\"))\n        self.btnIngresar_2.setText(_translate(\"Dialog\", \"REGISTRAR\"))\n        self.btnIngresar_3.setText(_translate(\"Dialog\", \"SALIR\"))\nimport prueba_rc\n\n\nif __name__ == \"__main__\":\n    import sys\n    app = QtWidgets.QApplication(sys.argv)\n    Dialog = QtWidgets.QDialog()\n    ui = Ui_Dialog()\n    ui.setupUi(Dialog)\n    Dialog.show()\n    sys.exit(app.exec_())\n"
@@ -464,15 +1349,171 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4736,
+						"buffer_size": 4808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								430,
-								430
+								4597,
+								4597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1092.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "PANTALLAS_EN_PY/login2.spec",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								660,
+								660
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "PANTALLAS_EN_PY/menu_principal.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								867,
+								803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "PANTALLAS_EN_PY/grafica.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								3909
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 859.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "PANTALLAS_EN_PY/consultar_entradas.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 859.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "PANTALLAS_EN_PY/Menu_registro_empleado.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6694,
+								6694
 							]
 						],
 						"settings":
@@ -485,77 +1526,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "CD/Registro_empleados.py",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3932,
-								3932
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3327.2,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20698,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20698,
-								20698
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"tab_width": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1036.8,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "PANTALLAS_EN_PY/camviar_visisbilidad.py",
 					"semi_transient": false,
 					"settings":
@@ -567,8 +1543,8 @@
 						"selection":
 						[
 							[
-								3856,
-								3856
+								4661,
+								4661
 							]
 						],
 						"settings":
@@ -581,7 +1557,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -590,7 +1566,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 39.2
+		"height": 1029.6
 	},
 	"input":
 	{
@@ -638,6 +1614,20 @@
 		"height": 209.0,
 		"history":
 		[
+			"2",
+			"4",
+			"2025-12-04 05:55:00",
+			"1",
+			"GUILLERMO",
+			"1",
+			"GUILLERMO",
+			"1",
+			"GUILLERMO",
+			"1",
+			"GUILLERMO",
+			"1",
+			"GUILLERMO",
+			"1",
 			"2025-12-04 13:55:00",
 			"2",
 			"GUILLERMO",
@@ -751,21 +1741,7 @@
 			"13",
 			"1",
 			"5",
-			"12",
-			"1",
-			"5",
-			"11",
-			"1",
-			"5",
-			"10",
-			"1",
-			"5",
-			"9",
-			"1",
-			"5",
-			"6",
-			"1",
-			"5"
+			"12"
 		]
 	},
 	"output.find_results":
@@ -779,7 +1755,7 @@
 	"project": "pro.sublime-project",
 	"replace":
 	{
-		"height": 75.2
+		"height": 2056.0
 	},
 	"save_all_on_build": true,
 	"select_file":
